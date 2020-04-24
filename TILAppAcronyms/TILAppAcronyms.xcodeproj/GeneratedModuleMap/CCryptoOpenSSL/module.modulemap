@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/mykolabuhaiov/Desktop/Server_Side_Swift_with_Vapor_v2.2.0/35-microservices-redis/starter/TILAppAcronyms/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
