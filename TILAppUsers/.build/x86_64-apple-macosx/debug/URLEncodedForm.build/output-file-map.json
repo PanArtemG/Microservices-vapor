@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormDecoder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormDecoder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormDecoder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormEncoder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormEncoder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Codable/URLEncodedFormEncoder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormData.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormData.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormData~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormData.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormDataConvertible.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormDataConvertible.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormDataConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormDataConvertible.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormParser.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormParser.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormParser.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormSerializer.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormSerializer.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Data/URLEncodedFormSerializer.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/URLEncodedFormError.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/URLEncodedFormError.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/URLEncodedFormError~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/Utilities/URLEncodedFormError.swiftdeps"
+  }
+}

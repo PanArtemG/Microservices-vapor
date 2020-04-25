@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLForeignKey"
+- "GenericSQLForeignKey"
+provides-nominal:
+- "3SQL13SQLForeignKeyP"
+- "3SQL20GenericSQLForeignKeyV"
+provides-member:
+- ["3SQL13SQLForeignKeyP", ""]
+- ["3SQL20GenericSQLForeignKeyV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "Encodable"
+- "GenericSQLForeignKey"
+- "SQLForeignKey"
+- "SQLForeignKeyAction"
+- "SQLIdentifier"
+- "SQLSerializable"
+- "SQLTableIdentifier"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "serialize"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "serialize"]
+- !private ["SK", "append"]
+- !private ["SK", "joined"]
+- !private ["SK", "serialize"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "serialize"]
+- !private ["Sl", "append"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "serialize"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "serialize"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "serialize"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "serialize"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "serialize"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "serialize"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "serialize"]
+- !private ["Se", "append"]
+- !private ["Se", "joined"]
+- !private ["Se", "serialize"]
+- !private ["SE", "append"]
+- !private ["SE", "joined"]
+- !private ["SE", "serialize"]
+- !private ["SQ", "append"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "serialize"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "serialize"]
+- ["3SQL20GenericSQLForeignKeyV", "Action"]
+- ["3SQL20GenericSQLForeignKeyV", "Encodable"]
+- ["3SQL20GenericSQLForeignKeyV", "GenericSQLForeignKey"]
+- ["3SQL20GenericSQLForeignKeyV", "Identifier"]
+- ["3SQL20GenericSQLForeignKeyV", "Self"]
+- ["3SQL20GenericSQLForeignKeyV", "String"]
+- ["3SQL20GenericSQLForeignKeyV", "TableIdentifier"]
+- ["3SQL20GenericSQLForeignKeyV", "_Default_Action"]
+- ["3SQL20GenericSQLForeignKeyV", "_Default_Identifier"]
+- ["3SQL20GenericSQLForeignKeyV", "_Default_TableIdentifier"]
+- ["3SQL20GenericSQLForeignKeyV", "deinit"]
+- ["3SQL20GenericSQLForeignKeyV", "foreignColumns"]
+- ["3SQL20GenericSQLForeignKeyV", "foreignKey"]
+- ["3SQL20GenericSQLForeignKeyV", "foreignTable"]
+- ["3SQL20GenericSQLForeignKeyV", "init"]
+- !private ["3SQL20GenericSQLForeignKeyV", "init"]
+- ["3SQL20GenericSQLForeignKeyV", "onDelete"]
+- ["3SQL20GenericSQLForeignKeyV", "onUpdate"]
+- ["3SQL20GenericSQLForeignKeyV", "serialize"]
+- !private ["SH", "append"]
+- !private ["SH", "joined"]
+- !private ["SH", "serialize"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "serialize"]
+- !private ["SM", "append"]
+- !private ["SM", "joined"]
+- !private ["SM", "serialize"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "serialize"]
+- !private ["Sk", "append"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "serialize"]
+- !private ["Sm", "append"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "serialize"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "serialize"]
+- ["3SQL13SQLForeignKeyP", "Action"]
+- ["3SQL13SQLForeignKeyP", "Identifier"]
+- ["3SQL13SQLForeignKeyP", "SQLForeignKeyAction"]
+- ["3SQL13SQLForeignKeyP", "SQLIdentifier"]
+- ["3SQL13SQLForeignKeyP", "SQLTableIdentifier"]
+- ["3SQL13SQLForeignKeyP", "TableIdentifier"]
+- ["3SQL13SQLForeignKeyP", ""]
+- ["3SQL13SQLForeignKeyP", "_Default_Action"]
+- ["3SQL13SQLForeignKeyP", "_Default_Identifier"]
+- ["3SQL13SQLForeignKeyP", "_Default_TableIdentifier"]
+- !private ["3SQL13SQLForeignKeyP", "foreignColumns"]
+- ["3SQL13SQLForeignKeyP", "foreignKey"]
+- !private ["3SQL13SQLForeignKeyP", "foreignTable"]
+- !private ["3SQL13SQLForeignKeyP", "init"]
+- !private ["3SQL13SQLForeignKeyP", "init"]
+- !private ["3SQL13SQLForeignKeyP", "onDelete"]
+- !private ["3SQL13SQLForeignKeyP", "onUpdate"]
+- ["3SQL13SQLForeignKeyP", "serialize"]
+- !private ["3SQL19SQLForeignKeyActionP", "serialize"]
+- ["3SQL15SQLSerializableP", "Action"]
+- ["3SQL15SQLSerializableP", "Identifier"]
+- ["3SQL15SQLSerializableP", "SQLForeignKeyAction"]
+- ["3SQL15SQLSerializableP", "SQLIdentifier"]
+- ["3SQL15SQLSerializableP", "SQLTableIdentifier"]
+- ["3SQL15SQLSerializableP", "TableIdentifier"]
+- ["3SQL15SQLSerializableP", ""]
+- ["3SQL15SQLSerializableP", "_Default_Action"]
+- ["3SQL15SQLSerializableP", "_Default_Identifier"]
+- ["3SQL15SQLSerializableP", "_Default_TableIdentifier"]
+- !private ["3SQL15SQLSerializableP", "foreignColumns"]
+- ["3SQL15SQLSerializableP", "foreignKey"]
+- !private ["3SQL15SQLSerializableP", "foreignTable"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "onDelete"]
+- !private ["3SQL15SQLSerializableP", "onUpdate"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- !private ["3SQL18SQLTableIdentifierP", "serialize"]
+- !private ["ST", "append"]
+- !private ["ST", "joined"]
+- !private ["ST", "serialize"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "serialize"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "serialize"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "serialize"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "serialize"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "serialize"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "3SQL20GenericSQLForeignKeyV"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- "3SQL13SQLForeignKeyP"
+- !private "3SQL19SQLForeignKeyActionP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e76f9ab606e572a230192293baabdc79"

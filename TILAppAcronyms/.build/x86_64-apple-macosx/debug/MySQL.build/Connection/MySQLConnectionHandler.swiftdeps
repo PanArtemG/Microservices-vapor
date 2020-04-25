@@ -1,0 +1,668 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLConnectionHandler"
+provides-nominal:
+- "5MySQL0A20SQLConnectionHandlerC"
+- "5MySQL0A20SQLConnectionHandlerC15ConnectionStateO"
+provides-member:
+- ["5MySQL0A20SQLConnectionHandlerC", ""]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", ""]
+- ["10Foundation4DataV", ""]
+- ["10Foundation4DataV", "xor"]
+provides-dynamic-lookup:
+- "channelRead"
+- "config"
+- "errorCaught"
+- "handlePacket"
+- "state"
+- "writeHandshakeResponse"
+- "writeSSLRequest"
+depends-top-level:
+- !private "+"
+- !private "..<"
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ChannelHandlerContext"
+- "ChannelInboundHandler"
+- "Data"
+- !private "ERROR"
+- "Error"
+- !private "FloatLiteralType"
+- "Future"
+- !private "IntegerLiteralType"
+- "MySQLConnectionHandler"
+- "MySQLDatabaseConfig"
+- !private "MySQLError"
+- "MySQLPacket"
+- "NIOAny"
+- !private "OpenSSLClientHandler"
+- "Promise"
+- !private "SHA1"
+- !private "SHA256"
+- !private "SSLContext"
+- !private "StringLiteralType"
+- "TLSConfiguration"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "^"
+- !private "^="
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["4Core22AnyReflectionDecodableP", "xor"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "xor"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO14ChannelHandlerP", "Data"]
+- !private ["3NIO14ChannelHandlerP", "ERROR"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- !private ["3NIO14ChannelHandlerP", "MySQLError"]
+- !private ["3NIO14ChannelHandlerP", "MySQLPacket"]
+- !private ["3NIO14ChannelHandlerP", "OpenSSLClientHandler"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "SHA1"]
+- !private ["3NIO14ChannelHandlerP", "SHA256"]
+- !private ["3NIO14ChannelHandlerP", "SSLContext"]
+- !private ["3NIO14ChannelHandlerP", "Void"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO14ChannelHandlerP", "config"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- !private ["3NIO14ChannelHandlerP", "fatalError"]
+- !private ["3NIO14ChannelHandlerP", "handlePacket"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO14ChannelHandlerP", "state"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "writeHandshakeResponse"]
+- !private ["3NIO14ChannelHandlerP", "writeSSLRequest"]
+- !private ["3NIO21ChannelHandlerContextC", "channel"]
+- !private ["3NIO21ChannelHandlerContextC", "eventLoop"]
+- !private ["3NIO21ChannelHandlerContextC", "writeAndFlush"]
+- !private ["3NIO21ChannelInboundHandlerP", "Data"]
+- !private ["3NIO21ChannelInboundHandlerP", "ERROR"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLError"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLPacket"]
+- !private ["3NIO21ChannelInboundHandlerP", "OpenSSLClientHandler"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "SHA1"]
+- !private ["3NIO21ChannelInboundHandlerP", "SHA256"]
+- !private ["3NIO21ChannelInboundHandlerP", "SSLContext"]
+- !private ["3NIO21ChannelInboundHandlerP", "Void"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO21ChannelInboundHandlerP", "config"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO21ChannelInboundHandlerP", "fatalError"]
+- !private ["3NIO21ChannelInboundHandlerP", "handlePacket"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "state"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "writeHandshakeResponse"]
+- !private ["3NIO21ChannelInboundHandlerP", "writeSSLRequest"]
+- !private ["3NIO21ChannelInboundInvokerP", "add"]
+- !private ["3NIO21ChannelInboundInvokerP", "channel"]
+- !private ["3NIO21ChannelInboundInvokerP", "eventLoop"]
+- !private ["3NIO21ChannelInboundInvokerP", "writeAndFlush"]
+- !private ["3NIO14ChannelInvokerP", "add"]
+- !private ["3NIO14ChannelInvokerP", "channel"]
+- !private ["3NIO14ChannelInvokerP", "eventLoop"]
+- !private ["3NIO14ChannelInvokerP", "writeAndFlush"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "add"]
+- !private ["3NIO22ChannelOutboundInvokerP", "channel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "writeAndFlush"]
+- !private ["3NIO15ChannelPipelineC", "add"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "xor"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "Bool"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "MySQLPacket"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "Promise"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "Void"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "callback"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "nascent"]
+- ["5MySQL0A20SQLConnectionHandlerC15ConnectionStateO", "waiting"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "xor"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "xor"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "xor"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "xor"]
+- !private ["s23CustomStringConvertibleP", "CLIENT_SECURE_CONNECTION"]
+- !private ["s23CustomStringConvertibleP", "CLIENT_SSL"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "xor"]
+- ["10Foundation4DataV", "Data"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "subscript"]
+- ["10Foundation4DataV", "xor"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "xor"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "xor"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["6Crypto6DigestC", "hash"]
+- !private ["SE", "catch"]
+- !private ["SE", "count"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "whenFailure"]
+- !private ["SE", "xor"]
+- !private ["SQ", "CLIENT_SECURE_CONNECTION"]
+- !private ["SQ", "CLIENT_SSL"]
+- !private ["SQ", "catch"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "whenFailure"]
+- !private ["SQ", "xor"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO15EventLoopFutureC", "catch"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s25ExpressibleByArrayLiteralP", "CLIENT_SECURE_CONNECTION"]
+- !private ["s25ExpressibleByArrayLiteralP", "CLIENT_SSL"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "whenFailure"]
+- !private ["5MySQL0A9SQLPacketO19HandshakeResponse41V", "init"]
+- !private ["5MySQL0A9SQLPacketO12HandshakeV10V", "authPluginData"]
+- !private ["5MySQL0A9SQLPacketO12HandshakeV10V", "authPluginName"]
+- !private ["5MySQL0A9SQLPacketO12HandshakeV10V", "capabilities"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "xor"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["4Core23LosslessDataConvertibleP", "xor"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["SM", "xor"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "xor"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "CLIENT_SECURE_CONNECTION"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "CLIENT_SSL"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "contains"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "deinit"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "insert"]
+- ["5MySQL0A20SQLConnectionHandlerC", "Bool"]
+- ["5MySQL0A20SQLConnectionHandlerC", "ChannelHandlerContext"]
+- ["5MySQL0A20SQLConnectionHandlerC", "ConnectionState"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "Data"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "ERROR"]
+- ["5MySQL0A20SQLConnectionHandlerC", "Error"]
+- ["5MySQL0A20SQLConnectionHandlerC", "Future"]
+- ["5MySQL0A20SQLConnectionHandlerC", "InboundIn"]
+- ["5MySQL0A20SQLConnectionHandlerC", "InboundOut"]
+- ["5MySQL0A20SQLConnectionHandlerC", "MySQLDatabaseConfig"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "MySQLError"]
+- ["5MySQL0A20SQLConnectionHandlerC", "MySQLPacket"]
+- ["5MySQL0A20SQLConnectionHandlerC", "NIOAny"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "OpenSSLClientHandler"]
+- ["5MySQL0A20SQLConnectionHandlerC", "OutboundOut"]
+- ["5MySQL0A20SQLConnectionHandlerC", "Promise"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "SHA1"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "SHA256"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "SSLContext"]
+- ["5MySQL0A20SQLConnectionHandlerC", "TLSConfiguration"]
+- ["5MySQL0A20SQLConnectionHandlerC", "Void"]
+- ["5MySQL0A20SQLConnectionHandlerC", "_Default_InboundOut"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelActive"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelInactive"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelRead"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelReadComplete"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelRegistered"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelUnregistered"]
+- ["5MySQL0A20SQLConnectionHandlerC", "channelWritabilityChanged"]
+- ["5MySQL0A20SQLConnectionHandlerC", "config"]
+- ["5MySQL0A20SQLConnectionHandlerC", "deinit"]
+- ["5MySQL0A20SQLConnectionHandlerC", "errorCaught"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "fatalError"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "handlePacket"]
+- ["5MySQL0A20SQLConnectionHandlerC", "handlerAdded"]
+- ["5MySQL0A20SQLConnectionHandlerC", "handlerRemoved"]
+- ["5MySQL0A20SQLConnectionHandlerC", "init"]
+- ["5MySQL0A20SQLConnectionHandlerC", "state"]
+- ["5MySQL0A20SQLConnectionHandlerC", "unwrapInboundIn"]
+- ["5MySQL0A20SQLConnectionHandlerC", "userInboundEventTriggered"]
+- ["5MySQL0A20SQLConnectionHandlerC", "wrapInboundOut"]
+- ["5MySQL0A20SQLConnectionHandlerC", "wrapOutboundOut"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "writeHandshakeResponse"]
+- !private ["5MySQL0A20SQLConnectionHandlerC", "writeSSLRequest"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "capabilities"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "characterSet"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "database"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "password"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "transport"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "username"]
+- !private ["5MySQL0A8SQLErrorV", "deinit"]
+- !private ["5MySQL0A8SQLErrorV", "init"]
+- !private ["5MySQL0A14SQLErrorPacketV", "makeError"]
+- !private ["5MySQL0A9SQLPacketO", "HandshakeResponse41"]
+- ["5MySQL0A9SQLPacketO", "HandshakeV10"]
+- ["5MySQL0A9SQLPacketO", "err"]
+- ["5MySQL0A9SQLPacketO", "fullAuthenticationRequest"]
+- !private ["5MySQL0A9SQLPacketO", "handshakeResponse41"]
+- ["5MySQL0A9SQLPacketO", "handshakev10"]
+- ["5MySQL0A9SQLPacketO", "ok"]
+- !private ["5MySQL0A9SQLPacketO", "plaintextPassword"]
+- !private ["5MySQL0A9SQLPacketO", "sslRequest"]
+- !private ["5MySQL0A18SQLTransportConfigV", "isTLS"]
+- !private ["5MySQL0A18SQLTransportConfigV", "storage"]
+- !private ["10NIOOpenSSL20OpenSSLClientHandlerC", "init"]
+- !private ["s9OptionSetP", "CLIENT_SECURE_CONNECTION"]
+- !private ["s9OptionSetP", "CLIENT_SSL"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "insert"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "xor"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "xor"]
+- !private ["SY", "CLIENT_SECURE_CONNECTION"]
+- !private ["SY", "CLIENT_SSL"]
+- !private ["SY", "contains"]
+- !private ["SY", "insert"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "xor"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "xor"]
+- !private ["10NIOOpenSSL10SSLContextC", "init"]
+- !private ["So13SSLContextRefa", "init"]
+- !private ["5MySQL0A9SQLPacketO10SSLRequestV", "init"]
+- !private ["5MySQL0A9SQLPacketO10SSLRequestV", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "xor"]
+- !private ["7ServiceAAP", "capabilities"]
+- !private ["7ServiceAAP", "characterSet"]
+- !private ["7ServiceAAP", "database"]
+- !private ["7ServiceAAP", "password"]
+- !private ["7ServiceAAP", "transport"]
+- !private ["7ServiceAAP", "username"]
+- !private ["7Service0A4TypeP", "capabilities"]
+- !private ["7Service0A4TypeP", "characterSet"]
+- !private ["7Service0A4TypeP", "database"]
+- !private ["7Service0A4TypeP", "password"]
+- !private ["7Service0A4TypeP", "transport"]
+- !private ["7Service0A4TypeP", "username"]
+- !private ["s10SetAlgebraP", "CLIENT_SECURE_CONNECTION"]
+- !private ["s10SetAlgebraP", "CLIENT_SSL"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "insert"]
+- ["5MySQL0A18SQLTransportConfigV7StorageO", "cleartext"]
+- ["5MySQL0A18SQLTransportConfigV7StorageO", "tls"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Data"]
+- !private ["3NIO22_ChannelInboundHandlerP", "ERROR"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLPacket"]
+- !private ["3NIO22_ChannelInboundHandlerP", "OpenSSLClientHandler"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "SHA1"]
+- !private ["3NIO22_ChannelInboundHandlerP", "SHA256"]
+- !private ["3NIO22_ChannelInboundHandlerP", "SSLContext"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Void"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO22_ChannelInboundHandlerP", "config"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO22_ChannelInboundHandlerP", "fatalError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "handlePacket"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "state"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "writeHandshakeResponse"]
+- !private ["3NIO22_ChannelInboundHandlerP", "writeSSLRequest"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Data"]
+- !private ["3NIO23_EmittingChannelHandlerP", "ERROR"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLPacket"]
+- !private ["3NIO23_EmittingChannelHandlerP", "OpenSSLClientHandler"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "SHA1"]
+- !private ["3NIO23_EmittingChannelHandlerP", "SHA256"]
+- !private ["3NIO23_EmittingChannelHandlerP", "SSLContext"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Void"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO23_EmittingChannelHandlerP", "config"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- !private ["3NIO23_EmittingChannelHandlerP", "fatalError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "handlePacket"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "state"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "writeHandshakeResponse"]
+- !private ["3NIO23_EmittingChannelHandlerP", "writeSSLRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "xor"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "SK"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- !private "Sl"
+- "5MySQL0A20SQLConnectionHandlerC15ConnectionStateO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "6Crypto6DigestC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "5Async10FutureTypeP"
+- !private "5MySQL0A9SQLPacketO19HandshakeResponse41V"
+- !private "5MySQL0A9SQLPacketO12HandshakeV10V"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "5MySQL0A15SQLCapabilitiesV"
+- "5MySQL0A20SQLConnectionHandlerC"
+- !private "5MySQL0A17SQLDatabaseConfigV"
+- !private "5MySQL0A8SQLErrorV"
+- !private "5MySQL0A14SQLErrorPacketV"
+- "5MySQL0A9SQLPacketO"
+- !private "5MySQL0A18SQLTransportConfigV"
+- !private "10NIOOpenSSL20OpenSSLClientHandlerC"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "10NIOOpenSSL10SSLContextC"
+- !private "So13SSLContextRefa"
+- !private "5MySQL0A9SQLPacketO10SSLRequestV"
+- !private "ST"
+- !private "7ServiceAAP"
+- !private "7Service0A4TypeP"
+- !private "s10SetAlgebraP"
+- "5MySQL0A18SQLTransportConfigV7StorageO"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "14CoreFoundation9_CFObjectP"
+- "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8090ed1af28c35801809e223d20a314a"

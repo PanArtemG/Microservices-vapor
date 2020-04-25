@@ -1,0 +1,173 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/ActivityBar.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityBar.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityBar.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityBar.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/ActivityIndicator.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicator.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicator.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicator~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicator.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/ActivityIndicatorRenderer.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorRenderer.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorRenderer.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorRenderer.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/ActivityIndicatorState.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorState.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorState.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorState~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ActivityIndicatorState.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/CustomActivity.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/CustomActivity.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/CustomActivity.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/CustomActivity~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/CustomActivity.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/LoadingBar.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/LoadingBar.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/LoadingBar.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/LoadingBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/LoadingBar.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Activity/ProgressBar.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ProgressBar.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ProgressBar.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ProgressBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Activity/ProgressBar.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Clear/Console+Clear.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Clear.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Clear.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Clear~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Clear.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Clear/Console+Ephemeral.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Ephemeral.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Ephemeral.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Ephemeral~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/Console+Ephemeral.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Clear/ConsoleClear.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/ConsoleClear.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/ConsoleClear.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/ConsoleClear~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Clear/ConsoleClear.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Console.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Console.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Console.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Console~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Console.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Deprecated.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Deprecated.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Deprecated.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Input/Console+Ask.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Ask.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Ask.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Ask~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Ask.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Input/Console+Choose.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Choose.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Choose.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Choose~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Choose.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Input/Console+Confirm.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Confirm.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Confirm.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Confirm~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Confirm.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Input/Console+Input.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Input.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Input.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Input~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Input/Console+Input.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/Console+Center.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Center.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Center.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Center~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Center.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/Console+Output.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Output.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Output.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Output~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Output.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/Console+Wait.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Wait.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Wait.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Wait~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/Console+Wait.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/ConsoleColor.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleColor.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleColor.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleColor.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/ConsoleStyle.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleStyle.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleStyle.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleStyle.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/ConsoleText.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleText.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleText.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleText~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleText.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Output/ConsoleTextFragment.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleTextFragment.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleTextFragment.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleTextFragment~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Output/ConsoleTextFragment.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Terminal/ANSI.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/ANSI.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/ANSI.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/ANSI~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/ANSI.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Terminal/Terminal.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/Terminal.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/Terminal.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/Terminal~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Terminal/Terminal.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Utilities/ConsoleError.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleError.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleError.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleError~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleError.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Utilities/ConsoleLogger.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleLogger.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleLogger.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/ConsoleLogger.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/console/Sources/Console/Utilities/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/Utilities/Exports.swiftdeps"
+  }
+}

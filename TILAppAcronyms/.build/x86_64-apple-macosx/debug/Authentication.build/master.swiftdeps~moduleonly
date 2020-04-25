@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "b45c275b7cf509cb29a9d7a7b3fcf6fc"
+build_time: [1587817723, 49159000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Authenticatable.swift": [1587817669, 379956535]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/AuthenticationCache.swift": [1587817669, 380200939]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/AuthenticationProvider.swift": [1587817669, 380426849]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Basic/BasicAuthenticatable.swift": [1587817669, 380639770]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Basic/BasicAuthenticationMiddleware.swift": [1587817669, 380795915]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Bearer/BearerAuthenticatable.swift": [1587817669, 412926360]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Bearer/BearerAuthenticationMiddleware.swift": [1587817669, 413196169]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Exports.swift": [1587817669, 381276376]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Password/PasswordAuthenticatable.swift": [1587817669, 381761763]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Password/PasswordVerifier.swift": [1587817669, 381899999]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Persist/AuthenticationSessionsMiddleware.swift": [1587817669, 413437709]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Persist/RedirectMiddleware.swift": [1587817669, 382375445]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Persist/SessionAuthenticatable.swift": [1587817669, 382554914]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Token/TokenAuthenticatable.swift": [1587817669, 413654167]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Token/TokenAuthenticationMiddleware.swift": [1587817669, 413847296]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Utilities/AuthenticationError.swift": [1587817669, 383081188]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/auth/Sources/Authentication/Utilities/GuardMiddleware.swift": [1587817669, 383223157]

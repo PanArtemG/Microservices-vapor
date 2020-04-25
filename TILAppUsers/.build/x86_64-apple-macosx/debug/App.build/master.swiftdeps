@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "9d44d071af06797863982b0397160bd3"
+build_time: [1587819041, 304403000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/Controllers/AuthController.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/Controllers/UsersController.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/Models/Token.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/Models/User.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/app.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/boot.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/configure.swift": [1587818858, 192493783]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/App/routes.swift": [1581447368, 0]

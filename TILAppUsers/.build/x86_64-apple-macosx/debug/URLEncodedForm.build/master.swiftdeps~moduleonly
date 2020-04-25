@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "e5cd1d32e8089b2e3d51ebe55d8c2a78"
+build_time: [1587817737, 341436000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1587817673, 938156877]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1587817673, 938284778]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1587817673, 938460281]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1587817673, 938597445]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1587817673, 938753956]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1587817673, 938912070]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/Exports.swift": [1587817673, 939083022]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1587817673, 939225835]

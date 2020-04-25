@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataDecoder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataDecoder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataDecoder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataEncoder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataEncoder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/FormDataEncoder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartError.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartError.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartError~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartError.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartParser.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartParser.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartParser.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPart.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPart.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPart~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPart.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPartConvertible.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPartConvertible.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPartConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartPartConvertible.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartSerializer.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartSerializer.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/MultipartSerializer.swiftdeps"
+  }
+}

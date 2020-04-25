@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "693d642d5a2e66b6c6f3995da4b68495"
+build_time: [1587817730, 59945000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1587817678, 502517624]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1587817678, 502986856]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1587817678, 503260297]

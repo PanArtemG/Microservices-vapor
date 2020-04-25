@@ -1,0 +1,633 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOWebSocketError"
+- "DecoderState"
+- "ParseResult"
+- "WSParser"
+- "WebSocketFrameDecoder"
+provides-nominal:
+- "12NIOWebSocket0aB5ErrorO"
+- "12NIOWebSocket12DecoderStateO"
+- "12NIOWebSocket11ParseResultO"
+- "12NIOWebSocket8WSParserV"
+- "12NIOWebSocket03WebB12FrameDecoderC"
+provides-member:
+- ["12NIOWebSocket0aB5ErrorO", ""]
+- ["12NIOWebSocket03WebB9ErrorCodeO", ""]
+- ["3NIO10ByteBufferV", ""]
+- ["12NIOWebSocket12DecoderStateO", ""]
+- ["12NIOWebSocket11ParseResultO", ""]
+- ["12NIOWebSocket8WSParserV", ""]
+- ["12NIOWebSocket03WebB12FrameDecoderC", ""]
+- ["12NIOWebSocket03WebB9ErrorCodeO", "init"]
+- ["3NIO10ByteBufferV", "webSocketUnmask"]
+- ["3NIO10ByteBufferV", "webSocketMask"]
+provides-dynamic-lookup:
+- "automaticErrorHandling"
+- "cumulationBuffer"
+- "decode"
+- "decodeLast"
+- "handleError"
+- "maxFrameSize"
+- "parser"
+- "shouldKeepParsing"
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "&"
+- !private "&&"
+- !private "+"
+- !private "<<"
+- !private "<="
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteBuffer"
+- "ByteToMessageDecoder"
+- "CastingPrecedence"
+- "ChannelHandlerContext"
+- "DecoderState"
+- "DecodingState"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NIOWebSocketError"
+- "ParseResult"
+- !private "StringLiteralType"
+- !private "UInt16"
+- !private "UInt32"
+- !private "UInt64"
+- "UInt8"
+- "WSParser"
+- "WebSocketErrorCode"
+- "WebSocketFrame"
+- "WebSocketFrameDecoder"
+- "WebSocketMaskingKey"
+- !private "^"
+- !private "assert"
+- !private "fatalError"
+- !private "precondition"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- ["3NIO10ByteBufferV", "Int"]
+- ["3NIO10ByteBufferV", "WebSocketMaskingKey"]
+- !private ["3NIO10ByteBufferV", "readInteger"]
+- !private ["3NIO10ByteBufferV", "readSlice"]
+- ["3NIO10ByteBufferV", "webSocketMask"]
+- ["3NIO10ByteBufferV", "webSocketUnmask"]
+- !private ["3NIO10ByteBufferV", "withUnsafeMutableReadableBytes"]
+- !private ["3NIO10ByteBufferV", "write"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- ["3NIO20ByteToMessageDecoderP", "InboundIn"]
+- ["3NIO20ByteToMessageDecoderP", "InboundOut"]
+- ["3NIO20ByteToMessageDecoderP", "OutboundOut"]
+- !private ["3NIO20ByteToMessageDecoderP", "UInt32"]
+- ["3NIO20ByteToMessageDecoderP", "WSParser"]
+- !private ["3NIO20ByteToMessageDecoderP", "WebSocketErrorCode"]
+- !private ["3NIO20ByteToMessageDecoderP", "WebSocketFrame"]
+- ["3NIO20ByteToMessageDecoderP", ""]
+- !private ["3NIO20ByteToMessageDecoderP", "automaticErrorHandling"]
+- ["3NIO20ByteToMessageDecoderP", "channelActive"]
+- ["3NIO20ByteToMessageDecoderP", "channelInactive"]
+- ["3NIO20ByteToMessageDecoderP", "channelRead"]
+- ["3NIO20ByteToMessageDecoderP", "channelReadComplete"]
+- ["3NIO20ByteToMessageDecoderP", "channelRegistered"]
+- ["3NIO20ByteToMessageDecoderP", "channelUnregistered"]
+- ["3NIO20ByteToMessageDecoderP", "channelWritabilityChanged"]
+- ["3NIO20ByteToMessageDecoderP", "cumulationBuffer"]
+- ["3NIO20ByteToMessageDecoderP", "decode"]
+- ["3NIO20ByteToMessageDecoderP", "decodeLast"]
+- ["3NIO20ByteToMessageDecoderP", "decoderAdded"]
+- ["3NIO20ByteToMessageDecoderP", "decoderRemoved"]
+- ["3NIO20ByteToMessageDecoderP", "errorCaught"]
+- !private ["3NIO20ByteToMessageDecoderP", "fatalError"]
+- !private ["3NIO20ByteToMessageDecoderP", "handleError"]
+- ["3NIO20ByteToMessageDecoderP", "handlerAdded"]
+- ["3NIO20ByteToMessageDecoderP", "handlerRemoved"]
+- !private ["3NIO20ByteToMessageDecoderP", "maxFrameSize"]
+- !private ["3NIO20ByteToMessageDecoderP", "parser"]
+- !private ["3NIO20ByteToMessageDecoderP", "precondition"]
+- !private ["3NIO20ByteToMessageDecoderP", "shouldKeepParsing"]
+- ["3NIO20ByteToMessageDecoderP", "shouldReclaimBytes"]
+- ["3NIO20ByteToMessageDecoderP", "unwrapInboundIn"]
+- ["3NIO20ByteToMessageDecoderP", "userInboundEventTriggered"]
+- ["3NIO20ByteToMessageDecoderP", "wrapInboundOut"]
+- ["3NIO20ByteToMessageDecoderP", "wrapOutboundOut"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "max"]
+- !private ["3NIO7ChannelP", "allocator"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "UInt32"]
+- ["3NIO14ChannelHandlerP", "WSParser"]
+- !private ["3NIO14ChannelHandlerP", "WebSocketErrorCode"]
+- !private ["3NIO14ChannelHandlerP", "WebSocketFrame"]
+- ["3NIO14ChannelHandlerP", ""]
+- !private ["3NIO14ChannelHandlerP", "automaticErrorHandling"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "cumulationBuffer"]
+- ["3NIO14ChannelHandlerP", "decode"]
+- ["3NIO14ChannelHandlerP", "decodeLast"]
+- ["3NIO14ChannelHandlerP", "decoderAdded"]
+- ["3NIO14ChannelHandlerP", "decoderRemoved"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- !private ["3NIO14ChannelHandlerP", "fatalError"]
+- !private ["3NIO14ChannelHandlerP", "handleError"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "maxFrameSize"]
+- !private ["3NIO14ChannelHandlerP", "parser"]
+- !private ["3NIO14ChannelHandlerP", "precondition"]
+- !private ["3NIO14ChannelHandlerP", "shouldKeepParsing"]
+- ["3NIO14ChannelHandlerP", "shouldReclaimBytes"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelHandlerContextC", "channel"]
+- !private ["3NIO21ChannelHandlerContextC", "close"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelRead"]
+- !private ["3NIO21ChannelHandlerContextC", "fireErrorCaught"]
+- !private ["3NIO21ChannelHandlerContextC", "writeAndFlush"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "UInt32"]
+- ["3NIO21ChannelInboundHandlerP", "WSParser"]
+- !private ["3NIO21ChannelInboundHandlerP", "WebSocketErrorCode"]
+- !private ["3NIO21ChannelInboundHandlerP", "WebSocketFrame"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- !private ["3NIO21ChannelInboundHandlerP", "automaticErrorHandling"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "cumulationBuffer"]
+- ["3NIO21ChannelInboundHandlerP", "decode"]
+- ["3NIO21ChannelInboundHandlerP", "decodeLast"]
+- ["3NIO21ChannelInboundHandlerP", "decoderAdded"]
+- ["3NIO21ChannelInboundHandlerP", "decoderRemoved"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO21ChannelInboundHandlerP", "fatalError"]
+- !private ["3NIO21ChannelInboundHandlerP", "handleError"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "maxFrameSize"]
+- !private ["3NIO21ChannelInboundHandlerP", "parser"]
+- !private ["3NIO21ChannelInboundHandlerP", "precondition"]
+- !private ["3NIO21ChannelInboundHandlerP", "shouldKeepParsing"]
+- ["3NIO21ChannelInboundHandlerP", "shouldReclaimBytes"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", "channel"]
+- !private ["3NIO21ChannelInboundInvokerP", "close"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireErrorCaught"]
+- !private ["3NIO21ChannelInboundInvokerP", "writeAndFlush"]
+- !private ["3NIO14ChannelInvokerP", "channel"]
+- !private ["3NIO14ChannelInvokerP", "close"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "fireErrorCaught"]
+- !private ["3NIO14ChannelInvokerP", "writeAndFlush"]
+- !private ["3NIO22ChannelOutboundInvokerP", "allocator"]
+- !private ["3NIO22ChannelOutboundInvokerP", "channel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireErrorCaught"]
+- !private ["3NIO22ChannelOutboundInvokerP", "writeAndFlush"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["3NIO20ContiguousCollectionP", "enumerated"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "readInteger"]
+- !private ["s23CustomStringConvertibleP", "readSlice"]
+- !private ["s23CustomStringConvertibleP", "webSocketMask"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableReadableBytes"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["Se", "init"]
+- !private ["Se", "max"]
+- ["12NIOWebSocket12DecoderStateO", "Bool"]
+- ["12NIOWebSocket12DecoderStateO", "Int"]
+- ["12NIOWebSocket12DecoderStateO", "UInt8"]
+- ["12NIOWebSocket12DecoderStateO", "WebSocketMaskingKey"]
+- ["12NIOWebSocket12DecoderStateO", "firstByteReceived"]
+- ["12NIOWebSocket12DecoderStateO", "idle"]
+- ["12NIOWebSocket12DecoderStateO", "waitingForData"]
+- ["12NIOWebSocket12DecoderStateO", "waitingForLengthQWord"]
+- ["12NIOWebSocket12DecoderStateO", "waitingForLengthWord"]
+- ["12NIOWebSocket12DecoderStateO", "waitingForMask"]
+- !private ["3NIO13DecodingStateO", "needMoreData"]
+- !private ["SE", "init"]
+- !private ["SE", "max"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "connectionClose"]
+- ["SQ", "fragmentedControlFrame"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- ["SQ", "invalidFrameLength"]
+- !private ["SQ", "max"]
+- !private ["SQ", "messageTooLarge"]
+- ["SQ", "multiByteControlFrameLength"]
+- !private ["SQ", "needMoreData"]
+- !private ["SQ", "protocolError"]
+- !private ["SQ", "readInteger"]
+- !private ["SQ", "readSlice"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "webSocketMask"]
+- !private ["SQ", "whenComplete"]
+- !private ["SQ", "withUnsafeMutableReadableBytes"]
+- !private ["SQ", "write"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "fragmentedControlFrame"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "invalidFrameLength"]
+- ["s5ErrorP", "multiByteControlFrameLength"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "fragmentedControlFrame"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- ["SH", "invalidFrameLength"]
+- !private ["SH", "max"]
+- ["SH", "multiByteControlFrameLength"]
+- !private ["SH", "needMoreData"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "subscript"]
+- ["12NIOWebSocket0aB5ErrorO", "=="]
+- ["12NIOWebSocket0aB5ErrorO", "__derived_enum_equals"]
+- ["12NIOWebSocket0aB5ErrorO", "_code"]
+- ["12NIOWebSocket0aB5ErrorO", "_domain"]
+- ["12NIOWebSocket0aB5ErrorO", "_getEmbeddedNSError"]
+- ["12NIOWebSocket0aB5ErrorO", "_rawHashValue"]
+- ["12NIOWebSocket0aB5ErrorO", "_userInfo"]
+- ["12NIOWebSocket0aB5ErrorO", "deinit"]
+- ["12NIOWebSocket0aB5ErrorO", "fragmentedControlFrame"]
+- ["12NIOWebSocket0aB5ErrorO", "hash"]
+- ["12NIOWebSocket0aB5ErrorO", "hashValue"]
+- ["12NIOWebSocket0aB5ErrorO", "invalidFrameLength"]
+- ["12NIOWebSocket0aB5ErrorO", "multiByteControlFrameLength"]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- ["12NIOWebSocket11ParseResultO", "WebSocketFrame"]
+- ["12NIOWebSocket11ParseResultO", "continueParsing"]
+- ["12NIOWebSocket11ParseResultO", "insufficientData"]
+- ["12NIOWebSocket11ParseResultO", "result"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- !private ["s6UInt32V", "max"]
+- !private ["Sw", "enumerated"]
+- !private ["Sw", "subscript"]
+- !private ["SU", "max"]
+- ["12NIOWebSocket8WSParserV", "ByteBuffer"]
+- ["12NIOWebSocket8WSParserV", "DecoderState"]
+- ["12NIOWebSocket8WSParserV", "Int"]
+- !private ["12NIOWebSocket8WSParserV", "NIOWebSocketError"]
+- ["12NIOWebSocket8WSParserV", "ParseResult"]
+- !private ["12NIOWebSocket8WSParserV", "UInt16"]
+- !private ["12NIOWebSocket8WSParserV", "UInt32"]
+- !private ["12NIOWebSocket8WSParserV", "UInt64"]
+- !private ["12NIOWebSocket8WSParserV", "UInt8"]
+- !private ["12NIOWebSocket8WSParserV", "WebSocketFrame"]
+- !private ["12NIOWebSocket8WSParserV", "WebSocketMaskingKey"]
+- !private ["12NIOWebSocket8WSParserV", "assert"]
+- ["12NIOWebSocket8WSParserV", "init"]
+- ["12NIOWebSocket8WSParserV", "parseStep"]
+- ["12NIOWebSocket8WSParserV", "state"]
+- ["12NIOWebSocket8WSParserV", "validateState"]
+- ["12NIOWebSocket03WebB9ErrorCodeO", "NIOWebSocketError"]
+- ["12NIOWebSocket03WebB9ErrorCodeO", "init"]
+- !private ["12NIOWebSocket03WebB9ErrorCodeO", "messageTooLarge"]
+- !private ["12NIOWebSocket03WebB9ErrorCodeO", "protocolError"]
+- !private ["12NIOWebSocket03WebB5FrameV", "init"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "Bool"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "ByteBuffer"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "ChannelHandlerContext"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "DecodingState"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "Error"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "InboundIn"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "InboundOut"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "Int"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "NIOWebSocketError"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "OutboundOut"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "UInt32"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "WSParser"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "WebSocketErrorCode"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "WebSocketFrame"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "automaticErrorHandling"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelActive"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelInactive"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelRead"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelReadComplete"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelRegistered"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelUnregistered"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "channelWritabilityChanged"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "cumulationBuffer"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "decode"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "decodeLast"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "decoderAdded"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "decoderRemoved"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "deinit"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "errorCaught"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "fatalError"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "handleError"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "handlerAdded"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "handlerRemoved"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "init"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "maxFrameSize"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "parser"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "precondition"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "shouldKeepParsing"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "shouldReclaimBytes"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "unwrapInboundIn"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "userInboundEventTriggered"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "wrapInboundOut"]
+- ["12NIOWebSocket03WebB12FrameDecoderC", "wrapOutboundOut"]
+- !private ["12NIOWebSocket03WebB10MaskingKeyV", "deinit"]
+- !private ["12NIOWebSocket03WebB10MaskingKeyV", "init"]
+- !private ["12NIOWebSocket03WebB10MaskingKeyV", "subscript"]
+- !private ["12NIOWebSocket03WebB6OpcodeO", "connectionClose"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "UInt32"]
+- ["3NIO22_ChannelInboundHandlerP", "WSParser"]
+- !private ["3NIO22_ChannelInboundHandlerP", "WebSocketErrorCode"]
+- !private ["3NIO22_ChannelInboundHandlerP", "WebSocketFrame"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- !private ["3NIO22_ChannelInboundHandlerP", "automaticErrorHandling"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "cumulationBuffer"]
+- ["3NIO22_ChannelInboundHandlerP", "decode"]
+- ["3NIO22_ChannelInboundHandlerP", "decodeLast"]
+- ["3NIO22_ChannelInboundHandlerP", "decoderAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "decoderRemoved"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO22_ChannelInboundHandlerP", "fatalError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "handleError"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "maxFrameSize"]
+- !private ["3NIO22_ChannelInboundHandlerP", "parser"]
+- !private ["3NIO22_ChannelInboundHandlerP", "precondition"]
+- !private ["3NIO22_ChannelInboundHandlerP", "shouldKeepParsing"]
+- ["3NIO22_ChannelInboundHandlerP", "shouldReclaimBytes"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "UInt32"]
+- ["3NIO23_EmittingChannelHandlerP", "WSParser"]
+- !private ["3NIO23_EmittingChannelHandlerP", "WebSocketErrorCode"]
+- !private ["3NIO23_EmittingChannelHandlerP", "WebSocketFrame"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- !private ["3NIO23_EmittingChannelHandlerP", "automaticErrorHandling"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "cumulationBuffer"]
+- ["3NIO23_EmittingChannelHandlerP", "decode"]
+- ["3NIO23_EmittingChannelHandlerP", "decodeLast"]
+- ["3NIO23_EmittingChannelHandlerP", "decoderAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "decoderRemoved"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- !private ["3NIO23_EmittingChannelHandlerP", "fatalError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "handleError"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "maxFrameSize"]
+- !private ["3NIO23_EmittingChannelHandlerP", "parser"]
+- !private ["3NIO23_EmittingChannelHandlerP", "precondition"]
+- !private ["3NIO23_EmittingChannelHandlerP", "shouldKeepParsing"]
+- ["3NIO23_EmittingChannelHandlerP", "shouldReclaimBytes"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- "3NIO20ByteToMessageDecoderP"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "12NIOWebSocket12DecoderStateO"
+- !private "3NIO13DecodingStateO"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "12NIOWebSocket0aB5ErrorO"
+- !private "Sj"
+- "12NIOWebSocket11ParseResultO"
+- !private "Sk"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s6UInt32V"
+- !private "Sw"
+- !private "SU"
+- "12NIOWebSocket8WSParserV"
+- "12NIOWebSocket03WebB9ErrorCodeO"
+- !private "12NIOWebSocket03WebB5FrameV"
+- "12NIOWebSocket03WebB12FrameDecoderC"
+- !private "12NIOWebSocket03WebB10MaskingKeyV"
+- !private "12NIOWebSocket03WebB6OpcodeO"
+- "3NIO22_ChannelInboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "417fdd7baae100fca2e03f7088eca7e8"

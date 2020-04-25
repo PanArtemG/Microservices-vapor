@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/COperatingSystem/libc.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/libc.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/libc.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/libc~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/libc.swiftdeps"
+  }
+}

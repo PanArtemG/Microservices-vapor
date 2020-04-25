@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Client.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Client.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Client.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Client.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Server.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Server.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Server.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Server~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket+Server.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocket.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocketFrameSequence.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketFrameSequence.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketFrameSequence.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketFrameSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketFrameSequence.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocketHandler.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketHandler.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketHandler.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/WebSocketHandler.swiftdeps"
+  }
+}

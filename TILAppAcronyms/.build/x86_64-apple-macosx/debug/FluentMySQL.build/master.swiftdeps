@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "d91b2383a4a2e6d9c5299489990c6cdd"
+build_time: [1587817726, 437660000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/Exports.swift": [1587817667, 907665762]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/Fluent+MySQLUpsert.swift": [1587817667, 907815007]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/FluentMySQLProvider.swift": [1587817667, 907959474]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/FluentMySQLQuery.swift": [1587817667, 908113054]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/FluentMySQLSchema.swift": [1587817667, 908227849]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+JoinSupporting.swift": [1587817667, 908341327]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+KeyedCacheSupporting.swift": [1587817667, 908449173]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+LogSupporting.swift": [1587817667, 908570259]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+MigrationSupporting.swift": [1587817667, 908684601]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+QuerySupporting.swift": [1587817667, 908874271]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+SchemaSupporting.swift": [1587817667, 909090911]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLDatabase+TransactionSupporting.swift": [1587817667, 909283259]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLLogger.swift": [1587817667, 909405823]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLModel.swift": [1587817667, 909535846]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLSerializer.swift": [1587817667, 909680524]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/MySQLType.swift": [1587817667, 909889555]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/QueryBuilder+CreateIgnore.swift": [1587817667, 910048475]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/QueryBuilder+Metadata.swift": [1587817667, 910184954]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/fluent-mysql/Sources/FluentMySQL/SchemaBuilder+Order.swift": [1587817667, 910311747]

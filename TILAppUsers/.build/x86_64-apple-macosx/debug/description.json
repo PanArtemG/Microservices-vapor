@@ -1,0 +1,78 @@
+{
+  "allExecutables" : [
+    "NIOTLSServer",
+    "NIOHTTP1Server",
+    "NIOChatServer",
+    "NIOEchoClient",
+    "NIOWebSocketServer",
+    "NIOPerformanceTester",
+    "Run",
+    "NIOEchoServer",
+    "NIOMulticastChat",
+    "NIOChatClient"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "Run"
+  ],
+  "swiftTargetMap" : {
+    "C.App-debug.module" : "App",
+    "C.Async-debug.module" : "Async",
+    "C.Authentication-debug.module" : "Authentication",
+    "C.Bits-debug.module" : "Bits",
+    "C.Command-debug.module" : "Command",
+    "C.Console-debug.module" : "Console",
+    "C.COperatingSystem-debug.module" : "COperatingSystem",
+    "C.Core-debug.module" : "Core",
+    "C.Crypto-debug.module" : "Crypto",
+    "C.DatabaseKit-debug.module" : "DatabaseKit",
+    "C.Debugging-debug.module" : "Debugging",
+    "C.Fluent-debug.module" : "Fluent",
+    "C.FluentBenchmark-debug.module" : "FluentBenchmark",
+    "C.FluentPostgreSQL-debug.module" : "FluentPostgreSQL",
+    "C.FluentSQL-debug.module" : "FluentSQL",
+    "C.FluentSQLite-debug.module" : "FluentSQLite",
+    "C.HTTP-debug.module" : "HTTP",
+    "C.Logging-debug.module" : "Logging",
+    "C.Multipart-debug.module" : "Multipart",
+    "C.NIO-debug.module" : "NIO",
+    "C.NIOChatClient-debug.module" : "NIOChatClient",
+    "C.NIOChatServer-debug.module" : "NIOChatServer",
+    "C.NIOConcurrencyHelpers-debug.module" : "NIOConcurrencyHelpers",
+    "C.NIOEchoClient-debug.module" : "NIOEchoClient",
+    "C.NIOEchoServer-debug.module" : "NIOEchoServer",
+    "C.NIOFoundationCompat-debug.module" : "NIOFoundationCompat",
+    "C.NIOHTTP1-debug.module" : "NIOHTTP1",
+    "C.NIOHTTP1Server-debug.module" : "NIOHTTP1Server",
+    "C.NIOMulticastChat-debug.module" : "NIOMulticastChat",
+    "C.NIOOpenSSL-debug.module" : "NIOOpenSSL",
+    "C.NIOPerformanceTester-debug.module" : "NIOPerformanceTester",
+    "C.NIOPriorityQueue-debug.module" : "NIOPriorityQueue",
+    "C.NIOTLS-debug.module" : "NIOTLS",
+    "C.NIOTLSServer-debug.module" : "NIOTLSServer",
+    "C.NIOWebSocket-debug.module" : "NIOWebSocket",
+    "C.NIOWebSocketServer-debug.module" : "NIOWebSocketServer",
+    "C.PostgreSQL-debug.module" : "PostgreSQL",
+    "C.Random-debug.module" : "Random",
+    "C.Redis-debug.module" : "Redis",
+    "C.Routing-debug.module" : "Routing",
+    "C.Run-debug.module" : "Run",
+    "C.Service-debug.module" : "Service",
+    "C.SQL-debug.module" : "SQL",
+    "C.SQLBenchmark-debug.module" : "SQLBenchmark",
+    "C.SQLite-debug.module" : "SQLite",
+    "C.TemplateKit-debug.module" : "TemplateKit",
+    "C.URLEncodedForm-debug.module" : "URLEncodedForm",
+    "C.Validation-debug.module" : "Validation",
+    "C.Vapor-debug.module" : "Vapor",
+    "C.WebSocket-debug.module" : "WebSocket"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

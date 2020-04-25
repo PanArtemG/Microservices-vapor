@@ -1,0 +1,242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlaintextRenderer"
+provides-nominal:
+- "11TemplateKit17PlaintextRendererC"
+provides-member:
+- ["11TemplateKit17PlaintextRendererC", ""]
+provides-dynamic-lookup:
+- "astCache"
+- "container"
+- "parse"
+- "parser"
+- "relativeDirectory"
+- "tags"
+- "templateFileEnding"
+depends-top-level:
+- !private "..<"
+- "ASTCache"
+- "AssignmentPrecedence"
+- "Container"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PlaintextRenderer"
+- "String"
+- !private "StringLiteralType"
+- "TagRenderer"
+- "TemplateByteScanner"
+- "TemplateParser"
+- !private "TemplateRaw"
+- "TemplateRenderer"
+- !private "TemplateSource"
+- "TemplateSyntax"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["SK", "count"]
+- !private ["Sl", "count"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "count"]
+- !private ["SE", "count"]
+- !private ["SQ", "count"]
+- !private ["SH", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["11TemplateKit17PlaintextRendererC", "ASTCache"]
+- ["11TemplateKit17PlaintextRendererC", "Container"]
+- ["11TemplateKit17PlaintextRendererC", "String"]
+- ["11TemplateKit17PlaintextRendererC", "TagRenderer"]
+- ["11TemplateKit17PlaintextRendererC", "TemplateByteScanner"]
+- ["11TemplateKit17PlaintextRendererC", "TemplateParser"]
+- !private ["11TemplateKit17PlaintextRendererC", "TemplateRaw"]
+- !private ["11TemplateKit17PlaintextRendererC", "TemplateSource"]
+- ["11TemplateKit17PlaintextRendererC", "TemplateSyntax"]
+- ["11TemplateKit17PlaintextRendererC", "astCache"]
+- ["11TemplateKit17PlaintextRendererC", "container"]
+- ["11TemplateKit17PlaintextRendererC", "deinit"]
+- ["11TemplateKit17PlaintextRendererC", "init"]
+- ["11TemplateKit17PlaintextRendererC", "parse"]
+- ["11TemplateKit17PlaintextRendererC", "parser"]
+- ["11TemplateKit17PlaintextRendererC", "relativeDirectory"]
+- ["11TemplateKit17PlaintextRendererC", "render"]
+- ["11TemplateKit17PlaintextRendererC", "shouldCache"]
+- ["11TemplateKit17PlaintextRendererC", "tags"]
+- ["11TemplateKit17PlaintextRendererC", "templateFileEnding"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["ST", "count"]
+- !private ["11TemplateKit0A11ByteScannerC", "data"]
+- !private ["11TemplateKit0A11ByteScannerC", "file"]
+- !private ["11TemplateKit0A17DataRepresentableP", "count"]
+- !private ["11TemplateKit0A6ParserP", "TemplateRaw"]
+- !private ["11TemplateKit0A6ParserP", "TemplateSource"]
+- !private ["11TemplateKit0A6ParserP", "TemplateSyntax"]
+- ["11TemplateKit0A6ParserP", ""]
+- ["11TemplateKit0A6ParserP", "astCache"]
+- ["11TemplateKit0A6ParserP", "container"]
+- ["11TemplateKit0A6ParserP", "parse"]
+- ["11TemplateKit0A6ParserP", "parser"]
+- ["11TemplateKit0A6ParserP", "relativeDirectory"]
+- ["11TemplateKit0A6ParserP", "render"]
+- ["11TemplateKit0A6ParserP", "shouldCache"]
+- ["11TemplateKit0A6ParserP", "tags"]
+- ["11TemplateKit0A6ParserP", "templateFileEnding"]
+- !private ["11TemplateKit0A3RawV", "init"]
+- !private ["11TemplateKit0A8RendererP", "TemplateRaw"]
+- !private ["11TemplateKit0A8RendererP", "TemplateSource"]
+- !private ["11TemplateKit0A8RendererP", "TemplateSyntax"]
+- ["11TemplateKit0A8RendererP", ""]
+- ["11TemplateKit0A8RendererP", "astCache"]
+- ["11TemplateKit0A8RendererP", "container"]
+- ["11TemplateKit0A8RendererP", "parse"]
+- ["11TemplateKit0A8RendererP", "parser"]
+- ["11TemplateKit0A8RendererP", "relativeDirectory"]
+- ["11TemplateKit0A8RendererP", "render"]
+- ["11TemplateKit0A8RendererP", "shouldCache"]
+- ["11TemplateKit0A8RendererP", "tags"]
+- ["11TemplateKit0A8RendererP", "templateFileEnding"]
+- !private ["11TemplateKit0A6SourceV", "init"]
+- !private ["11TemplateKit0A6SyntaxV", "init"]
+- !private ["11TemplateKit0A10SyntaxTypeO", "raw"]
+- !private ["11TemplateKit12ViewRendererP", "TemplateRaw"]
+- !private ["11TemplateKit12ViewRendererP", "TemplateSource"]
+- !private ["11TemplateKit12ViewRendererP", "TemplateSyntax"]
+- ["11TemplateKit12ViewRendererP", ""]
+- ["11TemplateKit12ViewRendererP", "astCache"]
+- ["11TemplateKit12ViewRendererP", "container"]
+- ["11TemplateKit12ViewRendererP", "parse"]
+- ["11TemplateKit12ViewRendererP", "parser"]
+- ["11TemplateKit12ViewRendererP", "relativeDirectory"]
+- ["11TemplateKit12ViewRendererP", "render"]
+- ["11TemplateKit12ViewRendererP", "shouldCache"]
+- ["11TemplateKit12ViewRendererP", "tags"]
+- ["11TemplateKit12ViewRendererP", "templateFileEnding"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "11TemplateKit17PlaintextRendererC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "11TemplateKit0A11ByteScannerC"
+- !private "11TemplateKit0A17DataRepresentableP"
+- "11TemplateKit0A6ParserP"
+- !private "11TemplateKit0A3RawV"
+- "11TemplateKit0A8RendererP"
+- !private "11TemplateKit0A6SourceV"
+- !private "11TemplateKit0A6SyntaxV"
+- !private "11TemplateKit0A10SyntaxTypeO"
+- "11TemplateKit12ViewRendererP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9245250ceb50ca4e0a0f9a75e87e717"

@@ -1,0 +1,4 @@
+module URLEncodedForm {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/URLEncodedForm-Swift.h"
+    requires objc
+}

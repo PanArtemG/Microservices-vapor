@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "ffe4d817b7d500f945c67f5759000eb6"
+build_time: [1587817692, 478448000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": [1587817666, 589921875]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": [1587817666, 590367190]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": [1587817666, 590669535]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1587817666, 590944866]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPResponseCompressor.swift": [1587817666, 591258244]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1587817666, 591722722]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": [1587817666, 592080974]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": [1587817666, 592770378]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPUpgradeHandler.swift": [1587817666, 593202258]

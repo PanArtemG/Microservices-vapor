@@ -1,0 +1,107 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Authenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Authenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Authenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Authenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Authenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/AuthenticationCache.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationCache.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationCache.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationCache.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/AuthenticationProvider.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationProvider.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationProvider.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/AuthenticationProvider.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Basic/BasicAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Basic/BasicAuthenticationMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticationMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticationMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticationMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Basic/BasicAuthenticationMiddleware.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Bearer/BearerAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Bearer/BearerAuthenticationMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticationMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticationMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticationMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Bearer/BearerAuthenticationMiddleware.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Password/PasswordAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Password/PasswordVerifier.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordVerifier.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordVerifier.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Password/PasswordVerifier.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Persist/AuthenticationSessionsMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/AuthenticationSessionsMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/AuthenticationSessionsMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/AuthenticationSessionsMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/AuthenticationSessionsMiddleware.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Persist/RedirectMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/RedirectMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/RedirectMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/RedirectMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/RedirectMiddleware.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Persist/SessionAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/SessionAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/SessionAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/SessionAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Persist/SessionAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Token/TokenAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Token/TokenAuthenticationMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticationMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticationMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticationMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Token/TokenAuthenticationMiddleware.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Utilities/AuthenticationError.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/AuthenticationError.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/AuthenticationError.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/AuthenticationError~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/AuthenticationError.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/auth/Sources/Authentication/Utilities/GuardMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/GuardMiddleware.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/GuardMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/GuardMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/Utilities/GuardMiddleware.swiftdeps"
+  }
+}

@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "8cc38694114a5f4eb803ad5585f223fc"
+build_time: [1587817695, 863434000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/ByteBufferBIO.swift": [1587817670, 66625581]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/IdentityVerification.swift": [1587817670, 66807808]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1587817670, 67060719]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1587817670, 67395847]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1587817670, 67573600]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/PosixPort.swift": [1587817670, 67716372]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLCertificate.swift": [1587817670, 67909656]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLConnection.swift": [1587817670, 68122321]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLContext.swift": [1587817670, 68360401]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLErrors.swift": [1587817670, 68560663]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLInit.swift": [1587817670, 68692073]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [1587817670, 68868097]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPointerTricks.swift": [1587817670, 69011299]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1587817670, 69217005]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPublicKey.swift": [1587817670, 69357502]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLVerificationCallbacks.swift": [1587817670, 69498562]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/TLSConfiguration.swift": [1587817670, 69689366]

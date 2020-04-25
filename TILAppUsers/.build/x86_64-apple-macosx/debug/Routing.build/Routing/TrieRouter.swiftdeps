@@ -1,0 +1,447 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TrieRouter"
+provides-nominal:
+- "7Routing10TrieRouterC"
+provides-member:
+- ["7Routing10TrieRouterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Data"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "ParameterValue"
+- "Parameters"
+- "RoutableComponent"
+- "Route"
+- "RouterNode"
+- "RouterOption"
+- "Set"
+- !private "String"
+- "StringLiteralType"
+- "TrieRouter"
+- !private "debugOnly"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "forwardSlash"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "forwardSlash"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "readable"]
+- !private ["4Core22AnyReflectionDecodableP", "removingPercentEncoding"]
+- !private ["4Core22AnyReflectionDecodableP", "withUnsafeBytes"]
+- !private ["Sa", "append"]
+- !private ["Sa", "readable"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "forwardSlash"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "removingPercentEncoding"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "readable"]
+- !private ["SK", "removingPercentEncoding"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", "forwardSlash"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "forwardSlash"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "readable"]
+- !private ["s7CVarArgP", "removingPercentEncoding"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "readable"]
+- !private ["Sl", "removingPercentEncoding"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", "forwardSlash"]
+- !private ["SL", "init"]
+- !private ["SL", "removingPercentEncoding"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "readable"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "readable"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "readable"]
+- !private ["s28CustomDebugStringConvertibleP", "removingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forwardSlash"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "readable"]
+- !private ["s17CustomReflectableP", "removingPercentEncoding"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "forwardSlash"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "readable"]
+- !private ["s23CustomStringConvertibleP", "removingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "readable"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- !private ["Se", "append"]
+- !private ["Se", "forwardSlash"]
+- !private ["Se", "init"]
+- !private ["Se", "readable"]
+- !private ["Se", "removingPercentEncoding"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "forwardSlash"]
+- !private ["SE", "init"]
+- !private ["SE", "readable"]
+- !private ["SE", "removingPercentEncoding"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "append"]
+- !private ["SQ", "forwardSlash"]
+- !private ["SQ", "init"]
+- !private ["SQ", "readable"]
+- !private ["SQ", "removingPercentEncoding"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "readable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "removingPercentEncoding"]
+- !private ["s27ExpressibleByIntegerLiteralP", "forwardSlash"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "removingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "removingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "removingPercentEncoding"]
+- !private ["7Service10ExtendableP", "output"]
+- !private ["7Service10ExtendableP", "path"]
+- !private ["s17FixedWidthIntegerP", "forwardSlash"]
+- !private ["SH", "append"]
+- !private ["SH", "forwardSlash"]
+- !private ["SH", "init"]
+- !private ["SH", "readable"]
+- !private ["SH", "removingPercentEncoding"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "readable"]
+- !private ["4Core23LosslessDataConvertibleP", "removingPercentEncoding"]
+- !private ["4Core23LosslessDataConvertibleP", "withUnsafeBytes"]
+- !private ["s25LosslessStringConvertibleP", "forwardSlash"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "removingPercentEncoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "removingPercentEncoding"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "readable"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "readable"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- !private ["So8NSCodingP", "removingPercentEncoding"]
+- !private ["So9NSCopyingP", "removingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "removingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "removingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "removingPercentEncoding"]
+- !private ["So8NSObjectC", "removingPercentEncoding"]
+- !private ["So8NSObjectP", "removingPercentEncoding"]
+- !private ["So14NSSecureCodingP", "removingPercentEncoding"]
+- !private ["So8NSStringC", "removingPercentEncoding"]
+- !private ["Sj", "forwardSlash"]
+- !private ["7Routing9ParameterP", "forwardSlash"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "removingPercentEncoding"]
+- !private ["7Routing14ParameterValueV", "init"]
+- !private ["7Routing10ParametersV", "values"]
+- !private ["7Routing27PathComponentsRepresentableP", "append"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "readable"]
+- !private ["7Routing27PathComponentsRepresentableP", "removingPercentEncoding"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sk", "readable"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "readable"]
+- !private ["Sm", "removingPercentEncoding"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "forwardSlash"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "readable"]
+- !private ["4Core19ReflectionDecodableP", "removingPercentEncoding"]
+- !private ["4Core19ReflectionDecodableP", "withUnsafeBytes"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["7Routing17RoutableComponentP", "removingPercentEncoding"]
+- !private ["7Routing17RoutableComponentP", "routerCompare"]
+- !private ["7Routing17RoutableComponentP", "routerParameterValue"]
+- !private ["7Routing17RoutableComponentP", "withUnsafeBytes"]
+- !private ["7Routing5RouteC", "output"]
+- !private ["7Routing5RouteC", "path"]
+- !private ["7Routing10RouterNodeC", "anything"]
+- !private ["7Routing10RouterNodeC", "buildOrFetchChild"]
+- !private ["7Routing10RouterNodeC", "catchall"]
+- !private ["7Routing10RouterNodeC", "constants"]
+- !private ["7Routing10RouterNodeC", "init"]
+- !private ["7Routing10RouterNodeC", "output"]
+- !private ["7Routing10RouterNodeC", "parameter"]
+- !private ["7Routing10RouterNodeC", "value"]
+- ["7Routing12RouterOptionO", "deinit"]
+- !private ["s10SIMDScalarP", "forwardSlash"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "readable"]
+- !private ["ST", "removingPercentEncoding"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["Sx", "forwardSlash"]
+- !private ["SS", "init"]
+- !private ["SS", "removingPercentEncoding"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["Sy", "removingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "removingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "removingPercentEncoding"]
+- !private ["7Routing10TrieRouterC", "Data"]
+- !private ["7Routing10TrieRouterC", "ParameterValue"]
+- ["7Routing10TrieRouterC", "Parameters"]
+- ["7Routing10TrieRouterC", "RoutableComponent"]
+- ["7Routing10TrieRouterC", "Route"]
+- ["7Routing10TrieRouterC", "RouterNode"]
+- ["7Routing10TrieRouterC", "RouterOption"]
+- ["7Routing10TrieRouterC", "Set"]
+- !private ["7Routing10TrieRouterC", "String"]
+- !private ["7Routing10TrieRouterC", "debugOnly"]
+- ["7Routing10TrieRouterC", "deinit"]
+- ["7Routing10TrieRouterC", "init"]
+- ["7Routing10TrieRouterC", "options"]
+- !private ["7Routing10TrieRouterC", "print"]
+- ["7Routing10TrieRouterC", "register"]
+- !private ["7Routing10TrieRouterC", "root"]
+- ["7Routing10TrieRouterC", "route"]
+- ["7Routing10TrieRouterC", "routes"]
+- !private ["s5UInt8V", "forwardSlash"]
+- !private ["SU", "forwardSlash"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "readable"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "forwardSlash"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "removingPercentEncoding"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "readable"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "removingPercentEncoding"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "forwardSlash"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "removingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "removingPercentEncoding"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "readable"]
+- !private ["s19_HasContiguousBytesP", "removingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forwardSlash"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "readable"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removingPercentEncoding"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forwardSlash"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "readable"]
+- !private ["s21_ObjectiveCBridgeableP", "removingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s14_StringElementP", "forwardSlash"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "7Routing9ParameterP"
+- !private "7Routing14ParameterValueV"
+- !private "7Routing10ParametersV"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "7Routing5RouteC"
+- !private "7Routing10RouterNodeC"
+- "7Routing12RouterOptionO"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7Routing10TrieRouterC"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4c4a4798427796d5d8de6c7bfa75a1e7"

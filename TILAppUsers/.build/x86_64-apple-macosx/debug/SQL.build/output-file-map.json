@@ -1,0 +1,359 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/Exports.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLAlterTable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLAlterTableBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTableBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTableBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLAlterTableBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLBinaryOperator.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBinaryOperator.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBinaryOperator.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBinaryOperator~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBinaryOperator.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLBind.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBind.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBind.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBind~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBind.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLBoolLiteral.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBoolLiteral.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBoolLiteral.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBoolLiteral~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLBoolLiteral.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLCollation.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCollation.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCollation.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCollation~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCollation.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLColumnBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLColumnConstraint.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraint.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraint.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraint~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraint.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLColumnConstraintAlgorithm.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraintAlgorithm.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraintAlgorithm.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraintAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnConstraintAlgorithm.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLColumnDefinition.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnDefinition.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnDefinition.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnDefinition~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnDefinition.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLColumnIdentifier.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnIdentifier.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnIdentifier.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLColumnIdentifier.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLConnection.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLConnection.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLConnection.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLConnection.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLCreateIndex.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndex.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndex.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndex~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndex.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLCreateIndexBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndexBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndexBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndexBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateIndexBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLCreateTable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLCreateTableBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTableBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTableBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLCreateTableBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDataType.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDataType.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDataType.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDataType~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDataType.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDefaultLiteral.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDefaultLiteral.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDefaultLiteral.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDefaultLiteral~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDefaultLiteral.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDelete.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDelete.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDelete.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDelete~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDelete.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDeleteBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDeleteBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDeleteBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDeleteBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDeleteBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDirection.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDirection.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDirection.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDirection~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDirection.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDistinct.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDistinct.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDistinct.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDistinct~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDistinct.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDropIndex.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropIndex.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropIndex.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropIndex~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropIndex.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDropTable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLDropTableBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTableBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTableBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLDropTableBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLError.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLError.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLError.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLError~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLError.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLExpression.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLExpression.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLExpression.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLExpression.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLForeignKey.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKey.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKey.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKey.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLForeignKeyAction.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKeyAction.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKeyAction.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKeyAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLForeignKeyAction.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLFunction.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunction.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunction.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunction~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunction.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLFunctionArgument.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunctionArgument.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunctionArgument.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunctionArgument~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLFunctionArgument.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLGroupBy.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLGroupBy.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLGroupBy.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLGroupBy~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLGroupBy.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLIdentifier.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIdentifier.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIdentifier.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIdentifier.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLIndexModifier.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIndexModifier.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIndexModifier.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIndexModifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLIndexModifier.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLInsert.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsert.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsert.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsert~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsert.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLInsertBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsertBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsertBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsertBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLInsertBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLJoin.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoin.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoin.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoin~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoin.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLJoinMethod.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoinMethod.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoinMethod.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoinMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLJoinMethod.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLLiteral.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLLiteral.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLLiteral.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLLiteral~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLLiteral.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLOrderBy.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLOrderBy.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLOrderBy.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLOrderBy~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLOrderBy.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLPredicateBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLPredicateGroupBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateGroupBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateGroupBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateGroupBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPredicateGroupBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLPrimaryKey.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPrimaryKey.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPrimaryKey.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPrimaryKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLPrimaryKey.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLQuery.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQuery.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQuery.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQuery.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLQueryBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLQueryEncoder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryEncoder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryEncoder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryEncoder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLQueryFetcher.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryFetcher.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryFetcher.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryFetcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLQueryFetcher.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLRawBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLRawBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLRawBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLRawBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLRawBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLSelect.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelect.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelect.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelect~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelect.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLSelectBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectBuilder.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLSelectExpression.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectExpression.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectExpression.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSelectExpression.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLSerializable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSerializable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSerializable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSerializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLSerializable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLTable.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTable.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLTableConstraint.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraint.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraint.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraint~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraint.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLTableConstraintAlgorithm.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraintAlgorithm.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraintAlgorithm.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraintAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableConstraintAlgorithm.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLTableIdentifier.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableIdentifier.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableIdentifier.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLTableIdentifier.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLUpdate.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdate.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdate.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdate~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdate.swiftdeps"
+  },
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/sql/Sources/SQL/SQLUpdateBuilder.swift": {
+    "dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdateBuilder.d",
+    "object": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdateBuilder.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdateBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/SQLUpdateBuilder.swiftdeps"
+  }
+}

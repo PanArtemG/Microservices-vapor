@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "cbb355c3790bb34f3b74f87aa8c0bf69"
+build_time: [1587817692, 478614000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Async+NIO.swift": [1587817668, 513935559]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/AsyncError.swift": [1587817668, 514174205]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Collection+Future.swift": [1587817668, 514348197]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Deprecated.swift": [1587817668, 514501356]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Exports.swift": [1587817668, 514628776]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+DoCatch.swift": [1587817668, 514771890]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Flatten.swift": [1587817668, 514922829]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Global.swift": [1587817668, 515069885]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Map.swift": [1587817668, 515254553]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Transform.swift": [1587817668, 515400737]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Variadic.swift": [1587817668, 515565872]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Future+Void.swift": [1587817668, 515715335]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/FutureType.swift": [1587817668, 515863339]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/QueueHandler.swift": [1587817668, 516025717]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Async/Worker.swift": [1587817668, 516164569]

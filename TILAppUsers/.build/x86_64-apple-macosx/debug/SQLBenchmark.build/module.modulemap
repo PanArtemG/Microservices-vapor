@@ -1,0 +1,4 @@
+module SQLBenchmark {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/SQLBenchmark-Swift.h"
+    requires objc
+}

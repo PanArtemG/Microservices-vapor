@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "bca386eb939c0aab63250d4372626c21"
+build_time: [1587817692, 478542000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/BitsError.swift": [1587817668, 516371676]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Byte+Alphabet.swift": [1587817668, 516522850]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Byte+Control.swift": [1587817668, 516653163]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Byte+Digit.swift": [1587817668, 516786659]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/ByteBuffer+binaryFloatingPointOperations.swift": [1587817668, 516911391]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/ByteBuffer+peek.swift": [1587817668, 517034031]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/ByteBuffer+require.swift": [1587817668, 517171656]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/ByteBuffer+string.swift": [1587817668, 517306691]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Bytes.swift": [1587817668, 517424951]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Data+Bytes.swift": [1587817668, 517597379]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Data+Strings.swift": [1587817668, 517795207]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/Bits/Deprecated.swift": [1587817668, 517930412]

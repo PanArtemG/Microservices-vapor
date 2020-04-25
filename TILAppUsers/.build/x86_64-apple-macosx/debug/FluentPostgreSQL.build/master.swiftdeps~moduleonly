@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "cfa7ae6858a4121530e7952917b3dc19"
+build_time: [1587817761, 667850000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Deprecated.swift": [1587817676, 898929686]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Exports.swift": [1587817676, 899163483]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Fluent+PostgreSQLUpsert.swift": [1587817676, 899390489]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLProvider.swift": [1587817676, 899651276]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLQuery.swift": [1587817676, 899896815]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLSchema.swift": [1587817676, 900161554]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+JoinSupporting.swift": [1587817676, 900518883]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+KeyedCacheSupporting.swift": [1587817676, 900722318]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+MigrationSupporting.swift": [1587817676, 900902656]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+QuerySupporting.swift": [1587817676, 901143812]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+SchemaSupporting.swift": [1587817676, 901587652]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+TransactionSupporting.swift": [1587817676, 901863434]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLEnum.swift": [1587817676, 902315768]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLModel.swift": [1587817676, 902619635]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLStringModel.swift": [1587817676, 902771244]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLUUIDModel.swift": [1587817676, 902921722]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Utilities.swift": [1587817676, 903137548]

@@ -46,4 +46,6 @@ final class Acronym: Codable {
 extension Acronym: Content {}
 extension Acronym: Migration {}
 extension Acronym: Parameter {}
-extension Acronym: MySQLModel {}
+extension Acronym: MySQLModel {
+    typealias Database = MySQLDatabase
+}

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "23784af91826a348912fc76953835fe4"
+build_time: [1587817756, 744497000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/Exports.swift": [1587817676, 48302672]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/FluentSQLQuery.swift": [1587817676, 48513450]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/FluentSQLSchema.swift": [1587817676, 48732506]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/QueryBuilder+GroupBy.swift": [1587817676, 48965954]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/SQL+Contains.swift": [1587817676, 49178798]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/SQL+JoinSupporting.swift": [1587817676, 49359823]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/SQL+QuerySupporting.swift": [1587817676, 49582453]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/SQL+SchemaSupporting.swift": [1587817676, 49810903]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/fluent/Sources/FluentSQL/SchemaBuilder+Field.swift": [1587817676, 50033228]

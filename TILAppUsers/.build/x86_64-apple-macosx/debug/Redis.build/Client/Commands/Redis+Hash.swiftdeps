@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Redis0A6ClientC", ""]
+- ["5Redis0A6ClientC", "hkeys"]
+- ["5Redis0A6ClientC", "hget"]
+- ["5Redis0A6ClientC", "hget"]
+- ["5Redis0A6ClientC", "hgetall"]
+- ["5Redis0A6ClientC", "hset"]
+- ["5Redis0A6ClientC", "hset"]
+- ["5Redis0A6ClientC", "hdel"]
+- ["5Redis0A6ClientC", "hdel"]
+- ["5Redis0A6ClientC", "hexists"]
+- ["5Redis0A6ClientC", "hmget"]
+- ["5Redis0A6ClientC", "hmset"]
+provides-dynamic-lookup:
+- "hdel"
+- "hexists"
+- "hget"
+- "hgetall"
+- "hkeys"
+- "hmget"
+- "hmset"
+- "hset"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private ">"
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "Future"
+- "Int"
+- "IntegerLiteralType"
+- "RedisClient"
+- "RedisData"
+- "RedisDataConvertible"
+- !private "RedisError"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "convertFromRedisData"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "remove"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["Sa", "remove"]
+- !private ["4Core21BasicKeyRepresentableP", "convertFromRedisData"]
+- !private ["5Async11BasicWorkerP", "Bool"]
+- !private ["5Async11BasicWorkerP", "Dictionary"]
+- !private ["5Async11BasicWorkerP", "Int"]
+- !private ["5Async11BasicWorkerP", "RedisData"]
+- !private ["5Async11BasicWorkerP", "RedisError"]
+- !private ["5Async11BasicWorkerP", "String"]
+- !private ["5Async11BasicWorkerP", "command"]
+- !private ["5Async11BasicWorkerP", "eventLoop"]
+- !private ["5Async11BasicWorkerP", "hdel"]
+- !private ["5Async11BasicWorkerP", "hget"]
+- !private ["5Async11BasicWorkerP", "hset"]
+- !private ["SK", "append"]
+- !private ["SK", "convertFromRedisData"]
+- !private ["SK", "count"]
+- !private ["SK", "map"]
+- !private ["SK", "remove"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "convertFromRedisData"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "convertFromRedisData"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "convertFromRedisData"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "convertFromRedisData"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "convertFromRedisData"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "convertFromRedisData"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "isNull"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["11DatabaseKit0A11ConnectableP", "Bool"]
+- !private ["11DatabaseKit0A11ConnectableP", "Dictionary"]
+- !private ["11DatabaseKit0A11ConnectableP", "Int"]
+- !private ["11DatabaseKit0A11ConnectableP", "RedisData"]
+- !private ["11DatabaseKit0A11ConnectableP", "RedisError"]
+- !private ["11DatabaseKit0A11ConnectableP", "String"]
+- !private ["11DatabaseKit0A11ConnectableP", "command"]
+- !private ["11DatabaseKit0A11ConnectableP", "eventLoop"]
+- !private ["11DatabaseKit0A11ConnectableP", "hdel"]
+- !private ["11DatabaseKit0A11ConnectableP", "hget"]
+- !private ["11DatabaseKit0A11ConnectableP", "hset"]
+- !private ["11DatabaseKit0A10ConnectionP", "Bool"]
+- !private ["11DatabaseKit0A10ConnectionP", "Dictionary"]
+- !private ["11DatabaseKit0A10ConnectionP", "Int"]
+- !private ["11DatabaseKit0A10ConnectionP", "RedisData"]
+- !private ["11DatabaseKit0A10ConnectionP", "RedisError"]
+- !private ["11DatabaseKit0A10ConnectionP", "String"]
+- !private ["11DatabaseKit0A10ConnectionP", "command"]
+- !private ["11DatabaseKit0A10ConnectionP", "eventLoop"]
+- !private ["11DatabaseKit0A10ConnectionP", "hdel"]
+- !private ["11DatabaseKit0A10ConnectionP", "hget"]
+- !private ["11DatabaseKit0A10ConnectionP", "hset"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "convertFromRedisData"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "remove"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "convertFromRedisData"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "remove"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "convertFromRedisData"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "Bool"]
+- !private ["3NIO14EventLoopGroupP", "Dictionary"]
+- !private ["3NIO14EventLoopGroupP", "Int"]
+- !private ["3NIO14EventLoopGroupP", "RedisData"]
+- !private ["3NIO14EventLoopGroupP", "RedisError"]
+- !private ["3NIO14EventLoopGroupP", "String"]
+- !private ["3NIO14EventLoopGroupP", "command"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "hdel"]
+- !private ["3NIO14EventLoopGroupP", "hget"]
+- !private ["3NIO14EventLoopGroupP", "hset"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "int"]
+- !private ["s25ExpressibleByArrayLiteralP", "isNull"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromRedisData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isNull"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isNull"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "array"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "int"]
+- !private ["s23ExpressibleByNilLiteralP", "isNull"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "convertFromRedisData"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "convertFromRedisData"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int"]
+- !private ["s26ExpressibleByStringLiteralP", "isNull"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromRedisData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isNull"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["7Service10ExtendableP", "Bool"]
+- !private ["7Service10ExtendableP", "Dictionary"]
+- !private ["7Service10ExtendableP", "Int"]
+- !private ["7Service10ExtendableP", "RedisData"]
+- !private ["7Service10ExtendableP", "RedisError"]
+- !private ["7Service10ExtendableP", "String"]
+- !private ["7Service10ExtendableP", "command"]
+- !private ["7Service10ExtendableP", "eventLoop"]
+- !private ["7Service10ExtendableP", "hdel"]
+- !private ["7Service10ExtendableP", "hget"]
+- !private ["7Service10ExtendableP", "hset"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["SH", "append"]
+- !private ["SH", "convertFromRedisData"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "remove"]
+- !private ["SH", "subscript"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "convertFromRedisData"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "remove"]
+- !private ["s25LosslessStringConvertibleP", "convertFromRedisData"]
+- !private ["s10MirrorPathP", "convertFromRedisData"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "map"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "map"]
+- !private ["Sk", "remove"]
+- !private ["Sm", "append"]
+- !private ["Sm", "convertFromRedisData"]
+- !private ["Sm", "count"]
+- !private ["Sm", "map"]
+- !private ["Sm", "remove"]
+- ["5Redis0A6ClientC", "Bool"]
+- !private ["5Redis0A6ClientC", "Dictionary"]
+- ["5Redis0A6ClientC", "Future"]
+- ["5Redis0A6ClientC", "Int"]
+- ["5Redis0A6ClientC", "RedisData"]
+- ["5Redis0A6ClientC", "RedisDataConvertible"]
+- !private ["5Redis0A6ClientC", "RedisError"]
+- ["5Redis0A6ClientC", "String"]
+- !private ["5Redis0A6ClientC", "command"]
+- !private ["5Redis0A6ClientC", "deinit"]
+- !private ["5Redis0A6ClientC", "eventLoop"]
+- ["5Redis0A6ClientC", "hdel"]
+- ["5Redis0A6ClientC", "hexists"]
+- ["5Redis0A6ClientC", "hget"]
+- ["5Redis0A6ClientC", "hgetall"]
+- ["5Redis0A6ClientC", "hkeys"]
+- ["5Redis0A6ClientC", "hmget"]
+- ["5Redis0A6ClientC", "hmset"]
+- ["5Redis0A6ClientC", "hset"]
+- !private ["5Redis0A4DataV", "array"]
+- !private ["5Redis0A4DataV", "deinit"]
+- !private ["5Redis0A4DataV", "init"]
+- !private ["5Redis0A4DataV", "init"]
+- !private ["5Redis0A4DataV", "int"]
+- !private ["5Redis0A4DataV", "isNull"]
+- !private ["5Redis0A4DataV", "string"]
+- !private ["5Redis0A15DataConvertibleP", "append"]
+- !private ["5Redis0A15DataConvertibleP", "array"]
+- !private ["5Redis0A15DataConvertibleP", "convertFromRedisData"]
+- !private ["5Redis0A15DataConvertibleP", "convertToRedisData"]
+- !private ["5Redis0A15DataConvertibleP", "count"]
+- !private ["5Redis0A15DataConvertibleP", "init"]
+- !private ["5Redis0A15DataConvertibleP", "init"]
+- !private ["5Redis0A15DataConvertibleP", "int"]
+- !private ["5Redis0A15DataConvertibleP", "isNull"]
+- !private ["5Redis0A15DataConvertibleP", "map"]
+- !private ["5Redis0A15DataConvertibleP", "remove"]
+- !private ["5Redis0A15DataConvertibleP", "string"]
+- !private ["5Redis0A5ErrorV", "deinit"]
+- !private ["5Redis0A5ErrorV", "init"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "convertFromRedisData"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "remove"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["ST", "append"]
+- !private ["ST", "convertFromRedisData"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "remove"]
+- !private ["ST", "subscript"]
+- !private ["SS", "convertFromRedisData"]
+- !private ["SS", "deinit"]
+- !private ["Sy", "convertFromRedisData"]
+- !private ["s16TextOutputStreamP", "convertFromRedisData"]
+- !private ["s20TextOutputStreamableP", "convertFromRedisData"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "convertFromRedisData"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromRedisData"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromRedisData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromRedisData"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "convertFromRedisData"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "convertFromRedisData"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "5Redis0A6ClientC"
+- !private "5Redis0A4DataV"
+- !private "5Redis0A15DataConvertibleP"
+- !private "5Redis0A5ErrorV"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "aecd9828761e95c04d2c2db9e11d7048"

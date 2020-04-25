@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "9ee0e9bf580fa014a7e40b8b713f1ddf"
+build_time: [1587817730, 60425000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift": [1587817678, 496104945]

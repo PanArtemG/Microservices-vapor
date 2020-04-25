@@ -1,0 +1,4 @@
+module Random {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/Random-Swift.h"
+    requires objc
+}

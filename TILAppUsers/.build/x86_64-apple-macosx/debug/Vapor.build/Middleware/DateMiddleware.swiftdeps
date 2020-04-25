@@ -1,0 +1,641 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateMiddleware"
+provides-nominal:
+- "5Vapor14DateMiddlewareC"
+provides-member:
+- ["5Vapor14DateMiddlewareC", ""]
+provides-dynamic-lookup:
+- "cachedTimestamp"
+- "eventLoop"
+- "getDate"
+- "makeService"
+- "respond"
+depends-top-level:
+- !private "%"
+- "*"
+- !private "+"
+- !private "/"
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "COperatingSystem"
+- "Container"
+- "DateMiddleware"
+- "EventLoop"
+- "FloatLiteralType"
+- "Future"
+- "Int"
+- "IntegerLiteralType"
+- "Middleware"
+- "Request"
+- "Responder"
+- "Response"
+- "ServiceType"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Worker"
+- !private "accuracy"
+- !private "assert"
+- !private "cachedTimeComponents"
+- !private "dayNames"
+- !private "gmtime"
+- !private "monthNames"
+- !private "numericCast"
+- !private "secondsInDay"
+- !private "stringNumbers"
+- "time_t"
+- !private "tm"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "pointee"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "date"]
+- !private ["4Core22AnyReflectionDecodableP", "pointee"]
+- !private ["4Core22AnyReflectionDecodableP", "reserveCapacity"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["Sa", "subscript"]
+- !private ["4Core21BasicKeyRepresentableP", "append"]
+- !private ["4Core21BasicKeyRepresentableP", "date"]
+- !private ["4Core21BasicKeyRepresentableP", "reserveCapacity"]
+- !private ["5Async11BasicWorkerP", "http"]
+- !private ["SK", "append"]
+- !private ["SK", "date"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "date"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "append"]
+- !private ["SL", "date"]
+- !private ["SL", "pointee"]
+- !private ["SL", "reserveCapacity"]
+- !private ["7Service9ContainerP", "http"]
+- !private ["7Service14ContainerAliasP", "http"]
+- !private ["5Vapor7ContentP", "append"]
+- !private ["5Vapor7ContentP", "date"]
+- !private ["5Vapor7ContentP", "reserveCapacity"]
+- !private ["5Vapor7ContentP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "http"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceOrAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "http"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["5Vapor14DateMiddlewareC", "COperatingSystem"]
+- ["5Vapor14DateMiddlewareC", "Container"]
+- ["5Vapor14DateMiddlewareC", "DateMiddleware"]
+- ["5Vapor14DateMiddlewareC", "EventLoop"]
+- ["5Vapor14DateMiddlewareC", "Future"]
+- ["5Vapor14DateMiddlewareC", "Int"]
+- ["5Vapor14DateMiddlewareC", "Request"]
+- ["5Vapor14DateMiddlewareC", "Responder"]
+- ["5Vapor14DateMiddlewareC", "Response"]
+- ["5Vapor14DateMiddlewareC", "String"]
+- ["5Vapor14DateMiddlewareC", "Worker"]
+- !private ["5Vapor14DateMiddlewareC", "accuracy"]
+- !private ["5Vapor14DateMiddlewareC", "assert"]
+- !private ["5Vapor14DateMiddlewareC", "cachedTimeComponents"]
+- !private ["5Vapor14DateMiddlewareC", "cachedTimestamp"]
+- !private ["5Vapor14DateMiddlewareC", "dayNames"]
+- ["5Vapor14DateMiddlewareC", "deinit"]
+- !private ["5Vapor14DateMiddlewareC", "eventLoop"]
+- !private ["5Vapor14DateMiddlewareC", "getDate"]
+- !private ["5Vapor14DateMiddlewareC", "gmtime"]
+- !private ["5Vapor14DateMiddlewareC", "init"]
+- !private ["5Vapor14DateMiddlewareC", "init"]
+- ["5Vapor14DateMiddlewareC", "makeService"]
+- !private ["5Vapor14DateMiddlewareC", "monthNames"]
+- !private ["5Vapor14DateMiddlewareC", "numericCast"]
+- ["5Vapor14DateMiddlewareC", "respond"]
+- !private ["5Vapor14DateMiddlewareC", "secondsInDay"]
+- ["5Vapor14DateMiddlewareC", "serviceSupports"]
+- !private ["5Vapor14DateMiddlewareC", "stringNumbers"]
+- !private ["5Vapor14DateMiddlewareC", "tm"]
+- !private ["Se", "append"]
+- !private ["Se", "date"]
+- !private ["Se", "pointee"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "date"]
+- !private ["SE", "map"]
+- !private ["SE", "pointee"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "date"]
+- !private ["SQ", "map"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "replaceOrAdd"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "subscript"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "http"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "replaceOrAdd"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "date"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reserveCapacity"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["s32ExpressibleByStringInterpolationP", "append"]
+- !private ["s32ExpressibleByStringInterpolationP", "date"]
+- !private ["s32ExpressibleByStringInterpolationP", "reserveCapacity"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "date"]
+- !private ["s26ExpressibleByStringLiteralP", "reserveCapacity"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "date"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reserveCapacity"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["4HTTP14HTTPHeaderNameV", "date"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["4HTTP11HTTPMessageP", "headers"]
+- !private ["5Vapor20HTTPMessageContainerP", "http"]
+- !private ["4HTTP12HTTPResponseV", "headers"]
+- !private ["SH", "append"]
+- !private ["SH", "date"]
+- !private ["SH", "pointee"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "subscript"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "date"]
+- !private ["4Core23LosslessDataConvertibleP", "reserveCapacity"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "append"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "date"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "reserveCapacity"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "date"]
+- !private ["s25LosslessStringConvertibleP", "reserveCapacity"]
+- !private ["5Vapor10MiddlewareP", "COperatingSystem"]
+- ["5Vapor10MiddlewareP", ""]
+- !private ["5Vapor10MiddlewareP", "accuracy"]
+- !private ["5Vapor10MiddlewareP", "assert"]
+- !private ["5Vapor10MiddlewareP", "cachedTimeComponents"]
+- !private ["5Vapor10MiddlewareP", "cachedTimestamp"]
+- !private ["5Vapor10MiddlewareP", "dayNames"]
+- !private ["5Vapor10MiddlewareP", "eventLoop"]
+- !private ["5Vapor10MiddlewareP", "getDate"]
+- !private ["5Vapor10MiddlewareP", "gmtime"]
+- !private ["5Vapor10MiddlewareP", "init"]
+- !private ["5Vapor10MiddlewareP", "init"]
+- ["5Vapor10MiddlewareP", "makeService"]
+- !private ["5Vapor10MiddlewareP", "monthNames"]
+- !private ["5Vapor10MiddlewareP", "numericCast"]
+- ["5Vapor10MiddlewareP", "respond"]
+- !private ["5Vapor10MiddlewareP", "secondsInDay"]
+- ["5Vapor10MiddlewareP", "serviceSupports"]
+- !private ["5Vapor10MiddlewareP", "stringNumbers"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["s10MirrorPathP", "date"]
+- !private ["s10MirrorPathP", "reserveCapacity"]
+- !private ["9Multipart0A15PartConvertibleP", "append"]
+- !private ["9Multipart0A15PartConvertibleP", "date"]
+- !private ["9Multipart0A15PartConvertibleP", "reserveCapacity"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "reserveCapacity"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "reserveCapacity"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "reserveCapacity"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "reserveCapacity"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "reserveCapacity"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "reserveCapacity"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "reserveCapacity"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "reserveCapacity"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "reserveCapacity"]
+- !private ["Sq", "pointee"]
+- !private ["4Core12OptionalTypeP", "pointee"]
+- !private ["7Routing9ParameterP", "append"]
+- !private ["7Routing9ParameterP", "date"]
+- !private ["7Routing9ParameterP", "reserveCapacity"]
+- !private ["7Routing27PathComponentsRepresentableP", "append"]
+- !private ["7Routing27PathComponentsRepresentableP", "date"]
+- !private ["7Routing27PathComponentsRepresentableP", "reserveCapacity"]
+- !private ["7Routing27PathComponentsRepresentableP", "subscript"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "date"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "date"]
+- !private ["4Core19ReflectionDecodableP", "pointee"]
+- !private ["4Core19ReflectionDecodableP", "reserveCapacity"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["5Vapor16RequestDecodableP", "append"]
+- !private ["5Vapor16RequestDecodableP", "date"]
+- !private ["5Vapor16RequestDecodableP", "reserveCapacity"]
+- !private ["5Vapor16RequestDecodableP", "subscript"]
+- !private ["5Vapor16RequestEncodableP", "append"]
+- !private ["5Vapor16RequestEncodableP", "date"]
+- !private ["5Vapor16RequestEncodableP", "reserveCapacity"]
+- !private ["5Vapor16RequestEncodableP", "subscript"]
+- !private ["5Vapor9ResponderP", "respond"]
+- !private ["5Vapor8ResponseC", "deinit"]
+- !private ["5Vapor8ResponseC", "http"]
+- !private ["5Vapor17ResponseDecodableP", "append"]
+- !private ["5Vapor17ResponseDecodableP", "date"]
+- !private ["5Vapor17ResponseDecodableP", "http"]
+- !private ["5Vapor17ResponseDecodableP", "reserveCapacity"]
+- !private ["5Vapor17ResponseDecodableP", "subscript"]
+- !private ["5Vapor17ResponseEncodableP", "append"]
+- !private ["5Vapor17ResponseEncodableP", "date"]
+- !private ["5Vapor17ResponseEncodableP", "headers"]
+- !private ["5Vapor17ResponseEncodableP", "http"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "reserveCapacity"]
+- !private ["5Vapor17ResponseEncodableP", "subscript"]
+- !private ["7Routing17RoutableComponentP", "append"]
+- !private ["7Routing17RoutableComponentP", "date"]
+- !private ["7Routing17RoutableComponentP", "reserveCapacity"]
+- !private ["ST", "append"]
+- !private ["ST", "date"]
+- !private ["ST", "replaceOrAdd"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- !private ["7ServiceAAP", "COperatingSystem"]
+- ["7ServiceAAP", ""]
+- !private ["7ServiceAAP", "accuracy"]
+- !private ["7ServiceAAP", "assert"]
+- !private ["7ServiceAAP", "cachedTimeComponents"]
+- !private ["7ServiceAAP", "cachedTimestamp"]
+- !private ["7ServiceAAP", "dayNames"]
+- !private ["7ServiceAAP", "eventLoop"]
+- !private ["7ServiceAAP", "getDate"]
+- !private ["7ServiceAAP", "gmtime"]
+- !private ["7ServiceAAP", "init"]
+- !private ["7ServiceAAP", "init"]
+- ["7ServiceAAP", "makeService"]
+- !private ["7ServiceAAP", "monthNames"]
+- !private ["7ServiceAAP", "numericCast"]
+- ["7ServiceAAP", "respond"]
+- !private ["7ServiceAAP", "secondsInDay"]
+- ["7ServiceAAP", "serviceSupports"]
+- !private ["7ServiceAAP", "stringNumbers"]
+- !private ["7Service0A4TypeP", "COperatingSystem"]
+- ["7Service0A4TypeP", ""]
+- !private ["7Service0A4TypeP", "accuracy"]
+- !private ["7Service0A4TypeP", "assert"]
+- !private ["7Service0A4TypeP", "cachedTimeComponents"]
+- !private ["7Service0A4TypeP", "cachedTimestamp"]
+- !private ["7Service0A4TypeP", "dayNames"]
+- !private ["7Service0A4TypeP", "eventLoop"]
+- !private ["7Service0A4TypeP", "getDate"]
+- !private ["7Service0A4TypeP", "gmtime"]
+- !private ["7Service0A4TypeP", "init"]
+- !private ["7Service0A4TypeP", "init"]
+- ["7Service0A4TypeP", "makeService"]
+- !private ["7Service0A4TypeP", "monthNames"]
+- !private ["7Service0A4TypeP", "numericCast"]
+- ["7Service0A4TypeP", "respond"]
+- !private ["7Service0A4TypeP", "secondsInDay"]
+- ["7Service0A4TypeP", "serviceSupports"]
+- !private ["7Service0A4TypeP", "stringNumbers"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "append"]
+- !private ["SS", "date"]
+- !private ["SS", "reserveCapacity"]
+- !private ["Sy", "append"]
+- !private ["Sy", "date"]
+- !private ["Sy", "reserveCapacity"]
+- !private ["11TemplateKit0A17DataRepresentableP", "append"]
+- !private ["11TemplateKit0A17DataRepresentableP", "date"]
+- !private ["11TemplateKit0A17DataRepresentableP", "pointee"]
+- !private ["11TemplateKit0A17DataRepresentableP", "reserveCapacity"]
+- !private ["11TemplateKit0A17DataRepresentableP", "subscript"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "date"]
+- !private ["s16TextOutputStreamP", "reserveCapacity"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["s20TextOutputStreamableP", "date"]
+- !private ["s20TextOutputStreamableP", "reserveCapacity"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "append"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "date"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "reserveCapacity"]
+- !private ["4HTTP16URLRepresentableP", "append"]
+- !private ["4HTTP16URLRepresentableP", "date"]
+- !private ["4HTTP16URLRepresentableP", "reserveCapacity"]
+- !private ["Sp", "pointee"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "date"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "reserveCapacity"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "replaceOrAdd"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "date"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reserveCapacity"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "date"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "reserveCapacity"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "date"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "date"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reserveCapacity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "append"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["So2tmV", "tm_mday"]
+- !private ["So2tmV", "tm_mon"]
+- !private ["So2tmV", "tm_wday"]
+- !private ["So2tmV", "tm_year"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7Service9ContainerP"
+- !private "7Service14ContainerAliasP"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "5Vapor14DateMiddlewareC"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Async10FutureTypeP"
+- !private "4HTTP14HTTPHeaderNameV"
+- !private "8NIOHTTP111HTTPHeadersV"
+- !private "4HTTP11HTTPMessageP"
+- !private "5Vapor20HTTPMessageContainerP"
+- !private "4HTTP12HTTPResponseV"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- "5Vapor10MiddlewareP"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor9ResponderP"
+- !private "5Vapor8ResponseC"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "ST"
+- "7ServiceAAP"
+- "7Service0A4TypeP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "8NIOHTTP128_DeprecateHTTPHeaderIteratorP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So2tmV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "99f08e466caba7e608fbcbb4759db876"

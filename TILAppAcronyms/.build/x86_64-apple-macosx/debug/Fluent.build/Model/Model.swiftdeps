@@ -1,0 +1,566 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Model"
+provides-nominal:
+- "6Fluent5ModelP"
+provides-member:
+- ["6Fluent5ModelP", ""]
+- ["Se", ""]
+- ["6Fluent5ModelP", "willCreate"]
+- ["6Fluent5ModelP", "didCreate"]
+- ["6Fluent5ModelP", "willUpdate"]
+- ["6Fluent5ModelP", "didUpdate"]
+- ["6Fluent5ModelP", "willRead"]
+- ["6Fluent5ModelP", "willDelete"]
+- ["6Fluent5ModelP", "didDelete"]
+- ["6Fluent5ModelP", "willRestore"]
+- ["6Fluent5ModelP", "didRestore"]
+- ["6Fluent5ModelP", "willSoftDelete"]
+- ["6Fluent5ModelP", "didSoftDelete"]
+- ["6Fluent5ModelP", "createdAtKey"]
+- ["6Fluent5ModelP", "updatedAtKey"]
+- ["6Fluent5ModelP", "deletedAtKey"]
+- ["6Fluent5ModelP", "requireID"]
+- ["6Fluent5ModelP", "fluentID"]
+- ["6Fluent5ModelP", "fluentCreatedAt"]
+- ["6Fluent5ModelP", "fluentUpdatedAt"]
+- ["6Fluent5ModelP", "fluentDeletedAt"]
+- ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "find"]
+- ["6Fluent5ModelP", "query"]
+- ["Se", "query"]
+- ["6Fluent5ModelP", "defaultDatabase"]
+- ["6Fluent5ModelP", "requireDefaultDatabase"]
+- ["6Fluent5ModelP", "make"]
+- ["6Fluent5ModelP", "resolveParameter"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private ">"
+- "AnyModel"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Container"
+- "DatabaseConnectable"
+- "DatabaseConnection"
+- "DatabaseIdentifier"
+- "Date"
+- "Decodable"
+- !private "FloatLiteralType"
+- "Fluent"
+- !private "FluentError"
+- "Future"
+- "ID"
+- !private "IntegerLiteralType"
+- !private "LosslessStringConvertible"
+- "Model"
+- !private "NotFound"
+- "ObjectIdentifier"
+- "QueryBuilder"
+- "QuerySupporting"
+- "Reflectable"
+- "String"
+- !private "StringLiteralType"
+- !private "SubContainer"
+- !private "UnicodeScalarType"
+- "WritableKeyPath"
+- !private "_defaultDatabases"
+depends-member:
+- ["6Fluent8AnyModelP", "Bool"]
+- ["6Fluent8AnyModelP", "Container"]
+- ["6Fluent8AnyModelP", "Database"]
+- ["6Fluent8AnyModelP", "DatabaseConnectable"]
+- ["6Fluent8AnyModelP", "DatabaseIdentifier"]
+- ["6Fluent8AnyModelP", "Date"]
+- ["6Fluent8AnyModelP", "Fluent"]
+- !private ["6Fluent8AnyModelP", "FluentError"]
+- ["6Fluent8AnyModelP", "Future"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "IDKey"]
+- !private ["6Fluent8AnyModelP", "LosslessStringConvertible"]
+- !private ["6Fluent8AnyModelP", "NotFound"]
+- !private ["6Fluent8AnyModelP", "ObjectIdentifier"]
+- ["6Fluent8AnyModelP", "QueryBuilder"]
+- ["6Fluent8AnyModelP", "QuerySupporting"]
+- ["6Fluent8AnyModelP", "String"]
+- !private ["6Fluent8AnyModelP", "SubContainer"]
+- ["6Fluent8AnyModelP", "TimestampKey"]
+- ["6Fluent8AnyModelP", "WritableKeyPath"]
+- ["6Fluent8AnyModelP", ""]
+- !private ["6Fluent8AnyModelP", "_defaultDatabases"]
+- ["6Fluent8AnyModelP", "createdAtKey"]
+- !private ["6Fluent8AnyModelP", "defaultDatabase"]
+- ["6Fluent8AnyModelP", "deletedAtKey"]
+- ["6Fluent8AnyModelP", "didCreate"]
+- ["6Fluent8AnyModelP", "didDelete"]
+- ["6Fluent8AnyModelP", "didRestore"]
+- ["6Fluent8AnyModelP", "didSoftDelete"]
+- ["6Fluent8AnyModelP", "didUpdate"]
+- !private ["6Fluent8AnyModelP", "entity"]
+- !private ["6Fluent8AnyModelP", "find"]
+- !private ["6Fluent8AnyModelP", "fluentID"]
+- ["6Fluent8AnyModelP", "idKey"]
+- !private ["6Fluent8AnyModelP", "make"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "requireDefaultDatabase"]
+- !private ["6Fluent8AnyModelP", "subscript"]
+- ["6Fluent8AnyModelP", "updatedAtKey"]
+- ["6Fluent8AnyModelP", "willCreate"]
+- ["6Fluent8AnyModelP", "willDelete"]
+- ["6Fluent8AnyModelP", "willRead"]
+- ["6Fluent8AnyModelP", "willRestore"]
+- ["6Fluent8AnyModelP", "willSoftDelete"]
+- ["6Fluent8AnyModelP", "willUpdate"]
+- ["4Core14AnyReflectableP", "Bool"]
+- ["4Core14AnyReflectableP", "Container"]
+- ["4Core14AnyReflectableP", "Database"]
+- ["4Core14AnyReflectableP", "DatabaseConnectable"]
+- ["4Core14AnyReflectableP", "DatabaseIdentifier"]
+- ["4Core14AnyReflectableP", "Date"]
+- ["4Core14AnyReflectableP", "Fluent"]
+- !private ["4Core14AnyReflectableP", "FluentError"]
+- ["4Core14AnyReflectableP", "Future"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "IDKey"]
+- !private ["4Core14AnyReflectableP", "LosslessStringConvertible"]
+- !private ["4Core14AnyReflectableP", "NotFound"]
+- !private ["4Core14AnyReflectableP", "ObjectIdentifier"]
+- ["4Core14AnyReflectableP", "QueryBuilder"]
+- ["4Core14AnyReflectableP", "QuerySupporting"]
+- ["4Core14AnyReflectableP", "String"]
+- !private ["4Core14AnyReflectableP", "SubContainer"]
+- ["4Core14AnyReflectableP", "TimestampKey"]
+- ["4Core14AnyReflectableP", "WritableKeyPath"]
+- !private ["4Core14AnyReflectableP", "_defaultDatabases"]
+- ["4Core14AnyReflectableP", "createdAtKey"]
+- !private ["4Core14AnyReflectableP", "defaultDatabase"]
+- ["4Core14AnyReflectableP", "deletedAtKey"]
+- ["4Core14AnyReflectableP", "didCreate"]
+- ["4Core14AnyReflectableP", "didDelete"]
+- ["4Core14AnyReflectableP", "didRestore"]
+- ["4Core14AnyReflectableP", "didSoftDelete"]
+- ["4Core14AnyReflectableP", "didUpdate"]
+- !private ["4Core14AnyReflectableP", "entity"]
+- !private ["4Core14AnyReflectableP", "find"]
+- !private ["4Core14AnyReflectableP", "fluentID"]
+- ["4Core14AnyReflectableP", "idKey"]
+- !private ["4Core14AnyReflectableP", "make"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "requireDefaultDatabase"]
+- !private ["4Core14AnyReflectableP", "subscript"]
+- ["4Core14AnyReflectableP", "updatedAtKey"]
+- ["4Core14AnyReflectableP", "willCreate"]
+- ["4Core14AnyReflectableP", "willDelete"]
+- ["4Core14AnyReflectableP", "willRead"]
+- ["4Core14AnyReflectableP", "willRestore"]
+- ["4Core14AnyReflectableP", "willSoftDelete"]
+- ["4Core14AnyReflectableP", "willUpdate"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["5Async11BasicWorkerP", "requestCachedConnection"]
+- !private ["5Async11BasicWorkerP", "withPooledConnection"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["7Service9ContainerP", "requestCachedConnection"]
+- !private ["7Service9ContainerP", "withPooledConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["11DatabaseKit0A0P", "Output"]
+- !private ["11DatabaseKit0A0P", "modelEvent"]
+- !private ["11DatabaseKit0A0P", "queryFilterRelationOr"]
+- !private ["11DatabaseKit0A11ConnectableP", "Database"]
+- !private ["11DatabaseKit0A11ConnectableP", "databaseConnection"]
+- !private ["11DatabaseKit0A11ConnectableP", "future"]
+- !private ["11DatabaseKit0A10ConnectionP", "Database"]
+- !private ["11DatabaseKit0A10ConnectionP", "future"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["Se", "Bool"]
+- ["Se", "Container"]
+- ["Se", "Database"]
+- ["Se", "DatabaseConnectable"]
+- ["Se", "DatabaseConnection"]
+- ["Se", "DatabaseIdentifier"]
+- ["Se", "Date"]
+- ["Se", "Fluent"]
+- !private ["Se", "FluentError"]
+- ["Se", "Future"]
+- ["Se", "ID"]
+- ["Se", "IDKey"]
+- !private ["Se", "LosslessStringConvertible"]
+- !private ["Se", "NotFound"]
+- !private ["Se", "ObjectIdentifier"]
+- ["Se", "QueryBuilder"]
+- ["Se", "QuerySupporting"]
+- ["Se", "String"]
+- !private ["Se", "SubContainer"]
+- ["Se", "TimestampKey"]
+- ["Se", "WritableKeyPath"]
+- !private ["Se", "_defaultDatabases"]
+- ["Se", "createdAtKey"]
+- !private ["Se", "defaultDatabase"]
+- ["Se", "deletedAtKey"]
+- ["Se", "didCreate"]
+- ["Se", "didDelete"]
+- ["Se", "didRestore"]
+- ["Se", "didSoftDelete"]
+- ["Se", "didUpdate"]
+- !private ["Se", "entity"]
+- !private ["Se", "find"]
+- !private ["Se", "fluentID"]
+- ["Se", "idKey"]
+- !private ["Se", "init"]
+- !private ["Se", "make"]
+- ["Se", "query"]
+- !private ["Se", "requireDefaultDatabase"]
+- !private ["Se", "subscript"]
+- ["Se", "updatedAtKey"]
+- ["Se", "willCreate"]
+- ["Se", "willDelete"]
+- ["Se", "willRead"]
+- ["Se", "willRestore"]
+- ["Se", "willSoftDelete"]
+- ["Se", "willUpdate"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- ["SE", "Bool"]
+- ["SE", "Container"]
+- ["SE", "Database"]
+- ["SE", "DatabaseConnectable"]
+- ["SE", "DatabaseIdentifier"]
+- ["SE", "Date"]
+- ["SE", "Fluent"]
+- !private ["SE", "FluentError"]
+- ["SE", "Future"]
+- ["SE", "ID"]
+- ["SE", "IDKey"]
+- !private ["SE", "LosslessStringConvertible"]
+- !private ["SE", "NotFound"]
+- !private ["SE", "ObjectIdentifier"]
+- ["SE", "QueryBuilder"]
+- ["SE", "QuerySupporting"]
+- ["SE", "String"]
+- !private ["SE", "SubContainer"]
+- ["SE", "TimestampKey"]
+- ["SE", "WritableKeyPath"]
+- !private ["SE", "_defaultDatabases"]
+- ["SE", "createdAtKey"]
+- !private ["SE", "defaultDatabase"]
+- ["SE", "deletedAtKey"]
+- ["SE", "didCreate"]
+- ["SE", "didDelete"]
+- ["SE", "didRestore"]
+- ["SE", "didSoftDelete"]
+- ["SE", "didUpdate"]
+- !private ["SE", "entity"]
+- !private ["SE", "find"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "fluentID"]
+- ["SE", "idKey"]
+- !private ["SE", "init"]
+- !private ["SE", "make"]
+- !private ["SE", "map"]
+- !private ["SE", "query"]
+- !private ["SE", "requireDefaultDatabase"]
+- !private ["SE", "subscript"]
+- ["SE", "updatedAtKey"]
+- ["SE", "willCreate"]
+- ["SE", "willDelete"]
+- ["SE", "willRead"]
+- ["SE", "willRestore"]
+- ["SE", "willSoftDelete"]
+- ["SE", "willUpdate"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "willRead"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "Database"]
+- !private ["3NIO14EventLoopGroupP", "databaseConnection"]
+- !private ["3NIO14EventLoopGroupP", "future"]
+- !private ["3NIO14EventLoopGroupP", "requestCachedConnection"]
+- !private ["3NIO14EventLoopGroupP", "withPooledConnection"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["7Service10ExtendableP", "Database"]
+- !private ["7Service10ExtendableP", "future"]
+- !private ["6Fluent0A5ErrorV", "deinit"]
+- !private ["6Fluent0A5ErrorV", "init"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "willRead"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["6Fluent5ModelP", "Bool"]
+- ["6Fluent5ModelP", "Container"]
+- ["6Fluent5ModelP", "Database"]
+- ["6Fluent5ModelP", "DatabaseConnectable"]
+- ["6Fluent5ModelP", "DatabaseIdentifier"]
+- ["6Fluent5ModelP", "Date"]
+- ["6Fluent5ModelP", "Fluent"]
+- !private ["6Fluent5ModelP", "FluentError"]
+- ["6Fluent5ModelP", "Future"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "IDKey"]
+- !private ["6Fluent5ModelP", "LosslessStringConvertible"]
+- !private ["6Fluent5ModelP", "NotFound"]
+- !private ["6Fluent5ModelP", "ObjectIdentifier"]
+- ["6Fluent5ModelP", "QueryBuilder"]
+- ["6Fluent5ModelP", "QuerySupporting"]
+- ["6Fluent5ModelP", "String"]
+- !private ["6Fluent5ModelP", "SubContainer"]
+- ["6Fluent5ModelP", "TimestampKey"]
+- ["6Fluent5ModelP", "WritableKeyPath"]
+- !private ["6Fluent5ModelP", "_defaultDatabases"]
+- ["6Fluent5ModelP", "createdAtKey"]
+- ["6Fluent5ModelP", "defaultDatabase"]
+- ["6Fluent5ModelP", "deletedAtKey"]
+- ["6Fluent5ModelP", "didCreate"]
+- ["6Fluent5ModelP", "didDelete"]
+- ["6Fluent5ModelP", "didRestore"]
+- ["6Fluent5ModelP", "didSoftDelete"]
+- ["6Fluent5ModelP", "didUpdate"]
+- !private ["6Fluent5ModelP", "entity"]
+- ["6Fluent5ModelP", "find"]
+- ["6Fluent5ModelP", "fluentCreatedAt"]
+- ["6Fluent5ModelP", "fluentDeletedAt"]
+- ["6Fluent5ModelP", "fluentID"]
+- ["6Fluent5ModelP", "fluentUpdatedAt"]
+- ["6Fluent5ModelP", "idKey"]
+- ["6Fluent5ModelP", "make"]
+- ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "requireDefaultDatabase"]
+- ["6Fluent5ModelP", "requireID"]
+- ["6Fluent5ModelP", "resolveParameter"]
+- !private ["6Fluent5ModelP", "subscript"]
+- ["6Fluent5ModelP", "updatedAtKey"]
+- ["6Fluent5ModelP", "willCreate"]
+- ["6Fluent5ModelP", "willDelete"]
+- ["6Fluent5ModelP", "willRead"]
+- ["6Fluent5ModelP", "willRestore"]
+- ["6Fluent5ModelP", "willSoftDelete"]
+- ["6Fluent5ModelP", "willUpdate"]
+- !private ["6Fluent10ModelEventO", "willRead"]
+- !private ["4Core8NotFoundV", "init"]
+- !private ["SO", "init"]
+- !private ["6Fluent12QueryBuilderC", "decode"]
+- !private ["6Fluent12QueryBuilderC", "filter"]
+- !private ["6Fluent12QueryBuilderC", "first"]
+- !private ["6Fluent12QueryBuilderC", "group"]
+- !private ["6Fluent12QueryBuilderC", "raw"]
+- !private ["6Fluent12QueryBuilderC", "transformResult"]
+- !private ["6Fluent15QuerySupportingP", "Output"]
+- !private ["6Fluent15QuerySupportingP", "modelEvent"]
+- !private ["6Fluent15QuerySupportingP", "queryFilterRelationOr"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["4Core11ReflectableP", "Bool"]
+- ["4Core11ReflectableP", "Container"]
+- ["4Core11ReflectableP", "Database"]
+- ["4Core11ReflectableP", "DatabaseConnectable"]
+- ["4Core11ReflectableP", "DatabaseIdentifier"]
+- ["4Core11ReflectableP", "Date"]
+- ["4Core11ReflectableP", "Fluent"]
+- !private ["4Core11ReflectableP", "FluentError"]
+- ["4Core11ReflectableP", "Future"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "IDKey"]
+- !private ["4Core11ReflectableP", "LosslessStringConvertible"]
+- !private ["4Core11ReflectableP", "NotFound"]
+- !private ["4Core11ReflectableP", "ObjectIdentifier"]
+- ["4Core11ReflectableP", "QueryBuilder"]
+- ["4Core11ReflectableP", "QuerySupporting"]
+- ["4Core11ReflectableP", "String"]
+- !private ["4Core11ReflectableP", "SubContainer"]
+- ["4Core11ReflectableP", "TimestampKey"]
+- ["4Core11ReflectableP", "WritableKeyPath"]
+- ["4Core11ReflectableP", ""]
+- !private ["4Core11ReflectableP", "_defaultDatabases"]
+- ["4Core11ReflectableP", "createdAtKey"]
+- !private ["4Core11ReflectableP", "defaultDatabase"]
+- ["4Core11ReflectableP", "deletedAtKey"]
+- ["4Core11ReflectableP", "didCreate"]
+- ["4Core11ReflectableP", "didDelete"]
+- ["4Core11ReflectableP", "didRestore"]
+- ["4Core11ReflectableP", "didSoftDelete"]
+- ["4Core11ReflectableP", "didUpdate"]
+- !private ["4Core11ReflectableP", "entity"]
+- !private ["4Core11ReflectableP", "find"]
+- !private ["4Core11ReflectableP", "fluentID"]
+- ["4Core11ReflectableP", "idKey"]
+- !private ["4Core11ReflectableP", "make"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "requireDefaultDatabase"]
+- !private ["4Core11ReflectableP", "subscript"]
+- ["4Core11ReflectableP", "updatedAtKey"]
+- ["4Core11ReflectableP", "willCreate"]
+- ["4Core11ReflectableP", "willDelete"]
+- ["4Core11ReflectableP", "willRead"]
+- ["4Core11ReflectableP", "willRestore"]
+- ["4Core11ReflectableP", "willSoftDelete"]
+- ["4Core11ReflectableP", "willUpdate"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["7Service12SubContainerP", "requestCachedConnection"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "5Async11BasicWorkerP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7Service9ContainerP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "7Service10ExtendableP"
+- !private "6Fluent0A5ErrorV"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- "6Fluent5ModelP"
+- !private "6Fluent10ModelEventO"
+- !private "4Core8NotFoundV"
+- !private "SO"
+- !private "6Fluent12QueryBuilderC"
+- !private "6Fluent15QuerySupportingP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "4Core11ReflectableP"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "7Service12SubContainerP"
+- !private "s16TextOutputStreamP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4e217085ab171e87a8b253c8c6741370"

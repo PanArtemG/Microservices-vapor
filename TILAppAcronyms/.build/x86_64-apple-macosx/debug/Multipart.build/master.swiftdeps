@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "48aa08c0d484798e0b262924976e6e61"
+build_time: [1587817701, 543525000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1587817668, 980234328]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1587817668, 980554015]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1587817668, 980731745]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1587817668, 980873012]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1587817668, 981045833]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1587817668, 981210346]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1587817668, 981362086]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1587817668, 981492655]

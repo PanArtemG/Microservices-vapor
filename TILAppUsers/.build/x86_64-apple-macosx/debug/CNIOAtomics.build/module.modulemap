@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+    export *
+}

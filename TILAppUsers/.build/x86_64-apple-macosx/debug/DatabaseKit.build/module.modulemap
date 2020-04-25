@@ -1,0 +1,4 @@
+module DatabaseKit {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/DatabaseKit-Swift.h"
+    requires objc
+}

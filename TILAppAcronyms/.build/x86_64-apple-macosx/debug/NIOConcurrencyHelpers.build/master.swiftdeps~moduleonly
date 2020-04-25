@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "0f728a28ebddff2540df5ddea62bcdaf"
+build_time: [1587817687, 529635000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1587817666, 588614365]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1587817666, 588855810]

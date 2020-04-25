@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "8e88cc740c77f83f9d0419f59f608828"
+build_time: [1587817678, 908151000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/core/Sources/COperatingSystem/libc.swift": [1587817668, 518109541]

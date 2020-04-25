@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UsersController"
+provides-nominal:
+- "3App15UsersControllerV"
+provides-member:
+- ["3App15UsersControllerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BCrypt"
+- "Future"
+- "Request"
+- "RouteCollection"
+- "Router"
+- !private "StringLiteralType"
+- "User"
+- "UsersController"
+depends-member:
+- ["6Fluent12AnyMigrationP", "Public"]
+- !private ["6Fluent12AnyMigrationP", "parameter"]
+- !private ["6Fluent12AnyMigrationP", "password"]
+- !private ["6Fluent12AnyMigrationP", "query"]
+- !private ["6Fluent12AnyMigrationP", "save"]
+- ["6Fluent8AnyModelP", "Public"]
+- !private ["6Fluent8AnyModelP", "parameter"]
+- !private ["6Fluent8AnyModelP", "password"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "save"]
+- ["4Core14AnyReflectableP", "Public"]
+- !private ["4Core14AnyReflectableP", "parameter"]
+- !private ["4Core14AnyReflectableP", "password"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "save"]
+- ["3SQL11AnySQLTableP", "Public"]
+- !private ["3SQL11AnySQLTableP", "parameter"]
+- !private ["3SQL11AnySQLTableP", "password"]
+- !private ["3SQL11AnySQLTableP", "query"]
+- !private ["3SQL11AnySQLTableP", "save"]
+- ["14Authentication15AuthenticatableP", "Public"]
+- !private ["14Authentication15AuthenticatableP", "parameter"]
+- !private ["14Authentication15AuthenticatableP", "password"]
+- !private ["14Authentication15AuthenticatableP", "query"]
+- !private ["14Authentication15AuthenticatableP", "save"]
+- !private ["6Crypto12BCryptDigestC", "hash"]
+- ["14Authentication20BasicAuthenticatableP", "Public"]
+- !private ["14Authentication20BasicAuthenticatableP", "parameter"]
+- !private ["14Authentication20BasicAuthenticatableP", "password"]
+- !private ["14Authentication20BasicAuthenticatableP", "query"]
+- !private ["14Authentication20BasicAuthenticatableP", "save"]
+- !private ["5Async11BasicWorkerP", "parameters"]
+- !private ["7Service9ContainerP", "parameters"]
+- !private ["7Service14ContainerAliasP", "parameters"]
+- ["5Vapor7ContentP", "Public"]
+- !private ["5Vapor7ContentP", "parameter"]
+- !private ["5Vapor7ContentP", "password"]
+- !private ["5Vapor7ContentP", "query"]
+- !private ["5Vapor7ContentP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "parameters"]
+- !private ["s23CustomStringConvertibleP", "parameters"]
+- !private ["11DatabaseKit0A11ConnectableP", "parameters"]
+- ["Se", "Public"]
+- !private ["Se", "parameter"]
+- !private ["Se", "password"]
+- !private ["Se", "query"]
+- !private ["Se", "save"]
+- ["SE", "Public"]
+- !private ["SE", "convertToPublic"]
+- !private ["SE", "parameter"]
+- !private ["SE", "password"]
+- !private ["SE", "query"]
+- !private ["SE", "save"]
+- !private ["SQ", "convertToPublic"]
+- !private ["3NIO15EventLoopFutureC", "convertToPublic"]
+- !private ["3NIO14EventLoopGroupP", "parameters"]
+- !private ["5Async10FutureTypeP", "convertToPublic"]
+- !private ["5Vapor20HTTPMessageContainerP", "parameters"]
+- ["6Fluent9MigrationP", "Public"]
+- !private ["6Fluent9MigrationP", "parameter"]
+- !private ["6Fluent9MigrationP", "password"]
+- !private ["6Fluent9MigrationP", "query"]
+- !private ["6Fluent9MigrationP", "save"]
+- ["6Fluent5ModelP", "Public"]
+- !private ["6Fluent5ModelP", "parameter"]
+- !private ["6Fluent5ModelP", "password"]
+- !private ["6Fluent5ModelP", "query"]
+- !private ["6Fluent5ModelP", "save"]
+- ["7Routing9ParameterP", "Public"]
+- !private ["7Routing9ParameterP", "parameter"]
+- !private ["7Routing9ParameterP", "password"]
+- !private ["7Routing9ParameterP", "query"]
+- !private ["7Routing9ParameterP", "save"]
+- !private ["5Vapor19ParametersContainerV", "next"]
+- !private ["14Authentication16PasswordVerifierP", "hash"]
+- ["10PostgreSQL0A8SQLTableP", "Public"]
+- !private ["10PostgreSQL0A8SQLTableP", "parameter"]
+- !private ["10PostgreSQL0A8SQLTableP", "password"]
+- !private ["10PostgreSQL0A8SQLTableP", "query"]
+- !private ["10PostgreSQL0A8SQLTableP", "save"]
+- ["16FluentPostgreSQL0B12SQLUUIDModelP", "Public"]
+- !private ["16FluentPostgreSQL0B12SQLUUIDModelP", "parameter"]
+- !private ["16FluentPostgreSQL0B12SQLUUIDModelP", "password"]
+- !private ["16FluentPostgreSQL0B12SQLUUIDModelP", "query"]
+- !private ["16FluentPostgreSQL0B12SQLUUIDModelP", "save"]
+- !private ["3App4UserC6PublicC", "deinit"]
+- !private ["6Fluent12QueryBuilderC", "all"]
+- !private ["6Fluent12QueryBuilderC", "decode"]
+- ["4Core11ReflectableP", "Public"]
+- !private ["4Core11ReflectableP", "parameter"]
+- !private ["4Core11ReflectableP", "password"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "save"]
+- !private ["5Vapor7RequestC", "parameters"]
+- ["5Vapor16RequestDecodableP", "Public"]
+- !private ["5Vapor16RequestDecodableP", "parameter"]
+- !private ["5Vapor16RequestDecodableP", "parameters"]
+- !private ["5Vapor16RequestDecodableP", "password"]
+- !private ["5Vapor16RequestDecodableP", "query"]
+- !private ["5Vapor16RequestDecodableP", "save"]
+- ["5Vapor16RequestEncodableP", "Public"]
+- !private ["5Vapor16RequestEncodableP", "parameter"]
+- !private ["5Vapor16RequestEncodableP", "parameters"]
+- !private ["5Vapor16RequestEncodableP", "password"]
+- !private ["5Vapor16RequestEncodableP", "query"]
+- !private ["5Vapor16RequestEncodableP", "save"]
+- ["5Vapor17ResponseDecodableP", "Public"]
+- !private ["5Vapor17ResponseDecodableP", "parameter"]
+- !private ["5Vapor17ResponseDecodableP", "password"]
+- !private ["5Vapor17ResponseDecodableP", "query"]
+- !private ["5Vapor17ResponseDecodableP", "save"]
+- ["5Vapor17ResponseEncodableP", "Public"]
+- !private ["5Vapor17ResponseEncodableP", "convertToPublic"]
+- !private ["5Vapor17ResponseEncodableP", "parameter"]
+- !private ["5Vapor17ResponseEncodableP", "password"]
+- !private ["5Vapor17ResponseEncodableP", "query"]
+- !private ["5Vapor17ResponseEncodableP", "save"]
+- !private ["5Vapor15RouteCollectionP", "BCrypt"]
+- !private ["5Vapor15RouteCollectionP", "User"]
+- ["5Vapor15RouteCollectionP", ""]
+- ["5Vapor15RouteCollectionP", "boot"]
+- !private ["5Vapor15RouteCollectionP", "createHandler"]
+- !private ["5Vapor15RouteCollectionP", "getAllHandler"]
+- !private ["5Vapor15RouteCollectionP", "getHandler"]
+- !private ["5Vapor6RouterP", "get"]
+- !private ["5Vapor6RouterP", "grouped"]
+- !private ["5Vapor6RouterP", "post"]
+- ["3SQL8SQLTableP", "Public"]
+- !private ["3SQL8SQLTableP", "parameter"]
+- !private ["3SQL8SQLTableP", "password"]
+- !private ["3SQL8SQLTableP", "query"]
+- !private ["3SQL8SQLTableP", "save"]
+- !private ["7ServiceAAP", "get"]
+- !private ["7ServiceAAP", "grouped"]
+- !private ["7ServiceAAP", "hash"]
+- !private ["7ServiceAAP", "post"]
+- ["3App4UserC", "Public"]
+- !private ["3App4UserC", "deinit"]
+- !private ["3App4UserC", "parameter"]
+- !private ["3App4UserC", "password"]
+- !private ["3App4UserC", "query"]
+- !private ["3App4UserC", "save"]
+- !private ["3App15UsersControllerV", "BCrypt"]
+- ["3App15UsersControllerV", "Future"]
+- ["3App15UsersControllerV", "Request"]
+- ["3App15UsersControllerV", "Router"]
+- ["3App15UsersControllerV", "User"]
+- ["3App15UsersControllerV", "boot"]
+- ["3App15UsersControllerV", "createHandler"]
+- ["3App15UsersControllerV", "deinit"]
+- ["3App15UsersControllerV", "getAllHandler"]
+- ["3App15UsersControllerV", "getHandler"]
+- ["3App15UsersControllerV", "init"]
+- ["16FluentPostgreSQL01_B8SQLModelP", "Public"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "parameter"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "password"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "query"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "save"]
+depends-nominal:
+- "6Fluent12AnyMigrationP"
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "3SQL11AnySQLTableP"
+- "14Authentication15AuthenticatableP"
+- !private "6Crypto12BCryptDigestC"
+- "14Authentication20BasicAuthenticatableP"
+- !private "5Async11BasicWorkerP"
+- !private "7Service9ContainerP"
+- !private "7Service14ContainerAliasP"
+- "5Vapor7ContentP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "11DatabaseKit0A11ConnectableP"
+- "Se"
+- "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "5Async10FutureTypeP"
+- !private "5Vapor20HTTPMessageContainerP"
+- "6Fluent9MigrationP"
+- "6Fluent5ModelP"
+- "7Routing9ParameterP"
+- !private "5Vapor19ParametersContainerV"
+- !private "14Authentication16PasswordVerifierP"
+- "10PostgreSQL0A8SQLTableP"
+- "16FluentPostgreSQL0B12SQLUUIDModelP"
+- !private "3App4UserC6PublicC"
+- !private "6Fluent12QueryBuilderC"
+- "4Core11ReflectableP"
+- !private "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "5Vapor15RouteCollectionP"
+- !private "5Vapor6RouterP"
+- "3SQL8SQLTableP"
+- !private "7ServiceAAP"
+- "3App4UserC"
+- "3App15UsersControllerV"
+- "16FluentPostgreSQL01_B8SQLModelP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7f787febe213125c7063acd22c4e94b"

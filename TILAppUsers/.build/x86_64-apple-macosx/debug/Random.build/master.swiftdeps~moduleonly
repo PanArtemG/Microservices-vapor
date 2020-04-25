@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "67647a0ac713e1aaa4e3941149234a94"
+build_time: [1587817732, 889370000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/Random/Array+Random.swift": [1587817677, 919206432]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/Random/OSRandom.swift": [1587817677, 919368469]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/Random/RandomProtocol.swift": [1587817677, 919499487]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/crypto/Sources/Random/URandom.swift": [1587817677, 919630190]

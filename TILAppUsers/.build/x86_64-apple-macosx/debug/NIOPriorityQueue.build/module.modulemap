@@ -1,0 +1,4 @@
+module NIOPriorityQueue {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/NIOPriorityQueue-Swift.h"
+    requires objc
+}

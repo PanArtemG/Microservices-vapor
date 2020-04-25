@@ -1,0 +1,868 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RedisDataConvertible"
+provides-nominal:
+- "5Redis0A15DataConvertibleP"
+- "5Redis0A4DataV"
+- "SS"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sd"
+- "Sf"
+- "10Foundation4DataV"
+- "Sa"
+provides-member:
+- ["5Redis0A15DataConvertibleP", ""]
+- ["5Redis0A4DataV", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Sd", ""]
+- ["Sf", ""]
+- ["10Foundation4DataV", ""]
+- ["Sa", ""]
+- ["s17FixedWidthIntegerP", "convertFromRedisData"]
+- ["s17FixedWidthIntegerP", "convertToRedisData"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Data"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "RedisData"
+- "RedisDataConvertible"
+- !private "RedisError"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Data"]
+- !private ["s18AdditiveArithmeticP", "Double"]
+- !private ["s18AdditiveArithmeticP", "Float"]
+- ["s18AdditiveArithmeticP", "RedisData"]
+- !private ["s18AdditiveArithmeticP", "RedisError"]
+- ["s18AdditiveArithmeticP", "convertFromRedisData"]
+- ["s18AdditiveArithmeticP", "convertToRedisData"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "Data"]
+- !private ["4Core22AnyReflectionDecodableP", "Double"]
+- !private ["4Core22AnyReflectionDecodableP", "Float"]
+- !private ["4Core22AnyReflectionDecodableP", "RedisData"]
+- !private ["4Core22AnyReflectionDecodableP", "RedisError"]
+- ["4Core22AnyReflectionDecodableP", "convertFromRedisData"]
+- ["4Core22AnyReflectionDecodableP", "convertToRedisData"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "utf8"]
+- ["Sa", "Array"]
+- ["Sa", "RedisData"]
+- ["Sa", "RedisDataConvertible"]
+- !private ["Sa", "RedisError"]
+- ["Sa", "convertFromRedisData"]
+- ["Sa", "convertToRedisData"]
+- ["Sa", "deinit"]
+- !private ["Sa", "map"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertFromRedisData"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertToRedisData"]
+- !private ["4Core21BasicKeyRepresentableP", "Data"]
+- !private ["4Core21BasicKeyRepresentableP", "RedisError"]
+- ["4Core21BasicKeyRepresentableP", "convertFromRedisData"]
+- ["4Core21BasicKeyRepresentableP", "convertToRedisData"]
+- !private ["4Core21BasicKeyRepresentableP", "utf8"]
+- !private ["SK", "Data"]
+- !private ["SK", "RedisData"]
+- !private ["SK", "RedisError"]
+- ["SK", "convertFromRedisData"]
+- ["SK", "convertToRedisData"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "utf8"]
+- !private ["SB", "Data"]
+- !private ["SB", "Double"]
+- !private ["SB", "Float"]
+- !private ["SB", "RedisError"]
+- ["SB", "convertFromRedisData"]
+- ["SB", "convertToRedisData"]
+- !private ["SB", "description"]
+- !private ["SB", "init"]
+- !private ["Sz", "Data"]
+- ["Sz", "RedisData"]
+- !private ["Sz", "RedisError"]
+- ["Sz", "convertFromRedisData"]
+- ["Sz", "convertToRedisData"]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "RedisData"]
+- !private ["s7CVarArgP", "RedisError"]
+- ["s7CVarArgP", "convertFromRedisData"]
+- ["s7CVarArgP", "convertToRedisData"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["Sl", "Data"]
+- !private ["Sl", "RedisData"]
+- !private ["Sl", "RedisError"]
+- ["Sl", "convertFromRedisData"]
+- ["Sl", "convertToRedisData"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "utf8"]
+- !private ["SL", "Data"]
+- !private ["SL", "Double"]
+- !private ["SL", "Float"]
+- ["SL", "RedisData"]
+- !private ["SL", "RedisError"]
+- ["SL", "convertFromRedisData"]
+- ["SL", "convertToRedisData"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "utf8"]
+- !private ["10Foundation15ContiguousBytesP", "RedisData"]
+- !private ["10Foundation15ContiguousBytesP", "RedisError"]
+- ["10Foundation15ContiguousBytesP", "convertFromRedisData"]
+- ["10Foundation15ContiguousBytesP", "convertToRedisData"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "RedisData"]
+- !private ["3NIO20ContiguousCollectionP", "RedisError"]
+- ["3NIO20ContiguousCollectionP", "convertFromRedisData"]
+- ["3NIO20ContiguousCollectionP", "convertToRedisData"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "RedisData"]
+- !private ["s28CustomDebugStringConvertibleP", "RedisError"]
+- ["s28CustomDebugStringConvertibleP", "convertFromRedisData"]
+- ["s28CustomDebugStringConvertibleP", "convertToRedisData"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "RedisData"]
+- !private ["s17CustomReflectableP", "RedisError"]
+- ["s17CustomReflectableP", "convertFromRedisData"]
+- ["s17CustomReflectableP", "convertToRedisData"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", "RedisData"]
+- !private ["s23CustomStringConvertibleP", "RedisError"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "bulkString"]
+- ["s23CustomStringConvertibleP", "convertFromRedisData"]
+- ["s23CustomStringConvertibleP", "convertToRedisData"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "RedisData"]
+- !private ["10Foundation4DataV", "RedisError"]
+- ["10Foundation4DataV", "convertFromRedisData"]
+- ["10Foundation4DataV", "convertToRedisData"]
+- ["10Foundation4DataV", "deinit"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "RedisData"]
+- !private ["10Foundation12DataProtocolP", "RedisError"]
+- ["10Foundation12DataProtocolP", "convertFromRedisData"]
+- ["10Foundation12DataProtocolP", "convertToRedisData"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "Data"]
+- !private ["Se", "Double"]
+- !private ["Se", "Float"]
+- !private ["Se", "RedisData"]
+- !private ["Se", "RedisError"]
+- ["Se", "convertFromRedisData"]
+- ["Se", "convertToRedisData"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "utf8"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "Data"]
+- ["Sd", "Double"]
+- ["Sd", "RedisData"]
+- !private ["Sd", "RedisError"]
+- ["Sd", "convertFromRedisData"]
+- ["Sd", "convertToRedisData"]
+- ["Sd", "deinit"]
+- !private ["Sd", "description"]
+- !private ["Sd", "init"]
+- !private ["SE", "Data"]
+- !private ["SE", "Double"]
+- !private ["SE", "Float"]
+- !private ["SE", "RedisData"]
+- !private ["SE", "RedisError"]
+- ["SE", "convertFromRedisData"]
+- ["SE", "convertToRedisData"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "utf8"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- ["SQ", "RedisData"]
+- !private ["SQ", "RedisError"]
+- ["SQ", "convertFromRedisData"]
+- ["SQ", "convertToRedisData"]
+- !private ["SQ", "description"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "RedisData"]
+- !private ["s25ExpressibleByArrayLiteralP", "RedisError"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- !private ["s25ExpressibleByArrayLiteralP", "bulkString"]
+- ["s25ExpressibleByArrayLiteralP", "convertFromRedisData"]
+- ["s25ExpressibleByArrayLiteralP", "convertToRedisData"]
+- !private ["s25ExpressibleByArrayLiteralP", "data"]
+- !private ["s25ExpressibleByArrayLiteralP", "int"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "RedisError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bulkString"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromRedisData"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToRedisData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s25ExpressibleByFloatLiteralP", "Data"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float"]
+- !private ["s25ExpressibleByFloatLiteralP", "RedisError"]
+- ["s25ExpressibleByFloatLiteralP", "convertFromRedisData"]
+- ["s25ExpressibleByFloatLiteralP", "convertToRedisData"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- ["s27ExpressibleByIntegerLiteralP", "RedisData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "RedisError"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bulkString"]
+- ["s27ExpressibleByIntegerLiteralP", "convertFromRedisData"]
+- ["s27ExpressibleByIntegerLiteralP", "convertToRedisData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "array"]
+- !private ["s23ExpressibleByNilLiteralP", "bulkString"]
+- ["s23ExpressibleByNilLiteralP", "convertFromRedisData"]
+- ["s23ExpressibleByNilLiteralP", "convertToRedisData"]
+- !private ["s23ExpressibleByNilLiteralP", "data"]
+- !private ["s23ExpressibleByNilLiteralP", "int"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "Data"]
+- !private ["s32ExpressibleByStringInterpolationP", "RedisError"]
+- ["s32ExpressibleByStringInterpolationP", "convertFromRedisData"]
+- ["s32ExpressibleByStringInterpolationP", "convertToRedisData"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "Data"]
+- !private ["s26ExpressibleByStringLiteralP", "RedisError"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "bulkString"]
+- ["s26ExpressibleByStringLiteralP", "convertFromRedisData"]
+- ["s26ExpressibleByStringLiteralP", "convertToRedisData"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "int"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "RedisError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bulkString"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromRedisData"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertToRedisData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s17FixedWidthIntegerP", "Data"]
+- ["s17FixedWidthIntegerP", "RedisData"]
+- !private ["s17FixedWidthIntegerP", "RedisError"]
+- ["s17FixedWidthIntegerP", "convertFromRedisData"]
+- ["s17FixedWidthIntegerP", "convertToRedisData"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "Data"]
+- ["Sf", "Float"]
+- ["Sf", "RedisData"]
+- !private ["Sf", "RedisError"]
+- ["Sf", "convertFromRedisData"]
+- ["Sf", "convertToRedisData"]
+- ["Sf", "deinit"]
+- !private ["Sf", "description"]
+- !private ["Sf", "init"]
+- !private ["SF", "Data"]
+- !private ["SF", "Double"]
+- !private ["SF", "Float"]
+- !private ["SF", "RedisError"]
+- ["SF", "convertFromRedisData"]
+- ["SF", "convertToRedisData"]
+- !private ["SF", "description"]
+- !private ["SF", "init"]
+- !private ["SH", "Data"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- ["SH", "RedisData"]
+- !private ["SH", "RedisError"]
+- ["SH", "convertFromRedisData"]
+- ["SH", "convertToRedisData"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "utf8"]
+- ["Si", "convertFromRedisData"]
+- ["Si", "convertToRedisData"]
+- ["Si", "deinit"]
+- ["s5Int16V", "convertFromRedisData"]
+- ["s5Int16V", "convertToRedisData"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "convertFromRedisData"]
+- ["s5Int32V", "convertToRedisData"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "convertFromRedisData"]
+- ["s5Int64V", "convertToRedisData"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "convertFromRedisData"]
+- ["s4Int8V", "convertToRedisData"]
+- ["s4Int8V", "deinit"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "Data"]
+- !private ["4Core23LosslessDataConvertibleP", "RedisData"]
+- !private ["4Core23LosslessDataConvertibleP", "RedisError"]
+- ["4Core23LosslessDataConvertibleP", "convertFromRedisData"]
+- ["4Core23LosslessDataConvertibleP", "convertToRedisData"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "Data"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "Float"]
+- ["s25LosslessStringConvertibleP", "RedisData"]
+- !private ["s25LosslessStringConvertibleP", "RedisError"]
+- ["s25LosslessStringConvertibleP", "convertFromRedisData"]
+- ["s25LosslessStringConvertibleP", "convertToRedisData"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "Data"]
+- !private ["s10MirrorPathP", "RedisError"]
+- ["s10MirrorPathP", "convertFromRedisData"]
+- ["s10MirrorPathP", "convertToRedisData"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "RedisData"]
+- !private ["SM", "RedisError"]
+- ["SM", "convertFromRedisData"]
+- ["SM", "convertToRedisData"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "RedisData"]
+- !private ["10Foundation19MutableDataProtocolP", "RedisError"]
+- ["10Foundation19MutableDataProtocolP", "convertFromRedisData"]
+- ["10Foundation19MutableDataProtocolP", "convertToRedisData"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["Sj", "Data"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "Float"]
+- ["Sj", "RedisData"]
+- !private ["Sj", "RedisError"]
+- ["Sj", "convertFromRedisData"]
+- ["Sj", "convertToRedisData"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sk", "RedisData"]
+- !private ["Sk", "RedisError"]
+- ["Sk", "convertFromRedisData"]
+- ["Sk", "convertToRedisData"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", "Data"]
+- !private ["Sm", "RedisData"]
+- !private ["Sm", "RedisError"]
+- ["Sm", "convertFromRedisData"]
+- ["Sm", "convertToRedisData"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "utf8"]
+- ["5Redis0A4DataV", "RedisData"]
+- !private ["5Redis0A4DataV", "array"]
+- !private ["5Redis0A4DataV", "bulkString"]
+- ["5Redis0A4DataV", "convertFromRedisData"]
+- ["5Redis0A4DataV", "convertToRedisData"]
+- !private ["5Redis0A4DataV", "data"]
+- ["5Redis0A4DataV", "deinit"]
+- !private ["5Redis0A4DataV", "int"]
+- !private ["5Redis0A4DataV", "string"]
+- !private ["5Redis0A15DataConvertibleP", "Data"]
+- !private ["5Redis0A15DataConvertibleP", "Double"]
+- !private ["5Redis0A15DataConvertibleP", "Float"]
+- ["5Redis0A15DataConvertibleP", "RedisData"]
+- !private ["5Redis0A15DataConvertibleP", "RedisError"]
+- ["5Redis0A15DataConvertibleP", ""]
+- !private ["5Redis0A15DataConvertibleP", "array"]
+- !private ["5Redis0A15DataConvertibleP", "bulkString"]
+- ["5Redis0A15DataConvertibleP", "convertFromRedisData"]
+- ["5Redis0A15DataConvertibleP", "convertToRedisData"]
+- !private ["5Redis0A15DataConvertibleP", "data"]
+- !private ["5Redis0A15DataConvertibleP", "description"]
+- !private ["5Redis0A15DataConvertibleP", "init"]
+- !private ["5Redis0A15DataConvertibleP", "int"]
+- !private ["5Redis0A15DataConvertibleP", "map"]
+- !private ["5Redis0A15DataConvertibleP", "string"]
+- !private ["5Redis0A15DataConvertibleP", "utf8"]
+- !private ["5Redis0A5ErrorV", "deinit"]
+- !private ["5Redis0A5ErrorV", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "RedisError"]
+- ["10Foundation20ReferenceConvertibleP", "convertFromRedisData"]
+- ["10Foundation20ReferenceConvertibleP", "convertToRedisData"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Core19ReflectionDecodableP", "Data"]
+- !private ["4Core19ReflectionDecodableP", "Double"]
+- !private ["4Core19ReflectionDecodableP", "Float"]
+- !private ["4Core19ReflectionDecodableP", "RedisData"]
+- !private ["4Core19ReflectionDecodableP", "RedisError"]
+- ["4Core19ReflectionDecodableP", "convertFromRedisData"]
+- ["4Core19ReflectionDecodableP", "convertToRedisData"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "utf8"]
+- !private ["s10SIMDScalarP", "Data"]
+- !private ["s10SIMDScalarP", "Double"]
+- !private ["s10SIMDScalarP", "Float"]
+- !private ["s10SIMDScalarP", "RedisError"]
+- ["s10SIMDScalarP", "convertFromRedisData"]
+- ["s10SIMDScalarP", "convertToRedisData"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Data"]
+- !private ["ST", "RedisData"]
+- !private ["ST", "RedisError"]
+- ["ST", "convertFromRedisData"]
+- ["ST", "convertToRedisData"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "utf8"]
+- ["SZ", "convertFromRedisData"]
+- ["SZ", "convertToRedisData"]
+- !private ["s13SignedNumericP", "Data"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Float"]
+- !private ["s13SignedNumericP", "RedisError"]
+- ["s13SignedNumericP", "convertFromRedisData"]
+- ["s13SignedNumericP", "convertToRedisData"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "Data"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "Float"]
+- ["Sx", "RedisData"]
+- !private ["Sx", "RedisError"]
+- ["Sx", "convertFromRedisData"]
+- ["Sx", "convertToRedisData"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["SS", "Data"]
+- ["SS", "RedisData"]
+- !private ["SS", "RedisError"]
+- ["SS", "String"]
+- ["SS", "convertFromRedisData"]
+- ["SS", "convertToRedisData"]
+- ["SS", "deinit"]
+- !private ["SS", "utf8"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "Data"]
+- !private ["Sy", "RedisError"]
+- ["Sy", "convertFromRedisData"]
+- ["Sy", "convertToRedisData"]
+- !private ["Sy", "utf8"]
+- !private ["s16TextOutputStreamP", "Data"]
+- !private ["s16TextOutputStreamP", "RedisError"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "convertFromRedisData"]
+- ["s16TextOutputStreamP", "convertToRedisData"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "Data"]
+- !private ["s20TextOutputStreamableP", "Double"]
+- !private ["s20TextOutputStreamableP", "Float"]
+- !private ["s20TextOutputStreamableP", "RedisError"]
+- ["s20TextOutputStreamableP", "convertFromRedisData"]
+- ["s20TextOutputStreamableP", "convertToRedisData"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- ["Su", "convertFromRedisData"]
+- ["Su", "convertToRedisData"]
+- ["Su", "deinit"]
+- ["s6UInt16V", "convertFromRedisData"]
+- ["s6UInt16V", "convertToRedisData"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt32V", "convertFromRedisData"]
+- ["s6UInt32V", "convertToRedisData"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt64V", "convertFromRedisData"]
+- ["s6UInt64V", "convertToRedisData"]
+- ["s6UInt64V", "deinit"]
+- ["s5UInt8V", "convertFromRedisData"]
+- ["s5UInt8V", "convertToRedisData"]
+- ["s5UInt8V", "deinit"]
+- ["SU", "convertFromRedisData"]
+- ["SU", "convertToRedisData"]
+- !private ["s14_ArrayProtocolP", "RedisData"]
+- !private ["s14_ArrayProtocolP", "RedisError"]
+- ["s14_ArrayProtocolP", "convertFromRedisData"]
+- ["s14_ArrayProtocolP", "convertToRedisData"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "Data"]
+- !private ["s15_CVarArgAlignedP", "Double"]
+- !private ["s15_CVarArgAlignedP", "Float"]
+- !private ["s15_CVarArgAlignedP", "RedisError"]
+- ["s15_CVarArgAlignedP", "convertFromRedisData"]
+- ["s15_CVarArgAlignedP", "convertToRedisData"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Data"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Double"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Float"]
+- !private ["s22_CVarArgPassedAsDoubleP", "RedisError"]
+- ["s22_CVarArgPassedAsDoubleP", "convertFromRedisData"]
+- ["s22_CVarArgPassedAsDoubleP", "convertToRedisData"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Float"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "RedisError"]
+- ["s30_CustomPlaygroundQuickLookableP", "convertFromRedisData"]
+- ["s30_CustomPlaygroundQuickLookableP", "convertToRedisData"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "RedisData"]
+- !private ["s24_DestructorSafeContainerP", "RedisError"]
+- ["s24_DestructorSafeContainerP", "convertFromRedisData"]
+- ["s24_DestructorSafeContainerP", "convertToRedisData"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "RedisError"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromRedisData"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertToRedisData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Data"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Double"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Float"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "RedisError"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertFromRedisData"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertToRedisData"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "RedisError"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertFromRedisData"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertToRedisData"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "RedisError"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromRedisData"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertToRedisData"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "RedisError"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromRedisData"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToRedisData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "Data"]
+- !private ["s19_HasContiguousBytesP", "RedisData"]
+- !private ["s19_HasContiguousBytesP", "RedisError"]
+- ["s19_HasContiguousBytesP", "convertFromRedisData"]
+- ["s19_HasContiguousBytesP", "convertToRedisData"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RedisData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RedisError"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertFromRedisData"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertToRedisData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "RedisData"]
+- !private ["s21_ObjectiveCBridgeableP", "RedisError"]
+- ["s21_ObjectiveCBridgeableP", "convertFromRedisData"]
+- ["s21_ObjectiveCBridgeableP", "convertToRedisData"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- ["s14_StringElementP", "convertFromRedisData"]
+- ["s14_StringElementP", "convertToRedisData"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "SB"
+- "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation12DataProtocolP"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- "Sk"
+- "Sm"
+- "5Redis0A4DataV"
+- "5Redis0A15DataConvertibleP"
+- !private "5Redis0A5ErrorV"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "04bd822e6d842367661f68c65e12a54e"

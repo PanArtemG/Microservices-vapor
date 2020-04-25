@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockingIOThreadPool"
+provides-nominal:
+- "3NIO20BlockingIOThreadPoolC"
+- "3NIO20BlockingIOThreadPoolC13WorkItemStateO"
+provides-member:
+- ["3NIO20BlockingIOThreadPoolC", ""]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", ""]
+- ["3NIO20BlockingIOThreadPoolC", "runIfActive"]
+- ["3NIO20BlockingIOThreadPoolC", "shutdownGracefully"]
+- ["3NIO20BlockingIOThreadPoolC", "syncShutdownGracefully"]
+provides-dynamic-lookup:
+- "lock"
+- "numberOfThreads"
+- "process"
+- "queues"
+- "runIfActive"
+- "semaphore"
+- "shutdownGracefully"
+- "start"
+- "state"
+- "submit"
+- "syncShutdownGracefully"
+depends-top-level:
+- !private "!="
+- !private "..<"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BlockingIOThreadPool"
+- "Bool"
+- "BooleanLiteralType"
+- !private "ChannelError"
+- "CircularBuffer"
+- !private "DispatchGroup"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- !private "DispatchWorkItem"
+- "Error"
+- "EventLoop"
+- "EventLoopFuture"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Lock"
+- "StringLiteralType"
+- !private "Swift"
+- "Void"
+- !private "assert"
+- !private "assertionFailure"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["3NIO20AppendableCollectionP", "append"]
+- !private ["3NIO20AppendableCollectionP", "forEach"]
+- !private ["3NIO20AppendableCollectionP", "init"]
+- !private ["3NIO20AppendableCollectionP", "removeFirst"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "subscript"]
+- !private ["3NIO20BlockingIOThreadPoolC", "Array"]
+- !private ["3NIO20BlockingIOThreadPoolC", "BlockingIOThreadPool"]
+- ["3NIO20BlockingIOThreadPoolC", "Bool"]
+- !private ["3NIO20BlockingIOThreadPoolC", "ChannelError"]
+- ["3NIO20BlockingIOThreadPoolC", "CircularBuffer"]
+- !private ["3NIO20BlockingIOThreadPoolC", "DispatchGroup"]
+- ["3NIO20BlockingIOThreadPoolC", "DispatchQueue"]
+- ["3NIO20BlockingIOThreadPoolC", "DispatchSemaphore"]
+- !private ["3NIO20BlockingIOThreadPoolC", "DispatchWorkItem"]
+- ["3NIO20BlockingIOThreadPoolC", "Error"]
+- ["3NIO20BlockingIOThreadPoolC", "EventLoop"]
+- ["3NIO20BlockingIOThreadPoolC", "EventLoopFuture"]
+- ["3NIO20BlockingIOThreadPoolC", "Int"]
+- ["3NIO20BlockingIOThreadPoolC", "Lock"]
+- ["3NIO20BlockingIOThreadPoolC", "State"]
+- !private ["3NIO20BlockingIOThreadPoolC", "Swift"]
+- ["3NIO20BlockingIOThreadPoolC", "Void"]
+- ["3NIO20BlockingIOThreadPoolC", "WorkItem"]
+- ["3NIO20BlockingIOThreadPoolC", "WorkItemState"]
+- !private ["3NIO20BlockingIOThreadPoolC", "assert"]
+- !private ["3NIO20BlockingIOThreadPoolC", "assertionFailure"]
+- ["3NIO20BlockingIOThreadPoolC", "deinit"]
+- !private ["3NIO20BlockingIOThreadPoolC", "fatalError"]
+- ["3NIO20BlockingIOThreadPoolC", "init"]
+- !private ["3NIO20BlockingIOThreadPoolC", "lock"]
+- !private ["3NIO20BlockingIOThreadPoolC", "numberOfThreads"]
+- !private ["3NIO20BlockingIOThreadPoolC", "process"]
+- !private ["3NIO20BlockingIOThreadPoolC", "queues"]
+- ["3NIO20BlockingIOThreadPoolC", "runIfActive"]
+- !private ["3NIO20BlockingIOThreadPoolC", "semaphore"]
+- ["3NIO20BlockingIOThreadPoolC", "shutdownGracefully"]
+- ["3NIO20BlockingIOThreadPoolC", "start"]
+- !private ["3NIO20BlockingIOThreadPoolC", "state"]
+- ["3NIO20BlockingIOThreadPoolC", "submit"]
+- ["3NIO20BlockingIOThreadPoolC", "syncShutdownGracefully"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "notify"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["3NIO12ChannelErrorO", "deinit"]
+- !private ["3NIO12ChannelErrorO", "ioOnClosedChannel"]
+- !private ["3NIO14CircularBufferV", "append"]
+- !private ["3NIO14CircularBufferV", "deinit"]
+- !private ["3NIO14CircularBufferV", "forEach"]
+- !private ["3NIO14CircularBufferV", "init"]
+- !private ["3NIO14CircularBufferV", "removeFirst"]
+- !private ["Sl", "append"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "enumerated"]
+- !private ["3NIO20ContiguousCollectionP", "forEach"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So17OS_dispatch_groupC", "init"]
+- !private ["So17OS_dispatch_groupC", "notify"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "notify"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["8Dispatch0A8WorkItemC", "init"]
+- !private ["8Dispatch0A8WorkItemC", "perform"]
+- !private ["8Dispatch0A8WorkItemC", "wait"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["s18EnumeratedSequenceV", "forEach"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "active"]
+- !private ["SQ", "async"]
+- !private ["SQ", "cancelled"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "global"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "ioOnClosedChannel"]
+- !private ["SQ", "map"]
+- !private ["SQ", "notify"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "ioOnClosedChannel"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "active"]
+- !private ["SH", "async"]
+- !private ["SH", "cancelled"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "forEach"]
+- !private ["SH", "global"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "notify"]
+- !private ["SH", "signal"]
+- !private ["SH", "subscript"]
+- !private ["SH", "wait"]
+- !private ["s6HasherV", "combine"]
+- ["21NIOConcurrencyHelpers4LockC", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "withLock"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "forEach"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "notify"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "notify"]
+- !private ["So8NSObjectP", "signal"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "notify"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["Sq", "map"]
+- !private ["Sk", "append"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "forEach"]
+- !private ["Sn", "map"]
+- !private ["SX", "forEach"]
+- !private ["SX", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "subscript"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "=="]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "__derived_enum_equals"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "_rawHashValue"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "active"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "cancelled"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "deinit"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "hash"]
+- ["3NIO20BlockingIOThreadPoolC13WorkItemStateO", "hashValue"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "3NIO20AppendableCollectionP"
+- !private "Sa"
+- !private "SK"
+- "3NIO20BlockingIOThreadPoolC"
+- "s7CVarArgP"
+- !private "3NIO12ChannelErrorO"
+- !private "3NIO14CircularBufferV"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So17OS_dispatch_groupC"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "So21OS_dispatch_semaphoreC"
+- !private "8Dispatch0A8WorkItemC"
+- !private "SE"
+- !private "s18EnumeratedSequenceV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "21NIOConcurrencyHelpers4LockC"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "3NIO20BlockingIOThreadPoolC13WorkItemStateO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "c7830ec6e2fc5634f3eee3c27606ac6c"

@@ -1,0 +1,4 @@
+module CNIOHTTPParser {
+    umbrella header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+    export *
+}

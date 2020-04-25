@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "d36dc9fce28399c5ac406635cffc7c0d"
+build_time: [1587819042, 139175000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/Sources/Run/main.swift": [1581447368, 0]

@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAPI/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}

@@ -1,0 +1,4 @@
+module FluentPostgreSQL {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/FluentPostgreSQL-Swift.h"
+    requires objc
+}

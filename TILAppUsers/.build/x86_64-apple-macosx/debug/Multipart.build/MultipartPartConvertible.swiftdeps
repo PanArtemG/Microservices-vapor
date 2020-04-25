@@ -1,0 +1,965 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MultipartPartConvertible"
+provides-nominal:
+- "9Multipart0A15PartConvertibleP"
+- "9Multipart0A4PartV"
+- "SS"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sf"
+- "Sd"
+- "Sb"
+- "4Core4FileV"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+provides-member:
+- ["9Multipart0A15PartConvertibleP", ""]
+- ["9Multipart0A4PartV", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["4Core4FileV", ""]
+- ["10Foundation4DataV", ""]
+- ["10Foundation4DateV", ""]
+- ["s17FixedWidthIntegerP", "convertToMultipartPart"]
+- ["s17FixedWidthIntegerP", "convertFromMultipartPart"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Data"
+- "Date"
+- "Double"
+- "File"
+- "FixedWidthInteger"
+- "Float"
+- !private "FloatLiteralType"
+- !private "ISO8601DateFormatter"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- !private "MultipartError"
+- "MultipartPart"
+- "MultipartPartConvertible"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Double"]
+- !private ["s18AdditiveArithmeticP", "Float"]
+- !private ["s18AdditiveArithmeticP", "MultipartError"]
+- ["s18AdditiveArithmeticP", "MultipartPart"]
+- !private ["s18AdditiveArithmeticP", "String"]
+- ["s18AdditiveArithmeticP", "convertFromMultipartPart"]
+- ["s18AdditiveArithmeticP", "convertToMultipartPart"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["4Core15AnyOptionalTypeP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "Bool"]
+- !private ["4Core22AnyReflectionDecodableP", "Date"]
+- !private ["4Core22AnyReflectionDecodableP", "Double"]
+- !private ["4Core22AnyReflectionDecodableP", "File"]
+- !private ["4Core22AnyReflectionDecodableP", "Float"]
+- !private ["4Core22AnyReflectionDecodableP", "ISO8601DateFormatter"]
+- !private ["4Core22AnyReflectionDecodableP", "MultipartError"]
+- !private ["4Core22AnyReflectionDecodableP", "MultipartPart"]
+- !private ["4Core22AnyReflectionDecodableP", "String"]
+- !private ["4Core22AnyReflectionDecodableP", "contentType"]
+- ["4Core22AnyReflectionDecodableP", "convertFromMultipartPart"]
+- ["4Core22AnyReflectionDecodableP", "convertToMultipartPart"]
+- !private ["4Core22AnyReflectionDecodableP", "data"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "filename"]
+- !private ["4Core22AnyReflectionDecodableP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "timeIntervalSince1970"]
+- !private ["4Core22AnyReflectionDecodableP", "useISO8601ForMultipart"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Bool"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "MultipartError"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "MultipartPart"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "String"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertFromMultipartPart"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertToMultipartPart"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "MultipartError"]
+- !private ["4Core21BasicKeyRepresentableP", "MultipartPart"]
+- !private ["4Core21BasicKeyRepresentableP", "String"]
+- ["4Core21BasicKeyRepresentableP", "convertFromMultipartPart"]
+- ["4Core21BasicKeyRepresentableP", "convertToMultipartPart"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "MultipartError"]
+- !private ["SK", "MultipartPart"]
+- !private ["SK", "String"]
+- ["SK", "convertFromMultipartPart"]
+- ["SK", "convertToMultipartPart"]
+- !private ["SK", "init"]
+- !private ["SB", "Double"]
+- !private ["SB", "Float"]
+- !private ["SB", "MultipartError"]
+- !private ["SB", "MultipartPart"]
+- !private ["SB", "String"]
+- ["SB", "convertFromMultipartPart"]
+- ["SB", "convertToMultipartPart"]
+- !private ["SB", "description"]
+- !private ["SB", "init"]
+- !private ["Sz", "MultipartError"]
+- ["Sz", "MultipartPart"]
+- !private ["Sz", "String"]
+- ["Sz", "convertFromMultipartPart"]
+- ["Sz", "convertToMultipartPart"]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- ["Sb", "Bool"]
+- !private ["Sb", "MultipartError"]
+- ["Sb", "MultipartPart"]
+- !private ["Sb", "String"]
+- ["Sb", "convertFromMultipartPart"]
+- ["Sb", "convertToMultipartPart"]
+- ["Sb", "deinit"]
+- !private ["Sb", "description"]
+- !private ["Sb", "init"]
+- !private ["s7CVarArgP", "Bool"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "MultipartError"]
+- !private ["s7CVarArgP", "MultipartPart"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "convertFromMultipartPart"]
+- ["s7CVarArgP", "convertToMultipartPart"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "MultipartError"]
+- !private ["Sl", "MultipartPart"]
+- !private ["Sl", "String"]
+- ["Sl", "convertFromMultipartPart"]
+- ["Sl", "convertToMultipartPart"]
+- !private ["Sl", "init"]
+- !private ["SL", "Date"]
+- !private ["SL", "Double"]
+- !private ["SL", "Float"]
+- !private ["SL", "ISO8601DateFormatter"]
+- !private ["SL", "MultipartError"]
+- ["SL", "MultipartPart"]
+- !private ["SL", "String"]
+- ["SL", "convertFromMultipartPart"]
+- ["SL", "convertToMultipartPart"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["SL", "useISO8601ForMultipart"]
+- !private ["10Foundation15ContiguousBytesP", "MultipartPart"]
+- ["10Foundation15ContiguousBytesP", "convertFromMultipartPart"]
+- ["10Foundation15ContiguousBytesP", "convertToMultipartPart"]
+- !private ["3NIO20ContiguousCollectionP", "MultipartPart"]
+- ["3NIO20ContiguousCollectionP", "convertFromMultipartPart"]
+- ["3NIO20ContiguousCollectionP", "convertToMultipartPart"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "MultipartError"]
+- !private ["s28CustomDebugStringConvertibleP", "MultipartPart"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "convertFromMultipartPart"]
+- ["s28CustomDebugStringConvertibleP", "convertToMultipartPart"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "useISO8601ForMultipart"]
+- !private ["s17CustomReflectableP", "Bool"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "ISO8601DateFormatter"]
+- !private ["s17CustomReflectableP", "MultipartError"]
+- !private ["s17CustomReflectableP", "MultipartPart"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "convertFromMultipartPart"]
+- ["s17CustomReflectableP", "convertToMultipartPart"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "useISO8601ForMultipart"]
+- !private ["s23CustomStringConvertibleP", "Bool"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "MultipartError"]
+- ["s23CustomStringConvertibleP", "MultipartPart"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "convertFromMultipartPart"]
+- ["s23CustomStringConvertibleP", "convertToMultipartPart"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "useISO8601ForMultipart"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "MultipartPart"]
+- ["10Foundation4DataV", "convertFromMultipartPart"]
+- ["10Foundation4DataV", "convertToMultipartPart"]
+- ["10Foundation4DataV", "deinit"]
+- !private ["10Foundation12DataProtocolP", "MultipartPart"]
+- ["10Foundation12DataProtocolP", "convertFromMultipartPart"]
+- ["10Foundation12DataProtocolP", "convertToMultipartPart"]
+- ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "Double"]
+- !private ["10Foundation4DateV", "ISO8601DateFormatter"]
+- !private ["10Foundation4DateV", "MultipartError"]
+- ["10Foundation4DateV", "MultipartPart"]
+- !private ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "convertFromMultipartPart"]
+- ["10Foundation4DateV", "convertToMultipartPart"]
+- ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["10Foundation4DateV", "useISO8601ForMultipart"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "Bool"]
+- !private ["Se", "Date"]
+- !private ["Se", "Double"]
+- !private ["Se", "File"]
+- !private ["Se", "Float"]
+- !private ["Se", "ISO8601DateFormatter"]
+- !private ["Se", "MultipartError"]
+- !private ["Se", "MultipartPart"]
+- !private ["Se", "String"]
+- !private ["Se", "contentType"]
+- ["Se", "convertFromMultipartPart"]
+- ["Se", "convertToMultipartPart"]
+- !private ["Se", "data"]
+- !private ["Se", "description"]
+- !private ["Se", "filename"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Se", "useISO8601ForMultipart"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["Sd", "Double"]
+- !private ["Sd", "MultipartError"]
+- ["Sd", "MultipartPart"]
+- !private ["Sd", "String"]
+- ["Sd", "convertFromMultipartPart"]
+- ["Sd", "convertToMultipartPart"]
+- ["Sd", "deinit"]
+- !private ["Sd", "description"]
+- !private ["Sd", "init"]
+- !private ["SE", "Bool"]
+- !private ["SE", "Date"]
+- !private ["SE", "Double"]
+- !private ["SE", "File"]
+- !private ["SE", "Float"]
+- !private ["SE", "ISO8601DateFormatter"]
+- !private ["SE", "MultipartError"]
+- !private ["SE", "MultipartPart"]
+- !private ["SE", "String"]
+- !private ["SE", "contentType"]
+- ["SE", "convertFromMultipartPart"]
+- ["SE", "convertToMultipartPart"]
+- !private ["SE", "data"]
+- !private ["SE", "description"]
+- !private ["SE", "filename"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SE", "useISO8601ForMultipart"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Bool"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "File"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "ISO8601DateFormatter"]
+- !private ["SQ", "MultipartError"]
+- ["SQ", "MultipartPart"]
+- !private ["SQ", "String"]
+- !private ["SQ", "contentType"]
+- ["SQ", "convertFromMultipartPart"]
+- ["SQ", "convertToMultipartPart"]
+- !private ["SQ", "data"]
+- !private ["SQ", "date"]
+- !private ["SQ", "description"]
+- !private ["SQ", "filename"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "useISO8601ForMultipart"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Bool"]
+- !private ["s27ExpressibleByBooleanLiteralP", "MultipartError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "MultipartPart"]
+- !private ["s27ExpressibleByBooleanLiteralP", "String"]
+- ["s27ExpressibleByBooleanLiteralP", "convertFromMultipartPart"]
+- ["s27ExpressibleByBooleanLiteralP", "convertToMultipartPart"]
+- !private ["s27ExpressibleByBooleanLiteralP", "description"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "MultipartError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "MultipartPart"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromMultipartPart"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToMultipartPart"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float"]
+- !private ["s25ExpressibleByFloatLiteralP", "MultipartError"]
+- !private ["s25ExpressibleByFloatLiteralP", "MultipartPart"]
+- !private ["s25ExpressibleByFloatLiteralP", "String"]
+- ["s25ExpressibleByFloatLiteralP", "convertFromMultipartPart"]
+- ["s25ExpressibleByFloatLiteralP", "convertToMultipartPart"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "MultipartError"]
+- ["s27ExpressibleByIntegerLiteralP", "MultipartPart"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- ["s27ExpressibleByIntegerLiteralP", "convertFromMultipartPart"]
+- ["s27ExpressibleByIntegerLiteralP", "convertToMultipartPart"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s32ExpressibleByStringInterpolationP", "MultipartError"]
+- !private ["s32ExpressibleByStringInterpolationP", "MultipartPart"]
+- !private ["s32ExpressibleByStringInterpolationP", "String"]
+- ["s32ExpressibleByStringInterpolationP", "convertFromMultipartPart"]
+- ["s32ExpressibleByStringInterpolationP", "convertToMultipartPart"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "MultipartError"]
+- !private ["s26ExpressibleByStringLiteralP", "MultipartPart"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- ["s26ExpressibleByStringLiteralP", "convertFromMultipartPart"]
+- ["s26ExpressibleByStringLiteralP", "convertToMultipartPart"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "MultipartError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "MultipartPart"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromMultipartPart"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertToMultipartPart"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["4Core4FileV", "File"]
+- !private ["4Core4FileV", "MultipartError"]
+- ["4Core4FileV", "MultipartPart"]
+- !private ["4Core4FileV", "contentType"]
+- ["4Core4FileV", "convertFromMultipartPart"]
+- ["4Core4FileV", "convertToMultipartPart"]
+- !private ["4Core4FileV", "data"]
+- ["4Core4FileV", "deinit"]
+- !private ["4Core4FileV", "filename"]
+- !private ["4Core4FileV", "init"]
+- !private ["s17FixedWidthIntegerP", "MultipartError"]
+- ["s17FixedWidthIntegerP", "MultipartPart"]
+- !private ["s17FixedWidthIntegerP", "String"]
+- ["s17FixedWidthIntegerP", "convertFromMultipartPart"]
+- ["s17FixedWidthIntegerP", "convertToMultipartPart"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["Sf", "Float"]
+- !private ["Sf", "MultipartError"]
+- ["Sf", "MultipartPart"]
+- !private ["Sf", "String"]
+- ["Sf", "convertFromMultipartPart"]
+- ["Sf", "convertToMultipartPart"]
+- ["Sf", "deinit"]
+- !private ["Sf", "description"]
+- !private ["Sf", "init"]
+- !private ["SF", "Double"]
+- !private ["SF", "Float"]
+- !private ["SF", "MultipartError"]
+- !private ["SF", "MultipartPart"]
+- !private ["SF", "String"]
+- ["SF", "convertFromMultipartPart"]
+- ["SF", "convertToMultipartPart"]
+- !private ["SF", "description"]
+- !private ["SF", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "Bool"]
+- !private ["SH", "Date"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- !private ["SH", "ISO8601DateFormatter"]
+- !private ["SH", "MultipartError"]
+- ["SH", "MultipartPart"]
+- !private ["SH", "String"]
+- ["SH", "convertFromMultipartPart"]
+- ["SH", "convertToMultipartPart"]
+- !private ["SH", "date"]
+- !private ["SH", "description"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "string"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "useISO8601ForMultipart"]
+- !private ["SH", "utf8"]
+- !private ["So22NSISO8601DateFormatterC", "date"]
+- !private ["So22NSISO8601DateFormatterC", "init"]
+- !private ["So22NSISO8601DateFormatterC", "string"]
+- ["Si", "convertFromMultipartPart"]
+- ["Si", "convertToMultipartPart"]
+- ["Si", "deinit"]
+- ["s5Int16V", "convertFromMultipartPart"]
+- ["s5Int16V", "convertToMultipartPart"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "convertFromMultipartPart"]
+- ["s5Int32V", "convertToMultipartPart"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "convertFromMultipartPart"]
+- ["s5Int64V", "convertToMultipartPart"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "convertFromMultipartPart"]
+- ["s4Int8V", "convertToMultipartPart"]
+- ["s4Int8V", "deinit"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "MultipartError"]
+- !private ["4Core23LosslessDataConvertibleP", "MultipartPart"]
+- !private ["4Core23LosslessDataConvertibleP", "String"]
+- ["4Core23LosslessDataConvertibleP", "convertFromMultipartPart"]
+- ["4Core23LosslessDataConvertibleP", "convertToMultipartPart"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "Bool"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "Float"]
+- !private ["s25LosslessStringConvertibleP", "MultipartError"]
+- ["s25LosslessStringConvertibleP", "MultipartPart"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- ["s25LosslessStringConvertibleP", "convertFromMultipartPart"]
+- ["s25LosslessStringConvertibleP", "convertToMultipartPart"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "MultipartError"]
+- !private ["s10MirrorPathP", "MultipartPart"]
+- !private ["s10MirrorPathP", "String"]
+- ["s10MirrorPathP", "convertFromMultipartPart"]
+- ["s10MirrorPathP", "convertToMultipartPart"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Multipart0A5ErrorV", "deinit"]
+- !private ["9Multipart0A5ErrorV", "init"]
+- ["9Multipart0A4PartV", "MultipartPart"]
+- !private ["9Multipart0A4PartV", "contentType"]
+- ["9Multipart0A4PartV", "convertFromMultipartPart"]
+- ["9Multipart0A4PartV", "convertToMultipartPart"]
+- !private ["9Multipart0A4PartV", "data"]
+- ["9Multipart0A4PartV", "deinit"]
+- !private ["9Multipart0A4PartV", "filename"]
+- !private ["9Multipart0A4PartV", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "Bool"]
+- !private ["9Multipart0A15PartConvertibleP", "Date"]
+- !private ["9Multipart0A15PartConvertibleP", "Double"]
+- !private ["9Multipart0A15PartConvertibleP", "File"]
+- !private ["9Multipart0A15PartConvertibleP", "Float"]
+- !private ["9Multipart0A15PartConvertibleP", "ISO8601DateFormatter"]
+- !private ["9Multipart0A15PartConvertibleP", "MultipartError"]
+- ["9Multipart0A15PartConvertibleP", "MultipartPart"]
+- !private ["9Multipart0A15PartConvertibleP", "String"]
+- ["9Multipart0A15PartConvertibleP", ""]
+- !private ["9Multipart0A15PartConvertibleP", "contentType"]
+- ["9Multipart0A15PartConvertibleP", "convertFromMultipartPart"]
+- ["9Multipart0A15PartConvertibleP", "convertToMultipartPart"]
+- !private ["9Multipart0A15PartConvertibleP", "data"]
+- !private ["9Multipart0A15PartConvertibleP", "description"]
+- !private ["9Multipart0A15PartConvertibleP", "filename"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "timeIntervalSince1970"]
+- !private ["9Multipart0A15PartConvertibleP", "useISO8601ForMultipart"]
+- !private ["SM", "MultipartPart"]
+- ["SM", "convertFromMultipartPart"]
+- ["SM", "convertToMultipartPart"]
+- !private ["10Foundation19MutableDataProtocolP", "MultipartPart"]
+- ["10Foundation19MutableDataProtocolP", "convertFromMultipartPart"]
+- ["10Foundation19MutableDataProtocolP", "convertToMultipartPart"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So14NSSecureCodingP", "date"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "Float"]
+- !private ["Sj", "MultipartError"]
+- ["Sj", "MultipartPart"]
+- !private ["Sj", "String"]
+- ["Sj", "convertFromMultipartPart"]
+- ["Sj", "convertToMultipartPart"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sq", "flatMap"]
+- !private ["4Core12OptionalTypeP", "flatMap"]
+- !private ["Sk", "MultipartPart"]
+- ["Sk", "convertFromMultipartPart"]
+- ["Sk", "convertToMultipartPart"]
+- !private ["Sm", "MultipartError"]
+- !private ["Sm", "MultipartPart"]
+- !private ["Sm", "String"]
+- ["Sm", "convertFromMultipartPart"]
+- ["Sm", "convertToMultipartPart"]
+- !private ["Sm", "init"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "Double"]
+- !private ["10Foundation20ReferenceConvertibleP", "ISO8601DateFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "MultipartError"]
+- !private ["10Foundation20ReferenceConvertibleP", "MultipartPart"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- ["10Foundation20ReferenceConvertibleP", "convertFromMultipartPart"]
+- ["10Foundation20ReferenceConvertibleP", "convertToMultipartPart"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation20ReferenceConvertibleP", "useISO8601ForMultipart"]
+- !private ["4Core19ReflectionDecodableP", "Bool"]
+- !private ["4Core19ReflectionDecodableP", "Date"]
+- !private ["4Core19ReflectionDecodableP", "Double"]
+- !private ["4Core19ReflectionDecodableP", "File"]
+- !private ["4Core19ReflectionDecodableP", "Float"]
+- !private ["4Core19ReflectionDecodableP", "ISO8601DateFormatter"]
+- !private ["4Core19ReflectionDecodableP", "MultipartError"]
+- !private ["4Core19ReflectionDecodableP", "MultipartPart"]
+- !private ["4Core19ReflectionDecodableP", "String"]
+- !private ["4Core19ReflectionDecodableP", "contentType"]
+- ["4Core19ReflectionDecodableP", "convertFromMultipartPart"]
+- ["4Core19ReflectionDecodableP", "convertToMultipartPart"]
+- !private ["4Core19ReflectionDecodableP", "data"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "filename"]
+- !private ["4Core19ReflectionDecodableP", "flatMap"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "timeIntervalSince1970"]
+- !private ["4Core19ReflectionDecodableP", "useISO8601ForMultipart"]
+- !private ["s10SIMDScalarP", "Double"]
+- !private ["s10SIMDScalarP", "Float"]
+- !private ["s10SIMDScalarP", "MultipartError"]
+- !private ["s10SIMDScalarP", "MultipartPart"]
+- !private ["s10SIMDScalarP", "String"]
+- ["s10SIMDScalarP", "convertFromMultipartPart"]
+- ["s10SIMDScalarP", "convertToMultipartPart"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "MultipartError"]
+- !private ["ST", "MultipartPart"]
+- !private ["ST", "String"]
+- ["ST", "convertFromMultipartPart"]
+- ["ST", "convertToMultipartPart"]
+- !private ["ST", "init"]
+- ["SZ", "convertFromMultipartPart"]
+- ["SZ", "convertToMultipartPart"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Float"]
+- !private ["s13SignedNumericP", "MultipartError"]
+- !private ["s13SignedNumericP", "MultipartPart"]
+- !private ["s13SignedNumericP", "String"]
+- ["s13SignedNumericP", "convertFromMultipartPart"]
+- ["s13SignedNumericP", "convertToMultipartPart"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "Float"]
+- !private ["Sx", "MultipartError"]
+- ["Sx", "MultipartPart"]
+- !private ["Sx", "String"]
+- ["Sx", "convertFromMultipartPart"]
+- ["Sx", "convertToMultipartPart"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["SS", "MultipartError"]
+- ["SS", "MultipartPart"]
+- ["SS", "String"]
+- ["SS", "convertFromMultipartPart"]
+- ["SS", "convertToMultipartPart"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "MultipartError"]
+- !private ["Sy", "MultipartPart"]
+- !private ["Sy", "String"]
+- ["Sy", "convertFromMultipartPart"]
+- ["Sy", "convertToMultipartPart"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "MultipartError"]
+- !private ["s16TextOutputStreamP", "MultipartPart"]
+- !private ["s16TextOutputStreamP", "String"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "convertFromMultipartPart"]
+- ["s16TextOutputStreamP", "convertToMultipartPart"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Double"]
+- !private ["s20TextOutputStreamableP", "Float"]
+- !private ["s20TextOutputStreamableP", "MultipartError"]
+- !private ["s20TextOutputStreamableP", "MultipartPart"]
+- !private ["s20TextOutputStreamableP", "String"]
+- ["s20TextOutputStreamableP", "convertFromMultipartPart"]
+- ["s20TextOutputStreamableP", "convertToMultipartPart"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Su", "convertFromMultipartPart"]
+- ["Su", "convertToMultipartPart"]
+- ["Su", "deinit"]
+- ["s6UInt16V", "convertFromMultipartPart"]
+- ["s6UInt16V", "convertToMultipartPart"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt32V", "convertFromMultipartPart"]
+- ["s6UInt32V", "convertToMultipartPart"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt64V", "convertFromMultipartPart"]
+- ["s6UInt64V", "convertToMultipartPart"]
+- ["s6UInt64V", "deinit"]
+- ["s5UInt8V", "convertFromMultipartPart"]
+- ["s5UInt8V", "convertToMultipartPart"]
+- ["s5UInt8V", "deinit"]
+- ["SU", "convertFromMultipartPart"]
+- ["SU", "convertToMultipartPart"]
+- !private ["s15_CVarArgAlignedP", "Double"]
+- !private ["s15_CVarArgAlignedP", "Float"]
+- !private ["s15_CVarArgAlignedP", "MultipartError"]
+- !private ["s15_CVarArgAlignedP", "MultipartPart"]
+- !private ["s15_CVarArgAlignedP", "String"]
+- ["s15_CVarArgAlignedP", "convertFromMultipartPart"]
+- ["s15_CVarArgAlignedP", "convertToMultipartPart"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Double"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Float"]
+- !private ["s22_CVarArgPassedAsDoubleP", "MultipartError"]
+- !private ["s22_CVarArgPassedAsDoubleP", "MultipartPart"]
+- !private ["s22_CVarArgPassedAsDoubleP", "String"]
+- ["s22_CVarArgPassedAsDoubleP", "convertFromMultipartPart"]
+- ["s22_CVarArgPassedAsDoubleP", "convertToMultipartPart"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Bool"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Float"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ISO8601DateFormatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "MultipartError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "MultipartPart"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- ["s30_CustomPlaygroundQuickLookableP", "convertFromMultipartPart"]
+- ["s30_CustomPlaygroundQuickLookableP", "convertToMultipartPart"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "useISO8601ForMultipart"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "Bool"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "MultipartError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "MultipartPart"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "String"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertFromMultipartPart"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertToMultipartPart"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "MultipartError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "MultipartPart"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "String"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromMultipartPart"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertToMultipartPart"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Double"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Float"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "MultipartError"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "MultipartPart"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "String"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertFromMultipartPart"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertToMultipartPart"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "MultipartError"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "MultipartPart"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "String"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertFromMultipartPart"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertToMultipartPart"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "MultipartError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "MultipartPart"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "String"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromMultipartPart"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertToMultipartPart"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "MultipartError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "MultipartPart"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "String"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromMultipartPart"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToMultipartPart"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "MultipartError"]
+- !private ["s19_HasContiguousBytesP", "MultipartPart"]
+- !private ["s19_HasContiguousBytesP", "String"]
+- ["s19_HasContiguousBytesP", "convertFromMultipartPart"]
+- ["s19_HasContiguousBytesP", "convertToMultipartPart"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "MultipartError"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "MultipartPart"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertFromMultipartPart"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertToMultipartPart"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "Bool"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "ISO8601DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "MultipartError"]
+- !private ["s21_ObjectiveCBridgeableP", "MultipartPart"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "convertFromMultipartPart"]
+- ["s21_ObjectiveCBridgeableP", "convertToMultipartPart"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "useISO8601ForMultipart"]
+- ["s14_StringElementP", "convertFromMultipartPart"]
+- ["s14_StringElementP", "convertToMultipartPart"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "4Core15AnyOptionalTypeP"
+- "4Core22AnyReflectionDecodableP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation12DataProtocolP"
+- "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "Sd"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Core4FileV"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "So22NSISO8601DateFormatterC"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "9Multipart0A5ErrorV"
+- "9Multipart0A4PartV"
+- "9Multipart0A15PartConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "Sj"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e64d877a970d682cef89dbe5506c3929"

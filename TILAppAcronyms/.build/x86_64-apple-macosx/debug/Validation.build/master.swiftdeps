@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "a2968749aacd62a36ba14f2505227c2e"
+build_time: [1587817701, 547067000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Exports.swift": [1587817669, 580826654]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validatable.swift": [1587817669, 580975034]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/ValidationError.swift": [1587817669, 581131991]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validations.swift": [1587817669, 581304198]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validator.swift": [1587817669, 581439581]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/ValidatorType.swift": [1587817669, 581578397]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/AndValidator.swift": [1587817669, 581904920]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/CharacterSetValidator.swift": [1587817669, 582097145]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/CountValidator.swift": [1587817669, 582256923]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/EmailValidator.swift": [1587817669, 582390398]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/EmptyValidator.swift": [1587817669, 582512420]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/InValidator.swift": [1587817669, 582647823]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/NilIgnoringValidator.swift": [1587817669, 582782711]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/NilValidator.swift": [1587817669, 582923579]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/NotValidator.swift": [1587817669, 583084418]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/OrValidator.swift": [1587817669, 583310318]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/RangeValidator.swift": [1587817669, 583480830]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/validation/Sources/Validation/Validators/URLValidator.swift": [1587817669, 583599116]

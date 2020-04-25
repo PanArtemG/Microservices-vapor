@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "5edb84294a770dab7f7b72882d22d156"
+build_time: [1587817707, 427976000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Parameter/Parameter.swift": [1587817664, 771682210]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Parameter/ParameterValue.swift": [1587817664, 771816690]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Parameter/Parameters.swift": [1587817664, 771963192]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Register/PathComponent.swift": [1587817664, 772207224]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Register/Route.swift": [1587817664, 772342330]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Register/RouterOption.swift": [1587817664, 772466169]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Routing/RoutableComponent.swift": [1587817664, 772644766]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Routing/RouterNode.swift": [1587817664, 772783855]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Routing/TrieRouter.swift": [1587817664, 772931138]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Utilities/Deprecated.swift": [1587817664, 773118262]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Utilities/Exports.swift": [1587817664, 773359417]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/routing/Sources/Routing/Utilities/RoutingError.swift": [1587817664, 773511498]

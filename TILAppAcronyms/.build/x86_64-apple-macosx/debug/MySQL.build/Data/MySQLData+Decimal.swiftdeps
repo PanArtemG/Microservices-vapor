@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "So9NSDecimala"
+provides-member:
+- ["So9NSDecimala", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Decimal"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MySQLData"
+- "MySQLDataConvertible"
+- "MySQLDataType"
+- "MySQLDataTypeStaticRepresentable"
+- !private "MySQLError"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Decimal"]
+- !private ["s18AdditiveArithmeticP", "MySQLError"]
+- !private ["s18AdditiveArithmeticP", "String"]
+- ["s18AdditiveArithmeticP", "convertFromMySQLData"]
+- ["s18AdditiveArithmeticP", "convertToMySQLData"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "mysqlDataType"]
+- !private ["4Core22AnyReflectionDecodableP", "Decimal"]
+- !private ["4Core22AnyReflectionDecodableP", "MySQLError"]
+- !private ["4Core22AnyReflectionDecodableP", "String"]
+- ["4Core22AnyReflectionDecodableP", "convertFromMySQLData"]
+- ["4Core22AnyReflectionDecodableP", "convertToMySQLData"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- ["4Core22AnyReflectionDecodableP", "mysqlDataType"]
+- !private ["4Core21BasicKeyRepresentableP", "convertFromMySQLData"]
+- !private ["SK", "convertFromMySQLData"]
+- !private ["s7CVarArgP", "convertFromMySQLData"]
+- !private ["Sl", "convertFromMySQLData"]
+- !private ["SL", "Decimal"]
+- !private ["SL", "MySQLError"]
+- !private ["SL", "String"]
+- ["SL", "convertFromMySQLData"]
+- ["SL", "convertToMySQLData"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- ["SL", "mysqlDataType"]
+- !private ["s28CustomDebugStringConvertibleP", "convertFromMySQLData"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "convertFromMySQLData"]
+- !private ["s23CustomStringConvertibleP", "Decimal"]
+- !private ["s23CustomStringConvertibleP", "MySQLError"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "convertFromMySQLData"]
+- ["s23CustomStringConvertibleP", "convertToMySQLData"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "mysqlDataType"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["So9NSDecimala", "Decimal"]
+- ["So9NSDecimala", "MySQLData"]
+- ["So9NSDecimala", "MySQLDataType"]
+- !private ["So9NSDecimala", "MySQLError"]
+- !private ["So9NSDecimala", "String"]
+- ["So9NSDecimala", "convertFromMySQLData"]
+- ["So9NSDecimala", "convertToMySQLData"]
+- ["So9NSDecimala", "deinit"]
+- !private ["So9NSDecimala", "description"]
+- !private ["So9NSDecimala", "init"]
+- ["So9NSDecimala", "mysqlDataType"]
+- !private ["Se", "Decimal"]
+- !private ["Se", "MySQLError"]
+- !private ["Se", "String"]
+- ["Se", "convertFromMySQLData"]
+- ["Se", "convertToMySQLData"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- ["Se", "mysqlDataType"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Decimal"]
+- !private ["SE", "MySQLError"]
+- !private ["SE", "String"]
+- ["SE", "convertFromMySQLData"]
+- ["SE", "convertToMySQLData"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SE", "mysqlDataType"]
+- !private ["SQ", "Decimal"]
+- !private ["SQ", "MySQLError"]
+- !private ["SQ", "String"]
+- !private ["SQ", "callAsFunction"]
+- ["SQ", "convertFromMySQLData"]
+- ["SQ", "convertToMySQLData"]
+- !private ["SQ", "description"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "mysqlDataType"]
+- !private ["SQ", "varchar"]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromMySQLData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Decimal"]
+- !private ["s25ExpressibleByFloatLiteralP", "MySQLError"]
+- !private ["s25ExpressibleByFloatLiteralP", "String"]
+- ["s25ExpressibleByFloatLiteralP", "convertFromMySQLData"]
+- ["s25ExpressibleByFloatLiteralP", "convertToMySQLData"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "mysqlDataType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Decimal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "MySQLError"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- ["s27ExpressibleByIntegerLiteralP", "convertFromMySQLData"]
+- ["s27ExpressibleByIntegerLiteralP", "convertToMySQLData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "mysqlDataType"]
+- !private ["s32ExpressibleByStringInterpolationP", "convertFromMySQLData"]
+- !private ["s26ExpressibleByStringLiteralP", "convertFromMySQLData"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromMySQLData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Decimal"]
+- !private ["SH", "MySQLError"]
+- !private ["SH", "String"]
+- ["SH", "convertFromMySQLData"]
+- ["SH", "convertToMySQLData"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- ["SH", "mysqlDataType"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "convertFromMySQLData"]
+- !private ["s25LosslessStringConvertibleP", "convertFromMySQLData"]
+- !private ["s10MirrorPathP", "convertFromMySQLData"]
+- !private ["5MySQL0A7SQLDataV", "deinit"]
+- !private ["5MySQL0A7SQLDataV", "init"]
+- !private ["5MySQL0A7SQLDataV", "init"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "Decimal"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "MySQLError"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "String"]
+- ["5MySQL0A18SQLDataConvertibleP", ""]
+- ["5MySQL0A18SQLDataConvertibleP", "convertFromMySQLData"]
+- ["5MySQL0A18SQLDataConvertibleP", "convertToMySQLData"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "description"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- ["5MySQL0A18SQLDataConvertibleP", "mysqlDataType"]
+- !private ["5MySQL0A11SQLDataTypeV", "callAsFunction"]
+- !private ["5MySQL0A11SQLDataTypeV", "varchar"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "Decimal"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "MySQLError"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "String"]
+- ["5MySQL0A30SQLDataTypeStaticRepresentableP", ""]
+- ["5MySQL0A30SQLDataTypeStaticRepresentableP", "convertFromMySQLData"]
+- ["5MySQL0A30SQLDataTypeStaticRepresentableP", "convertToMySQLData"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "description"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["5MySQL0A30SQLDataTypeStaticRepresentableP", "mysqlDataType"]
+- !private ["5MySQL0A8SQLErrorV", "deinit"]
+- !private ["5MySQL0A8SQLErrorV", "init"]
+- !private ["Sj", "Decimal"]
+- !private ["Sj", "MySQLError"]
+- !private ["Sj", "String"]
+- ["Sj", "convertFromMySQLData"]
+- ["Sj", "convertToMySQLData"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- ["Sj", "mysqlDataType"]
+- !private ["Sm", "convertFromMySQLData"]
+- !private ["4Core19ReflectionDecodableP", "Decimal"]
+- !private ["4Core19ReflectionDecodableP", "MySQLError"]
+- !private ["4Core19ReflectionDecodableP", "String"]
+- ["4Core19ReflectionDecodableP", "convertFromMySQLData"]
+- ["4Core19ReflectionDecodableP", "convertToMySQLData"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- ["4Core19ReflectionDecodableP", "mysqlDataType"]
+- !private ["3SQL11SQLDataTypeP", "callAsFunction"]
+- !private ["3SQL11SQLDataTypeP", "varchar"]
+- !private ["3SQL15SQLSerializableP", "callAsFunction"]
+- !private ["3SQL15SQLSerializableP", "varchar"]
+- !private ["ST", "convertFromMySQLData"]
+- !private ["s13SignedNumericP", "Decimal"]
+- !private ["s13SignedNumericP", "MySQLError"]
+- !private ["s13SignedNumericP", "String"]
+- ["s13SignedNumericP", "convertFromMySQLData"]
+- ["s13SignedNumericP", "convertToMySQLData"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "mysqlDataType"]
+- !private ["Sx", "Decimal"]
+- !private ["Sx", "MySQLError"]
+- !private ["Sx", "String"]
+- ["Sx", "convertFromMySQLData"]
+- ["Sx", "convertToMySQLData"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- ["Sx", "mysqlDataType"]
+- !private ["SS", "convertFromMySQLData"]
+- !private ["SS", "deinit"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "convertFromMySQLData"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "convertFromMySQLData"]
+- !private ["s20TextOutputStreamableP", "convertFromMySQLData"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "convertFromMySQLData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromMySQLData"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromMySQLData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromMySQLData"]
+- !private ["s19_HasContiguousBytesP", "convertFromMySQLData"]
+- !private ["s21_ObjectiveCBridgeableP", "Decimal"]
+- !private ["s21_ObjectiveCBridgeableP", "MySQLError"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "convertFromMySQLData"]
+- ["s21_ObjectiveCBridgeableP", "convertToMySQLData"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "mysqlDataType"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "4Core22AnyReflectionDecodableP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Debugging10DebuggableP"
+- "So9NSDecimala"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "5MySQL0A7SQLDataV"
+- "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A11SQLDataTypeV"
+- "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- !private "5MySQL0A8SQLErrorV"
+- "Sj"
+- !private "Sm"
+- "4Core19ReflectionDecodableP"
+- !private "3SQL11SQLDataTypeP"
+- !private "3SQL15SQLSerializableP"
+- !private "ST"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "015f65c961e9936b247d1910c0bd8bfa"

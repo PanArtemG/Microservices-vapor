@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Redis0A6ClientC", ""]
+- ["3NIO15ChannelPipelineC", ""]
+- ["5Redis0A6ClientC", "connect"]
+- ["3NIO15ChannelPipelineC", "addRedisHandlers"]
+provides-dynamic-lookup:
+- "addHandlers"
+- "addRedisHandlers"
+- "connect"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ChannelHandler"
+- !private "ChannelOptions"
+- "ChannelPipeline"
+- !private "ClientBootstrap"
+- "Error"
+- "EventLoopFuture"
+- "FloatLiteralType"
+- "Future"
+- "Int"
+- "IntegerLiteralType"
+- "RedisClient"
+- !private "RedisCommandHandler"
+- !private "RedisDataDecoder"
+- !private "RedisDataEncoder"
+- !private "SOL_SOCKET"
+- !private "SO_REUSEADDR"
+- !private "SocketOptionLevel"
+- "String"
+- "StringLiteralType"
+- "Void"
+- "Worker"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "reversed"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reversed"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["5Async11BasicWorkerP", "ChannelOptions"]
+- !private ["5Async11BasicWorkerP", "ClientBootstrap"]
+- !private ["5Async11BasicWorkerP", "Future"]
+- !private ["5Async11BasicWorkerP", "RedisClient"]
+- !private ["5Async11BasicWorkerP", "RedisCommandHandler"]
+- !private ["5Async11BasicWorkerP", "SOL_SOCKET"]
+- !private ["5Async11BasicWorkerP", "SO_REUSEADDR"]
+- !private ["5Async11BasicWorkerP", "SocketOptionLevel"]
+- !private ["5Async11BasicWorkerP", "authorize"]
+- !private ["5Async11BasicWorkerP", "init"]
+- !private ["5Async11BasicWorkerP", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "reversed"]
+- !private ["Sz", "init"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundInvokerP", "EventLoopFuture"]
+- !private ["3NIO21ChannelInboundInvokerP", "RedisDataDecoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "RedisDataEncoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "add"]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandlers"]
+- !private ["3NIO21ChannelInboundInvokerP", "addRedisHandlers"]
+- !private ["3NIO21ChannelInboundInvokerP", "eventLoop"]
+- !private ["3NIO14ChannelInvokerP", "EventLoopFuture"]
+- !private ["3NIO14ChannelInvokerP", "RedisDataDecoder"]
+- !private ["3NIO14ChannelInvokerP", "RedisDataEncoder"]
+- !private ["3NIO14ChannelInvokerP", "add"]
+- !private ["3NIO14ChannelInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelInvokerP", "addRedisHandlers"]
+- !private ["3NIO14ChannelInvokerP", "eventLoop"]
+- !private ["3NIO14ChannelOptionsV", "socket"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "EventLoopFuture"]
+- !private ["3NIO22ChannelOutboundInvokerP", "RedisDataDecoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "RedisDataEncoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "add"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandlers"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addRedisHandlers"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- ["3NIO15ChannelPipelineC", "Bool"]
+- ["3NIO15ChannelPipelineC", "ChannelHandler"]
+- ["3NIO15ChannelPipelineC", "EventLoopFuture"]
+- !private ["3NIO15ChannelPipelineC", "RedisDataDecoder"]
+- !private ["3NIO15ChannelPipelineC", "RedisDataEncoder"]
+- ["3NIO15ChannelPipelineC", "Void"]
+- !private ["3NIO15ChannelPipelineC", "add"]
+- !private ["3NIO15ChannelPipelineC", "addHandlers"]
+- ["3NIO15ChannelPipelineC", "addRedisHandlers"]
+- !private ["3NIO15ChannelPipelineC", "eventLoop"]
+- !private ["3NIO15ClientBootstrapC", "channelInitializer"]
+- !private ["3NIO15ClientBootstrapC", "channelOption"]
+- !private ["3NIO15ClientBootstrapC", "connect"]
+- !private ["3NIO15ClientBootstrapC", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reversed"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "EventLoopFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "RedisDataDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "RedisDataEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "addHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "addRedisHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "eventLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
+- !private ["11DatabaseKit0A11ConnectableP", "ChannelOptions"]
+- !private ["11DatabaseKit0A11ConnectableP", "ClientBootstrap"]
+- !private ["11DatabaseKit0A11ConnectableP", "Future"]
+- !private ["11DatabaseKit0A11ConnectableP", "RedisClient"]
+- !private ["11DatabaseKit0A11ConnectableP", "RedisCommandHandler"]
+- !private ["11DatabaseKit0A11ConnectableP", "SOL_SOCKET"]
+- !private ["11DatabaseKit0A11ConnectableP", "SO_REUSEADDR"]
+- !private ["11DatabaseKit0A11ConnectableP", "SocketOptionLevel"]
+- !private ["11DatabaseKit0A11ConnectableP", "authorize"]
+- !private ["11DatabaseKit0A11ConnectableP", "init"]
+- !private ["11DatabaseKit0A11ConnectableP", "init"]
+- !private ["11DatabaseKit0A10ConnectionP", "ChannelOptions"]
+- !private ["11DatabaseKit0A10ConnectionP", "ClientBootstrap"]
+- !private ["11DatabaseKit0A10ConnectionP", "Future"]
+- !private ["11DatabaseKit0A10ConnectionP", "RedisClient"]
+- !private ["11DatabaseKit0A10ConnectionP", "RedisCommandHandler"]
+- !private ["11DatabaseKit0A10ConnectionP", "SOL_SOCKET"]
+- !private ["11DatabaseKit0A10ConnectionP", "SO_REUSEADDR"]
+- !private ["11DatabaseKit0A10ConnectionP", "SocketOptionLevel"]
+- !private ["11DatabaseKit0A10ConnectionP", "authorize"]
+- !private ["11DatabaseKit0A10ConnectionP", "init"]
+- !private ["11DatabaseKit0A10ConnectionP", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reversed"]
+- !private ["SE", "andAll"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reversed"]
+- !private ["SE", "then"]
+- !private ["SQ", "andAll"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "then"]
+- !private ["3NIO15EventLoopFutureC", "andAll"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- !private ["3NIO14EventLoopGroupP", "ChannelOptions"]
+- !private ["3NIO14EventLoopGroupP", "ClientBootstrap"]
+- !private ["3NIO14EventLoopGroupP", "Future"]
+- !private ["3NIO14EventLoopGroupP", "RedisClient"]
+- !private ["3NIO14EventLoopGroupP", "RedisCommandHandler"]
+- !private ["3NIO14EventLoopGroupP", "SOL_SOCKET"]
+- !private ["3NIO14EventLoopGroupP", "SO_REUSEADDR"]
+- !private ["3NIO14EventLoopGroupP", "SocketOptionLevel"]
+- !private ["3NIO14EventLoopGroupP", "authorize"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "init"]
+- !private ["3NIO14EventLoopGroupP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["7Service10ExtendableP", "ChannelOptions"]
+- !private ["7Service10ExtendableP", "ClientBootstrap"]
+- !private ["7Service10ExtendableP", "Future"]
+- !private ["7Service10ExtendableP", "RedisClient"]
+- !private ["7Service10ExtendableP", "RedisCommandHandler"]
+- !private ["7Service10ExtendableP", "SOL_SOCKET"]
+- !private ["7Service10ExtendableP", "SO_REUSEADDR"]
+- !private ["7Service10ExtendableP", "SocketOptionLevel"]
+- !private ["7Service10ExtendableP", "authorize"]
+- !private ["7Service10ExtendableP", "init"]
+- !private ["7Service10ExtendableP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5Async10FutureTypeP", "andAll"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["5Async10FutureTypeP", "then"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "reversed"]
+- !private ["s5Int32V", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "reversed"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["3NIO20MessageToByteEncoderP", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "reversed"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
+- !private ["Sj", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reversed"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reversed"]
+- !private ["5Redis0A6ClientC", "ChannelOptions"]
+- !private ["5Redis0A6ClientC", "ClientBootstrap"]
+- ["5Redis0A6ClientC", "Error"]
+- ["5Redis0A6ClientC", "Future"]
+- ["5Redis0A6ClientC", "Int"]
+- ["5Redis0A6ClientC", "RedisClient"]
+- !private ["5Redis0A6ClientC", "RedisCommandHandler"]
+- !private ["5Redis0A6ClientC", "SOL_SOCKET"]
+- !private ["5Redis0A6ClientC", "SO_REUSEADDR"]
+- !private ["5Redis0A6ClientC", "SocketOptionLevel"]
+- ["5Redis0A6ClientC", "String"]
+- ["5Redis0A6ClientC", "Void"]
+- ["5Redis0A6ClientC", "Worker"]
+- !private ["5Redis0A6ClientC", "authorize"]
+- ["5Redis0A6ClientC", "connect"]
+- !private ["5Redis0A6ClientC", "init"]
+- !private ["5Redis0A6ClientC", "init"]
+- !private ["5Redis0A15DataConvertibleP", "init"]
+- !private ["5Redis0A15DataConvertibleP", "map"]
+- !private ["5Redis0A15DataConvertibleP", "reversed"]
+- !private ["5Redis0A11DataDecoderC", "deinit"]
+- !private ["5Redis0A11DataDecoderC", "init"]
+- !private ["5Redis0A11DataEncoderC", "deinit"]
+- !private ["5Redis0A11DataEncoderC", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "reversed"]
+- !private ["5Redis22RequestResponseHandlerC", "deinit"]
+- !private ["5Redis22RequestResponseHandlerC", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "reversed"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "Sz"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO14ChannelOptionsV"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- "3NIO15ChannelPipelineC"
+- !private "3NIO15ClientBootstrapC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "7Service10ExtendableP"
+- !private "s17FixedWidthIntegerP"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- !private "s5Int32V"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "3NIO20MessageToByteEncoderP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "5Redis0A6ClientC"
+- !private "5Redis0A15DataConvertibleP"
+- !private "5Redis0A11DataDecoderC"
+- !private "5Redis0A11DataEncoderC"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Redis22RequestResponseHandlerC"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ab7f9c7f42ceb0844a778494845d973f"

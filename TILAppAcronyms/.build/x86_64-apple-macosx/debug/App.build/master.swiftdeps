@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "6e4bb584b699f991d464ac5fc400e2c8"
+build_time: [1587819035, 846280000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/Controllers/AcronymsController.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/Middlewares/UserAuthMiddleware.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/Models/Acronym.swift": [1587819004, 510240685]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/Models/User.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/app.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/boot.swift": [1581447368, 0]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/configure.swift": [1587818781, 406934711]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/Sources/App/routes.swift": [1581447368, 0]

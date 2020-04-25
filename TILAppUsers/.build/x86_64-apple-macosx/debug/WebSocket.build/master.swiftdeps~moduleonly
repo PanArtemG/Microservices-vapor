@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "41c0bc359c34e232e8f4ac437c41d292"
+build_time: [1587817748, 890181000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/Exports.swift": [1587817675, 825662591]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Client.swift": [1587817675, 825820910]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Server.swift": [1587817675, 825978335]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocket.swift": [1587817675, 826292926]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocketFrameSequence.swift": [1587817675, 826499221]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/websocket/Sources/WebSocket/WebSocketHandler.swift": [1587817675, 826710884]

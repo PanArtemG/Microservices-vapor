@@ -1,0 +1,4 @@
+module Command {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/Command-Swift.h"
+    requires objc
+}

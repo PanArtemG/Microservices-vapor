@@ -1,0 +1,732 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SliceType"
+- "validIdentityForService"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- !private "&&"
+- !private "+"
+- !private "..."
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "ASCII_ASTERISK"
+- !private "ASCII_CAPITAL_A"
+- !private "ASCII_CAPITAL_Z"
+- !private "ASCII_CASE_DISTANCE"
+- !private "ASCII_IDN_A_IDENTIFIER"
+- !private "ASCII_PERIOD"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "NIOOpenSSLError"
+- "OpenSSLCertificate"
+- "Slice"
+- "SliceType"
+- "SocketAddress"
+- "String"
+- "StringLiteralType"
+- "UInt8"
+- "UnicodeScalarType"
+- "UnsafeBufferPointer"
+- !private "assert"
+- !private "in6_addr"
+- !private "in_addr"
+- !private "matchHostname"
+- !private "matchIpAddress"
+- !private "memcmp"
+- !private "precondition"
+- "validIdentityForService"
+- !private "wildcardLabelMatch"
+- !private "||"
+- !private "~="
+depends-member:
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "dnsName"]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "ipAddress"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- !private ["SK", "ASCII_CAPITAL_A"]
+- !private ["SK", "ASCII_CAPITAL_Z"]
+- !private ["SK", "ASCII_CASE_DISTANCE"]
+- !private ["SK", "NIOOpenSSLError"]
+- !private ["SK", "UInt8"]
+- ["SK", "UnsafeBufferPointer"]
+- !private ["SK", "append"]
+- !private ["SK", "base"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "dropLast"]
+- !private ["SK", "filter"]
+- ["SK", "first"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "lazy"]
+- !private ["SK", "memcmp"]
+- !private ["SK", "prefix"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "split"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "suffix"]
+- ["SK", "utf8"]
+- !private ["SK", "withLowercaseASCIIBuffer"]
+- !private ["SK", "withUnsafeBufferPointer"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["SN", "contains"]
+- !private ["Sl", "ASCII_CAPITAL_A"]
+- !private ["Sl", "ASCII_CAPITAL_Z"]
+- !private ["Sl", "ASCII_CASE_DISTANCE"]
+- !private ["Sl", "NIOOpenSSLError"]
+- !private ["Sl", "UInt8"]
+- ["Sl", "UnsafeBufferPointer"]
+- !private ["Sl", "append"]
+- !private ["Sl", "base"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dropLast"]
+- !private ["Sl", "filter"]
+- ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "lazy"]
+- !private ["Sl", "memcmp"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "split"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "suffix"]
+- ["Sl", "utf8"]
+- !private ["Sl", "withLowercaseASCIIBuffer"]
+- !private ["Sl", "withUnsafeBufferPointer"]
+- !private ["SL", "ASCII_CAPITAL_A"]
+- !private ["SL", "ASCII_CAPITAL_Z"]
+- !private ["SL", "ASCII_CASE_DISTANCE"]
+- !private ["SL", "NIOOpenSSLError"]
+- !private ["SL", "UInt8"]
+- !private ["SL", "advanced"]
+- ["SL", "utf8"]
+- !private ["SL", "withLowercaseASCIIBuffer"]
+- ["3NIO20ContiguousCollectionP", "UnsafeBufferPointer"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "base"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "contains"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "dropLast"]
+- ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "last"]
+- !private ["3NIO20ContiguousCollectionP", "lazy"]
+- !private ["3NIO20ContiguousCollectionP", "memcmp"]
+- !private ["3NIO20ContiguousCollectionP", "prefix"]
+- !private ["3NIO20ContiguousCollectionP", "reserveCapacity"]
+- !private ["3NIO20ContiguousCollectionP", "split"]
+- !private ["3NIO20ContiguousCollectionP", "startIndex"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "suffix"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s28CustomDebugStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "ASCII_CAPITAL_A"]
+- !private ["s17CustomReflectableP", "ASCII_CAPITAL_Z"]
+- !private ["s17CustomReflectableP", "ASCII_CASE_DISTANCE"]
+- !private ["s17CustomReflectableP", "NIOOpenSSLError"]
+- !private ["s17CustomReflectableP", "UInt8"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "withLowercaseASCIIBuffer"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s23CustomStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "v4"]
+- ["s23CustomStringConvertibleP", "v6"]
+- !private ["s23CustomStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["Se", "ASCII_CAPITAL_A"]
+- !private ["Se", "ASCII_CAPITAL_Z"]
+- !private ["Se", "ASCII_CASE_DISTANCE"]
+- !private ["Se", "NIOOpenSSLError"]
+- !private ["Se", "UInt8"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "some"]
+- !private ["Se", "subscript"]
+- ["Se", "utf8"]
+- !private ["Se", "withLowercaseASCIIBuffer"]
+- !private ["Se", "withUnsafeBufferPointer"]
+- !private ["SE", "ASCII_CAPITAL_A"]
+- !private ["SE", "ASCII_CAPITAL_Z"]
+- !private ["SE", "ASCII_CASE_DISTANCE"]
+- !private ["SE", "NIOOpenSSLError"]
+- !private ["SE", "UInt8"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "some"]
+- !private ["SE", "subscript"]
+- ["SE", "utf8"]
+- !private ["SE", "withLowercaseASCIIBuffer"]
+- !private ["SE", "withUnsafeBufferPointer"]
+- !private ["SQ", "ASCII_CAPITAL_A"]
+- !private ["SQ", "ASCII_CAPITAL_Z"]
+- !private ["SQ", "ASCII_CASE_DISTANCE"]
+- ["SQ", "IPAddress"]
+- !private ["SQ", "NIOOpenSSLError"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cannotMatchULabel"]
+- !private ["SQ", "commonName"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "some"]
+- !private ["SQ", "subjectAlternativeNames"]
+- !private ["SQ", "subscript"]
+- ["SQ", "utf8"]
+- ["SQ", "v4"]
+- ["SQ", "v6"]
+- !private ["SQ", "withLowercaseASCIIBuffer"]
+- !private ["SQ", "withUnsafeBufferPointer"]
+- !private ["s5ErrorP", "cannotMatchULabel"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NIOOpenSSLError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt8"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s32ExpressibleByStringInterpolationP", "ASCII_CAPITAL_A"]
+- !private ["s32ExpressibleByStringInterpolationP", "ASCII_CAPITAL_Z"]
+- !private ["s32ExpressibleByStringInterpolationP", "ASCII_CASE_DISTANCE"]
+- !private ["s32ExpressibleByStringInterpolationP", "NIOOpenSSLError"]
+- !private ["s32ExpressibleByStringInterpolationP", "UInt8"]
+- ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s32ExpressibleByStringInterpolationP", "withLowercaseASCIIBuffer"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s26ExpressibleByStringLiteralP", "NIOOpenSSLError"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt8"]
+- ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NIOOpenSSLError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt8"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["SH", "ASCII_CAPITAL_A"]
+- !private ["SH", "ASCII_CAPITAL_Z"]
+- !private ["SH", "ASCII_CASE_DISTANCE"]
+- !private ["SH", "NIOOpenSSLError"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "some"]
+- !private ["SH", "subscript"]
+- ["SH", "utf8"]
+- !private ["SH", "withLowercaseASCIIBuffer"]
+- !private ["SH", "withUnsafeBufferPointer"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv4"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv6"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "address"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "address"]
+- !private ["s22LazyCollectionProtocolP", "count"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s18LazyFilterSequenceV", "count"]
+- !private ["s12LazySequenceV", "filter"]
+- ["s20LazySequenceProtocolP", "UnsafeBufferPointer"]
+- !private ["s20LazySequenceProtocolP", "base"]
+- !private ["s20LazySequenceProtocolP", "contains"]
+- !private ["s20LazySequenceProtocolP", "count"]
+- !private ["s20LazySequenceProtocolP", "dropLast"]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "last"]
+- !private ["s20LazySequenceProtocolP", "lazy"]
+- !private ["s20LazySequenceProtocolP", "memcmp"]
+- !private ["s20LazySequenceProtocolP", "prefix"]
+- !private ["s20LazySequenceProtocolP", "split"]
+- !private ["s20LazySequenceProtocolP", "startIndex"]
+- !private ["s20LazySequenceProtocolP", "suffix"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s25LosslessStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s25LosslessStringConvertibleP", "UInt8"]
+- ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "ASCII_CAPITAL_A"]
+- !private ["s10MirrorPathP", "ASCII_CAPITAL_Z"]
+- !private ["s10MirrorPathP", "ASCII_CASE_DISTANCE"]
+- !private ["s10MirrorPathP", "NIOOpenSSLError"]
+- !private ["s10MirrorPathP", "UInt8"]
+- ["s10MirrorPathP", "utf8"]
+- !private ["s10MirrorPathP", "withLowercaseASCIIBuffer"]
+- ["SM", "UnsafeBufferPointer"]
+- !private ["SM", "append"]
+- !private ["SM", "base"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "dropLast"]
+- ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "lazy"]
+- !private ["SM", "memcmp"]
+- !private ["SM", "prefix"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "split"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["SM", "suffix"]
+- !private ["SM", "withUnsafeBufferPointer"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "cannotMatchULabel"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "IPAddress"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "commonName"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "subjectAlternativeNames"]
+- !private ["Sq", "some"]
+- ["Sk", "UnsafeBufferPointer"]
+- !private ["Sk", "append"]
+- !private ["Sk", "base"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dropLast"]
+- !private ["Sk", "filter"]
+- ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "lazy"]
+- !private ["Sk", "memcmp"]
+- !private ["Sk", "prefix"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "split"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "suffix"]
+- !private ["Sk", "withUnsafeBufferPointer"]
+- !private ["SX", "contains"]
+- !private ["Sm", "ASCII_CAPITAL_A"]
+- !private ["Sm", "ASCII_CAPITAL_Z"]
+- !private ["Sm", "ASCII_CASE_DISTANCE"]
+- !private ["Sm", "NIOOpenSSLError"]
+- !private ["Sm", "UInt8"]
+- ["Sm", "UnsafeBufferPointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "base"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dropLast"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "lazy"]
+- !private ["Sm", "memcmp"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "split"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "suffix"]
+- ["Sm", "utf8"]
+- !private ["Sm", "withLowercaseASCIIBuffer"]
+- !private ["Sm", "withUnsafeBufferPointer"]
+- !private ["ST", "ASCII_CAPITAL_A"]
+- !private ["ST", "ASCII_CAPITAL_Z"]
+- !private ["ST", "ASCII_CASE_DISTANCE"]
+- !private ["ST", "NIOOpenSSLError"]
+- !private ["ST", "UInt8"]
+- ["ST", "UnsafeBufferPointer"]
+- !private ["ST", "append"]
+- !private ["ST", "base"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "dropLast"]
+- !private ["ST", "filter"]
+- ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "lazy"]
+- !private ["ST", "memcmp"]
+- !private ["ST", "prefix"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "split"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "suffix"]
+- ["ST", "utf8"]
+- !private ["ST", "withLowercaseASCIIBuffer"]
+- !private ["ST", "withUnsafeBufferPointer"]
+- !private ["s5SliceV", "!="]
+- !private ["s5SliceV", "=="]
+- ["s5SliceV", "Bool"]
+- ["s5SliceV", "SliceType"]
+- ["s5SliceV", "UInt8"]
+- ["s5SliceV", "UnsafeBufferPointer"]
+- !private ["s5SliceV", "base"]
+- !private ["s5SliceV", "contains"]
+- !private ["s5SliceV", "count"]
+- !private ["s5SliceV", "dropLast"]
+- !private ["s5SliceV", "last"]
+- !private ["s5SliceV", "lazy"]
+- !private ["s5SliceV", "memcmp"]
+- !private ["s5SliceV", "prefix"]
+- !private ["s5SliceV", "split"]
+- !private ["s5SliceV", "startIndex"]
+- !private ["s5SliceV", "suffix"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_addr"]
+- !private ["3NIO16SockAddrProtocolP", "sin_addr"]
+- ["3NIO13SocketAddressO", "v4"]
+- ["3NIO13SocketAddressO", "v6"]
+- !private ["Sx", "advanced"]
+- !private ["SS", "ASCII_CAPITAL_A"]
+- !private ["SS", "ASCII_CAPITAL_Z"]
+- !private ["SS", "ASCII_CASE_DISTANCE"]
+- !private ["SS", "NIOOpenSSLError"]
+- ["SS", "UInt8"]
+- ["SS", "UnsafeBufferPointer"]
+- ["SS", "utf8"]
+- !private ["SS", "withLowercaseASCIIBuffer"]
+- !private ["Sy", "ASCII_CAPITAL_A"]
+- !private ["Sy", "ASCII_CAPITAL_Z"]
+- !private ["Sy", "ASCII_CASE_DISTANCE"]
+- !private ["Sy", "NIOOpenSSLError"]
+- !private ["Sy", "UInt8"]
+- ["Sy", "utf8"]
+- !private ["Sy", "withLowercaseASCIIBuffer"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "deinit"]
+- !private ["s16TextOutputStreamP", "ASCII_CAPITAL_A"]
+- !private ["s16TextOutputStreamP", "ASCII_CAPITAL_Z"]
+- !private ["s16TextOutputStreamP", "ASCII_CASE_DISTANCE"]
+- !private ["s16TextOutputStreamP", "NIOOpenSSLError"]
+- !private ["s16TextOutputStreamP", "UInt8"]
+- ["s16TextOutputStreamP", "utf8"]
+- !private ["s16TextOutputStreamP", "withLowercaseASCIIBuffer"]
+- !private ["s20TextOutputStreamableP", "ASCII_CAPITAL_A"]
+- !private ["s20TextOutputStreamableP", "ASCII_CAPITAL_Z"]
+- !private ["s20TextOutputStreamableP", "ASCII_CASE_DISTANCE"]
+- !private ["s20TextOutputStreamableP", "NIOOpenSSLError"]
+- !private ["s20TextOutputStreamableP", "UInt8"]
+- ["s20TextOutputStreamableP", "utf8"]
+- !private ["s20TextOutputStreamableP", "withLowercaseASCIIBuffer"]
+- !private ["SS8UTF8ViewV", "count"]
+- ["SS8UTF8ViewV", "first"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "subscript"]
+- !private ["SP", "advanced"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ASCII_CAPITAL_A"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ASCII_CAPITAL_Z"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ASCII_CASE_DISTANCE"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NIOOpenSSLError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt8"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- ["s30_CustomPlaygroundQuickLookableP", "first"]
+- ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withLowercaseASCIIBuffer"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NIOOpenSSLError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UInt8"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NIOOpenSSLError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UInt8"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NIOOpenSSLError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UInt8"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s19_HasContiguousBytesP", "ASCII_CAPITAL_A"]
+- !private ["s19_HasContiguousBytesP", "ASCII_CAPITAL_Z"]
+- !private ["s19_HasContiguousBytesP", "ASCII_CASE_DISTANCE"]
+- !private ["s19_HasContiguousBytesP", "NIOOpenSSLError"]
+- !private ["s19_HasContiguousBytesP", "UInt8"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "withLowercaseASCIIBuffer"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s26_OptionalNilComparisonTypeV", "some"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["So11sockaddr_inV", "sin_addr"]
+- !private ["So12sockaddr_in6V", "sin6_addr"]
+depends-nominal:
+- "10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO"
+- "Sa"
+- "SK"
+- !private "s7CVarArgP"
+- !private "SN"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10NIOOpenSSL18OpenSSLCertificateC9IPAddressO"
+- !private "3NIO13SocketAddressO04IPv4C0V"
+- !private "3NIO13SocketAddressO04IPv6C0V"
+- !private "s22LazyCollectionProtocolP"
+- !private "s18LazyFilterSequenceV"
+- !private "s12LazySequenceV"
+- "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- "SM"
+- !private "10NIOOpenSSL0A8SSLErrorO"
+- "10NIOOpenSSL18OpenSSLCertificateC"
+- !private "Sq"
+- "Sk"
+- !private "SX"
+- "Sm"
+- "ST"
+- "s5SliceV"
+- !private "3NIO16SockAddrProtocolP"
+- "3NIO13SocketAddressO"
+- !private "Sx"
+- "SS"
+- "Sy"
+- !private "10NIOOpenSSL22SubjectAltNameSequenceC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "SS8UTF8ViewV"
+- !private "SR"
+- !private "SP"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s8_PointerP"
+- !private "So11sockaddr_inV"
+- !private "So12sockaddr_in6V"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/PostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Redis.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "7328ae589bf174fce5bcf6cfe92f4ad4"

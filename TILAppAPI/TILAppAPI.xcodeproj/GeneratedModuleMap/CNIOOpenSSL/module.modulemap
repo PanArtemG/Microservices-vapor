@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}

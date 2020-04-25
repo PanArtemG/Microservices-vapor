@@ -1,0 +1,4 @@
+module Async {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/x86_64-apple-macosx/debug/Async.build/Async-Swift.h"
+    requires objc
+}

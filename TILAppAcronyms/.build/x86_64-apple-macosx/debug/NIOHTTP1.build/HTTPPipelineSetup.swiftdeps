@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPUpgradeConfiguration"
+provides-nominal:
+provides-member:
+- ["3NIO15ChannelPipelineC", ""]
+- ["3NIO15ChannelPipelineC", "addHTTPServerHandlers"]
+- ["3NIO15ChannelPipelineC", "addHTTPClientHandlers"]
+- ["3NIO15ChannelPipelineC", "addHTTPServerHandlersWithUpgrader"]
+- ["3NIO15ChannelPipelineC", "configureHTTPServerPipeline"]
+provides-dynamic-lookup:
+- "addHTTPClientHandlers"
+- "addHTTPServerHandlers"
+- "addHTTPServerHandlersWithUpgrader"
+- "configureHTTPServerPipeline"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "Bool"
+- "BooleanLiteralType"
+- !private "ChannelHandler"
+- "ChannelHandlerContext"
+- "ChannelPipeline"
+- "EventLoopFuture"
+- "HTTPProtocolUpgrader"
+- !private "HTTPRequestDecoder"
+- !private "HTTPRequestEncoder"
+- !private "HTTPResponseDecoder"
+- !private "HTTPResponseEncoder"
+- !private "HTTPServerPipelineHandler"
+- !private "HTTPServerProtocolErrorHandler"
+- !private "HTTPServerUpgradeHandler"
+- "HTTPUpgradeConfiguration"
+- "RemoveAfterUpgradeStrategy"
+- "TernaryPrecedence"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "init"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundInvokerP", "Array"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelInvokerP", "Array"]
+- !private ["3NIO14ChannelInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO14ChannelInvokerP", "addHandlers"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Array"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandlers"]
+- !private ["3NIO15ChannelPipelineC", "Array"]
+- ["3NIO15ChannelPipelineC", "Bool"]
+- !private ["3NIO15ChannelPipelineC", "ChannelHandler"]
+- ["3NIO15ChannelPipelineC", "ChannelHandlerContext"]
+- ["3NIO15ChannelPipelineC", "EventLoopFuture"]
+- ["3NIO15ChannelPipelineC", "HTTPProtocolUpgrader"]
+- !private ["3NIO15ChannelPipelineC", "HTTPRequestDecoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPRequestEncoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPResponseDecoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPResponseEncoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerPipelineHandler"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerUpgradeHandler"]
+- ["3NIO15ChannelPipelineC", "HTTPUpgradeConfiguration"]
+- ["3NIO15ChannelPipelineC", "RemoveAfterUpgradeStrategy"]
+- ["3NIO15ChannelPipelineC", "Void"]
+- ["3NIO15ChannelPipelineC", "addHTTPClientHandlers"]
+- ["3NIO15ChannelPipelineC", "addHTTPServerHandlers"]
+- ["3NIO15ChannelPipelineC", "addHTTPServerHandlersWithUpgrader"]
+- !private ["3NIO15ChannelPipelineC", "addHandlers"]
+- ["3NIO15ChannelPipelineC", "configureHTTPServerPipeline"]
+- !private ["Sl", "append"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "dropFirst"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPRequestDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPRequestEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPResponseDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPResponseEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerPipelineHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerProtocolErrorHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerUpgradeHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "addHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "dropFirst"]
+- !private ["Se", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "dropFirst"]
+- !private ["SE", "init"]
+- !private ["SQ", "append"]
+- !private ["SQ", "dropBytes"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "forwardBytes"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["8NIOHTTP111HTTPDecoderC", "init"]
+- !private ["8NIOHTTP118HTTPRequestDecoderC", "deinit"]
+- !private ["8NIOHTTP118HTTPRequestDecoderC", "init"]
+- !private ["8NIOHTTP118HTTPRequestEncoderC", "deinit"]
+- !private ["8NIOHTTP118HTTPRequestEncoderC", "init"]
+- !private ["8NIOHTTP119HTTPResponseDecoderC", "deinit"]
+- !private ["8NIOHTTP119HTTPResponseDecoderC", "init"]
+- !private ["8NIOHTTP119HTTPResponseEncoderC", "deinit"]
+- !private ["8NIOHTTP119HTTPResponseEncoderC", "init"]
+- !private ["8NIOHTTP125HTTPServerPipelineHandlerC", "deinit"]
+- !private ["8NIOHTTP125HTTPServerPipelineHandlerC", "init"]
+- !private ["8NIOHTTP130HTTPServerProtocolErrorHandlerC", "deinit"]
+- !private ["8NIOHTTP130HTTPServerProtocolErrorHandlerC", "init"]
+- !private ["8NIOHTTP124HTTPServerUpgradeHandlerC", "deinit"]
+- !private ["8NIOHTTP124HTTPServerUpgradeHandlerC", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "dropBytes"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "forwardBytes"]
+- !private ["SH", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "dropFirst"]
+- !private ["SM", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "dropFirst"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "init"]
+- !private ["8NIOHTTP126RemoveAfterUpgradeStrategyO", "dropBytes"]
+- !private ["8NIOHTTP126RemoveAfterUpgradeStrategyO", "forwardBytes"]
+- !private ["ST", "append"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dropFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- "3NIO15ChannelPipelineC"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "8NIOHTTP111HTTPDecoderC"
+- !private "8NIOHTTP118HTTPRequestDecoderC"
+- !private "8NIOHTTP118HTTPRequestEncoderC"
+- !private "8NIOHTTP119HTTPResponseDecoderC"
+- !private "8NIOHTTP119HTTPResponseEncoderC"
+- !private "8NIOHTTP125HTTPServerPipelineHandlerC"
+- !private "8NIOHTTP130HTTPServerProtocolErrorHandlerC"
+- !private "8NIOHTTP124HTTPServerUpgradeHandlerC"
+- !private "SH"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "8NIOHTTP126RemoveAfterUpgradeStrategyO"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "78cfe768cfb6d89ba43789b00beb9421"

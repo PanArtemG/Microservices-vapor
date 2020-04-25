@@ -1,0 +1,4 @@
+module FluentMySQL {
+    header "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/FluentMySQL-Swift.h"
+    requires objc
+}

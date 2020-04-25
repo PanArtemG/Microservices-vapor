@@ -1,0 +1,721 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLPacketDecoder"
+provides-nominal:
+- "5MySQL0A16SQLPacketDecoderC"
+provides-member:
+- ["5MySQL0A16SQLPacketDecoderC", ""]
+provides-dynamic-lookup:
+- "channelInactive"
+- "cumulationBuffer"
+- "decode"
+- "decodeBasicPacket"
+- "decodeHandshake"
+- "decodeStatementProtocol"
+- "decodeTextProtocol"
+- "session"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "-="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Byte"
+- "ByteBuffer"
+- "ByteToMessageDecoder"
+- "ChannelHandlerContext"
+- "DecodingState"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- !private "MySQLBinaryResultsetRow"
+- "MySQLCapabilities"
+- !private "MySQLColumnDefinition41"
+- !private "MySQLComStmtPrepareOK"
+- !private "MySQLEOFPacket"
+- !private "MySQLError"
+- !private "MySQLErrorPacket"
+- "MySQLPacket"
+- "MySQLPacketDecoder"
+- "MySQLPacketState"
+- !private "MySQLResultSetRow"
+- "MySQLStatementProtocolState"
+- "MySQLTextProtocolState"
+- !private "StringLiteralType"
+- !private "assert"
+- !private "numericCast"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["Sa", "append"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "append"]
+- !private ["Sz", "init"]
+- !private ["3NIO10ByteBufferV", "checkPacketLength"]
+- !private ["3NIO10ByteBufferV", "moveReaderIndex"]
+- !private ["3NIO10ByteBufferV", "peekInteger"]
+- !private ["3NIO10ByteBufferV", "requireInteger"]
+- !private ["3NIO10ByteBufferV", "requireLengthEncodedInteger"]
+- !private ["3NIO20ByteToMessageDecoderP", "Byte"]
+- ["3NIO20ByteToMessageDecoderP", "InboundIn"]
+- ["3NIO20ByteToMessageDecoderP", "InboundOut"]
+- !private ["3NIO20ByteToMessageDecoderP", "Int"]
+- !private ["3NIO20ByteToMessageDecoderP", "Int32"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLBinaryResultsetRow"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLColumnDefinition41"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLComStmtPrepareOK"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLEOFPacket"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLError"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLErrorPacket"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLPacket"]
+- !private ["3NIO20ByteToMessageDecoderP", "MySQLResultSetRow"]
+- ["3NIO20ByteToMessageDecoderP", "OutboundOut"]
+- ["3NIO20ByteToMessageDecoderP", ""]
+- ["3NIO20ByteToMessageDecoderP", "_Default_InboundIn"]
+- ["3NIO20ByteToMessageDecoderP", "_Default_OutboundOut"]
+- !private ["3NIO20ByteToMessageDecoderP", "assert"]
+- ["3NIO20ByteToMessageDecoderP", "channelActive"]
+- ["3NIO20ByteToMessageDecoderP", "channelInactive"]
+- ["3NIO20ByteToMessageDecoderP", "channelRead"]
+- ["3NIO20ByteToMessageDecoderP", "channelReadComplete"]
+- ["3NIO20ByteToMessageDecoderP", "channelRegistered"]
+- ["3NIO20ByteToMessageDecoderP", "channelUnregistered"]
+- ["3NIO20ByteToMessageDecoderP", "channelWritabilityChanged"]
+- ["3NIO20ByteToMessageDecoderP", "cumulationBuffer"]
+- ["3NIO20ByteToMessageDecoderP", "decode"]
+- !private ["3NIO20ByteToMessageDecoderP", "decodeBasicPacket"]
+- !private ["3NIO20ByteToMessageDecoderP", "decodeHandshake"]
+- ["3NIO20ByteToMessageDecoderP", "decodeLast"]
+- !private ["3NIO20ByteToMessageDecoderP", "decodeStatementProtocol"]
+- !private ["3NIO20ByteToMessageDecoderP", "decodeTextProtocol"]
+- ["3NIO20ByteToMessageDecoderP", "decoderAdded"]
+- ["3NIO20ByteToMessageDecoderP", "decoderRemoved"]
+- ["3NIO20ByteToMessageDecoderP", "errorCaught"]
+- ["3NIO20ByteToMessageDecoderP", "handlerAdded"]
+- ["3NIO20ByteToMessageDecoderP", "handlerRemoved"]
+- !private ["3NIO20ByteToMessageDecoderP", "numericCast"]
+- !private ["3NIO20ByteToMessageDecoderP", "session"]
+- ["3NIO20ByteToMessageDecoderP", "shouldReclaimBytes"]
+- ["3NIO20ByteToMessageDecoderP", "unwrapInboundIn"]
+- ["3NIO20ByteToMessageDecoderP", "userInboundEventTriggered"]
+- ["3NIO20ByteToMessageDecoderP", "wrapInboundOut"]
+- ["3NIO20ByteToMessageDecoderP", "wrapOutboundOut"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO14ChannelHandlerP", "Byte"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- !private ["3NIO14ChannelHandlerP", "Int"]
+- !private ["3NIO14ChannelHandlerP", "Int32"]
+- !private ["3NIO14ChannelHandlerP", "MySQLBinaryResultsetRow"]
+- !private ["3NIO14ChannelHandlerP", "MySQLColumnDefinition41"]
+- !private ["3NIO14ChannelHandlerP", "MySQLComStmtPrepareOK"]
+- !private ["3NIO14ChannelHandlerP", "MySQLEOFPacket"]
+- !private ["3NIO14ChannelHandlerP", "MySQLError"]
+- !private ["3NIO14ChannelHandlerP", "MySQLErrorPacket"]
+- !private ["3NIO14ChannelHandlerP", "MySQLPacket"]
+- !private ["3NIO14ChannelHandlerP", "MySQLResultSetRow"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundIn"]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "assert"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "cumulationBuffer"]
+- ["3NIO14ChannelHandlerP", "decode"]
+- !private ["3NIO14ChannelHandlerP", "decodeBasicPacket"]
+- !private ["3NIO14ChannelHandlerP", "decodeHandshake"]
+- ["3NIO14ChannelHandlerP", "decodeLast"]
+- !private ["3NIO14ChannelHandlerP", "decodeStatementProtocol"]
+- !private ["3NIO14ChannelHandlerP", "decodeTextProtocol"]
+- ["3NIO14ChannelHandlerP", "decoderAdded"]
+- ["3NIO14ChannelHandlerP", "decoderRemoved"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "numericCast"]
+- !private ["3NIO14ChannelHandlerP", "session"]
+- ["3NIO14ChannelHandlerP", "shouldReclaimBytes"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelInactive"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundHandlerP", "Byte"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "Int"]
+- !private ["3NIO21ChannelInboundHandlerP", "Int32"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLBinaryResultsetRow"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLColumnDefinition41"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLComStmtPrepareOK"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLEOFPacket"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLError"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLErrorPacket"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLPacket"]
+- !private ["3NIO21ChannelInboundHandlerP", "MySQLResultSetRow"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "assert"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "cumulationBuffer"]
+- ["3NIO21ChannelInboundHandlerP", "decode"]
+- !private ["3NIO21ChannelInboundHandlerP", "decodeBasicPacket"]
+- !private ["3NIO21ChannelInboundHandlerP", "decodeHandshake"]
+- ["3NIO21ChannelInboundHandlerP", "decodeLast"]
+- !private ["3NIO21ChannelInboundHandlerP", "decodeStatementProtocol"]
+- !private ["3NIO21ChannelInboundHandlerP", "decodeTextProtocol"]
+- ["3NIO21ChannelInboundHandlerP", "decoderAdded"]
+- ["3NIO21ChannelInboundHandlerP", "decoderRemoved"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "numericCast"]
+- !private ["3NIO21ChannelInboundHandlerP", "session"]
+- ["3NIO21ChannelInboundHandlerP", "shouldReclaimBytes"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelInactive"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelInactive"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelInactive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["Sl", "append"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLIENT_DEPRECATE_EOF"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "checkPacketLength"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "moveReaderIndex"]
+- !private ["s23CustomStringConvertibleP", "peekInteger"]
+- !private ["s23CustomStringConvertibleP", "requireInteger"]
+- !private ["s23CustomStringConvertibleP", "requireLengthEncodedInteger"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["3NIO13DecodingStateO", "continue"]
+- ["3NIO13DecodingStateO", "needMoreData"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["3NIO10EndiannessO", "little"]
+- !private ["SQ", "CLIENT_DEPRECATE_EOF"]
+- !private ["SQ", "append"]
+- !private ["SQ", "checkPacketLength"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "continue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "little"]
+- !private ["SQ", "moveReaderIndex"]
+- ["SQ", "needMoreData"]
+- !private ["SQ", "none"]
+- !private ["SQ", "peekInteger"]
+- !private ["SQ", "requireInteger"]
+- !private ["SQ", "requireLengthEncodedInteger"]
+- ["SQ", "waiting"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "CLIENT_DEPRECATE_EOF"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5MySQL0A9SQLPacketO12HandshakeV10V", "capabilities"]
+- !private ["5MySQL0A9SQLPacketO12HandshakeV10V", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "continue"]
+- !private ["SH", "init"]
+- !private ["SH", "little"]
+- ["SH", "needMoreData"]
+- !private ["SH", "none"]
+- ["SH", "waiting"]
+- !private ["Si", "init"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["5MySQL0A21SQLBinaryResultsetRowV", "init"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "CLIENT_DEPRECATE_EOF"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "contains"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "deinit"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "init"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "init"]
+- !private ["5MySQL0A21SQLColumnDefinition41V", "init"]
+- !private ["5MySQL0A19SQLComStmtPrepareOKV", "init"]
+- !private ["5MySQL0A19SQLComStmtPrepareOKV", "numColumns"]
+- !private ["5MySQL0A19SQLComStmtPrepareOKV", "numParams"]
+- ["5MySQL0A18SQLConnectionStateO", "none"]
+- ["5MySQL0A18SQLConnectionStateO", "statement"]
+- ["5MySQL0A18SQLConnectionStateO", "text"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["5MySQL0A12SQLEOFPacketV", "init"]
+- !private ["5MySQL0A11SQLEOFStateO", "none"]
+- ["5MySQL0A11SQLEOFStateO", "waiting"]
+- !private ["5MySQL0A8SQLErrorV", "deinit"]
+- !private ["5MySQL0A8SQLErrorV", "init"]
+- !private ["5MySQL0A14SQLErrorPacketV", "init"]
+- ["5MySQL0A17SQLHandshakeStateO", "complete"]
+- ["5MySQL0A17SQLHandshakeStateO", "waiting"]
+- !private ["5MySQL0A9SQLPacketO", "HandshakeV10"]
+- !private ["5MySQL0A9SQLPacketO", "OK"]
+- !private ["5MySQL0A9SQLPacketO", "binaryResultsetRow"]
+- !private ["5MySQL0A9SQLPacketO", "columnDefinition41"]
+- !private ["5MySQL0A9SQLPacketO", "comStmtPrepareOK"]
+- !private ["5MySQL0A9SQLPacketO", "eof"]
+- !private ["5MySQL0A9SQLPacketO", "err"]
+- !private ["5MySQL0A9SQLPacketO", "fullAuthenticationRequest"]
+- !private ["5MySQL0A9SQLPacketO", "handshakev10"]
+- !private ["5MySQL0A9SQLPacketO", "ok"]
+- !private ["5MySQL0A9SQLPacketO", "resultSetRow"]
+- ["5MySQL0A16SQLPacketDecoderC", "Bool"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "Byte"]
+- ["5MySQL0A16SQLPacketDecoderC", "ByteBuffer"]
+- ["5MySQL0A16SQLPacketDecoderC", "ChannelHandlerContext"]
+- ["5MySQL0A16SQLPacketDecoderC", "DecodingState"]
+- ["5MySQL0A16SQLPacketDecoderC", "InboundIn"]
+- ["5MySQL0A16SQLPacketDecoderC", "InboundOut"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "Int"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "Int32"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLBinaryResultsetRow"]
+- ["5MySQL0A16SQLPacketDecoderC", "MySQLCapabilities"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLColumnDefinition41"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLComStmtPrepareOK"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLEOFPacket"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLError"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLErrorPacket"]
+- ["5MySQL0A16SQLPacketDecoderC", "MySQLPacket"]
+- ["5MySQL0A16SQLPacketDecoderC", "MySQLPacketState"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "MySQLResultSetRow"]
+- ["5MySQL0A16SQLPacketDecoderC", "MySQLStatementProtocolState"]
+- ["5MySQL0A16SQLPacketDecoderC", "MySQLTextProtocolState"]
+- ["5MySQL0A16SQLPacketDecoderC", "OutboundOut"]
+- ["5MySQL0A16SQLPacketDecoderC", "_Default_InboundIn"]
+- ["5MySQL0A16SQLPacketDecoderC", "_Default_OutboundOut"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "assert"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelActive"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelInactive"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelRead"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelReadComplete"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelRegistered"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelUnregistered"]
+- ["5MySQL0A16SQLPacketDecoderC", "channelWritabilityChanged"]
+- ["5MySQL0A16SQLPacketDecoderC", "cumulationBuffer"]
+- ["5MySQL0A16SQLPacketDecoderC", "decode"]
+- ["5MySQL0A16SQLPacketDecoderC", "decodeBasicPacket"]
+- ["5MySQL0A16SQLPacketDecoderC", "decodeHandshake"]
+- ["5MySQL0A16SQLPacketDecoderC", "decodeLast"]
+- ["5MySQL0A16SQLPacketDecoderC", "decodeStatementProtocol"]
+- ["5MySQL0A16SQLPacketDecoderC", "decodeTextProtocol"]
+- ["5MySQL0A16SQLPacketDecoderC", "decoderAdded"]
+- ["5MySQL0A16SQLPacketDecoderC", "decoderRemoved"]
+- ["5MySQL0A16SQLPacketDecoderC", "deinit"]
+- ["5MySQL0A16SQLPacketDecoderC", "errorCaught"]
+- ["5MySQL0A16SQLPacketDecoderC", "handlerAdded"]
+- ["5MySQL0A16SQLPacketDecoderC", "handlerRemoved"]
+- ["5MySQL0A16SQLPacketDecoderC", "init"]
+- !private ["5MySQL0A16SQLPacketDecoderC", "numericCast"]
+- ["5MySQL0A16SQLPacketDecoderC", "session"]
+- ["5MySQL0A16SQLPacketDecoderC", "shouldReclaimBytes"]
+- ["5MySQL0A16SQLPacketDecoderC", "unwrapInboundIn"]
+- ["5MySQL0A16SQLPacketDecoderC", "userInboundEventTriggered"]
+- ["5MySQL0A16SQLPacketDecoderC", "wrapInboundOut"]
+- ["5MySQL0A16SQLPacketDecoderC", "wrapOutboundOut"]
+- !private ["5MySQL0A14SQLPacketStateC", "connectionState"]
+- !private ["5MySQL0A14SQLPacketStateC", "eofState"]
+- !private ["5MySQL0A14SQLPacketStateC", "handshakeState"]
+- !private ["5MySQL0A14SQLPacketStateC", "incrementSequenceID"]
+- !private ["5MySQL0A15SQLResultSetRowV", "init"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "columns"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "columnsDone"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "params"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "paramsDone"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "rowColumns"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "rowColumnsDone"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "rows"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "waitingExecute"]
+- ["5MySQL0A25SQLStatementProtocolStateO", "waitingPrepare"]
+- ["5MySQL0A20SQLTextProtocolStateO", "columns"]
+- ["5MySQL0A20SQLTextProtocolStateO", "rows"]
+- ["5MySQL0A20SQLTextProtocolStateO", "waiting"]
+- !private ["Sj", "init"]
+- !private ["5MySQL0A9SQLPacketO2OKV", "init"]
+- !private ["s9OptionSetP", "CLIENT_DEPRECATE_EOF"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["SY", "CLIENT_DEPRECATE_EOF"]
+- !private ["SY", "contains"]
+- !private ["SY", "init"]
+- !private ["SY", "init"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["s10SetAlgebraP", "CLIENT_DEPRECATE_EOF"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Byte"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Int"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Int32"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLBinaryResultsetRow"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLColumnDefinition41"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLComStmtPrepareOK"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLEOFPacket"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLErrorPacket"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLPacket"]
+- !private ["3NIO22_ChannelInboundHandlerP", "MySQLResultSetRow"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "assert"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "cumulationBuffer"]
+- ["3NIO22_ChannelInboundHandlerP", "decode"]
+- !private ["3NIO22_ChannelInboundHandlerP", "decodeBasicPacket"]
+- !private ["3NIO22_ChannelInboundHandlerP", "decodeHandshake"]
+- ["3NIO22_ChannelInboundHandlerP", "decodeLast"]
+- !private ["3NIO22_ChannelInboundHandlerP", "decodeStatementProtocol"]
+- !private ["3NIO22_ChannelInboundHandlerP", "decodeTextProtocol"]
+- ["3NIO22_ChannelInboundHandlerP", "decoderAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "decoderRemoved"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "numericCast"]
+- !private ["3NIO22_ChannelInboundHandlerP", "session"]
+- ["3NIO22_ChannelInboundHandlerP", "shouldReclaimBytes"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Byte"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Int"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Int32"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLBinaryResultsetRow"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLColumnDefinition41"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLComStmtPrepareOK"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLEOFPacket"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLErrorPacket"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLPacket"]
+- !private ["3NIO23_EmittingChannelHandlerP", "MySQLResultSetRow"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "assert"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "cumulationBuffer"]
+- ["3NIO23_EmittingChannelHandlerP", "decode"]
+- !private ["3NIO23_EmittingChannelHandlerP", "decodeBasicPacket"]
+- !private ["3NIO23_EmittingChannelHandlerP", "decodeHandshake"]
+- ["3NIO23_EmittingChannelHandlerP", "decodeLast"]
+- !private ["3NIO23_EmittingChannelHandlerP", "decodeStatementProtocol"]
+- !private ["3NIO23_EmittingChannelHandlerP", "decodeTextProtocol"]
+- ["3NIO23_EmittingChannelHandlerP", "decoderAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "decoderRemoved"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "numericCast"]
+- !private ["3NIO23_EmittingChannelHandlerP", "session"]
+- ["3NIO23_EmittingChannelHandlerP", "shouldReclaimBytes"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sz"
+- !private "3NIO10ByteBufferV"
+- "3NIO20ByteToMessageDecoderP"
+- !private "s7CVarArgP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- "3NIO13DecodingStateO"
+- !private "SE"
+- !private "3NIO10EndiannessO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "5MySQL0A9SQLPacketO12HandshakeV10V"
+- "SH"
+- !private "Si"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "5MySQL0A21SQLBinaryResultsetRowV"
+- !private "5MySQL0A15SQLCapabilitiesV"
+- !private "5MySQL0A21SQLColumnDefinition41V"
+- !private "5MySQL0A19SQLComStmtPrepareOKV"
+- "5MySQL0A18SQLConnectionStateO"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- !private "5MySQL0A12SQLEOFPacketV"
+- "5MySQL0A11SQLEOFStateO"
+- !private "5MySQL0A8SQLErrorV"
+- !private "5MySQL0A14SQLErrorPacketV"
+- "5MySQL0A17SQLHandshakeStateO"
+- !private "5MySQL0A9SQLPacketO"
+- "5MySQL0A16SQLPacketDecoderC"
+- !private "5MySQL0A14SQLPacketStateC"
+- !private "5MySQL0A15SQLResultSetRowV"
+- "5MySQL0A25SQLStatementProtocolStateO"
+- "5MySQL0A20SQLTextProtocolStateO"
+- !private "Sj"
+- !private "5MySQL0A9SQLPacketO2OKV"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "4Core19ReflectionDecodableP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- "3NIO22_ChannelInboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ec.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bn.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/err.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/opensslv.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/3.0.2/include/openssl/x509_vfy.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ab7de5fdc1829b516e7d32e03e917e8e"

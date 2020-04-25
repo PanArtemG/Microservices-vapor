@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "2007921b4329e73607f8c7d4dd6d2484"
+build_time: [1587817750, 940955000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Base/CommandOption.swift": [1587817674, 702708938]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Base/CommandRunnable.swift": [1587817674, 702838832]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Command/Command.swift": [1587817674, 703109216]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Command/CommandArgument.swift": [1587817674, 703322519]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Config/CommandConfig.swift": [1587817674, 703622988]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Config/Commands.swift": [1587817674, 703868542]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Group/BasicCommandGroup.swift": [1587817674, 704190036]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Group/CommandGroup.swift": [1587817674, 704397964]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Run/CommandContext.swift": [1587817674, 704661446]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Run/CommandInput.swift": [1587817674, 704918696]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Run/Console+Run.swift": [1587817674, 705164550]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Run/Output+Autocomplete.swift": [1587817674, 705417555]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Run/Output+Help.swift": [1587817674, 705646256]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Utilities/CommandError.swift": [1587817674, 705877067]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Utilities/Exports.swift": [1587817674, 706008321]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/console/Sources/Command/Utilities/Utilities.swift": [1587817674, 706135179]

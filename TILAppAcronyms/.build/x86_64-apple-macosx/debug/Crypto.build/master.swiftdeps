@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "104dbc7de0b307b2d17c1abc40863ec0"
+build_time: [1587817701, 550405000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/BCrypt/BCryptDigest.swift": [1587817668, 116630621]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/AuthenticatedCipher.swift": [1587817668, 116893441]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/AuthenticatedCipherAlgorithm.swift": [1587817668, 117034846]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/Cipher.swift": [1587817668, 117189009]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/CipherAlgorithm.swift": [1587817668, 117329133]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/OpenSSLCipherAlgorithm.swift": [1587817668, 117445280]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Cipher/OpenSSLStreamCipher.swift": [1587817668, 117598588]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Digest/Digest.swift": [1587817668, 117815397]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Digest/DigestAlgorithm.swift": [1587817668, 117946400]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/MAC/HMAC.swift": [1587817668, 118166362]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/MAC/OTP.swift": [1587817668, 118313752]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/RSA/RSA.swift": [1587817668, 118599845]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/RSA/RSAKey.swift": [1587817668, 118787036]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/RSA/RSAPadding.swift": [1587817668, 118929930]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Random/CryptoRandom.swift": [1587817668, 119131810]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Utilities/Base32.swift": [1587817668, 119331503]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Utilities/CryptoError.swift": [1587817668, 119451695]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Utilities/Deprecated.swift": [1587817668, 119562011]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/crypto/Sources/Crypto/Utilities/Exports.swift": [1587817668, 119683263]

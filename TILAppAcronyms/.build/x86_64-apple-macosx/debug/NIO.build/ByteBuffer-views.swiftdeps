@@ -1,0 +1,426 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ByteBufferView"
+provides-nominal:
+- "3NIO14ByteBufferViewV"
+provides-member:
+- ["3NIO14ByteBufferViewV", ""]
+- ["3NIO10ByteBufferV", ""]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "..<"
+- !private "<"
+- !private "<="
+- !private ">="
+- "AssignmentPrecedence"
+- "ByteBuffer"
+- "ByteBufferView"
+- "ContiguousCollection"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "RandomAccessCollection"
+- "Range"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeRawBufferPointer"
+- !private "precondition"
+- !private "preconditionFailure"
+depends-member:
+- !private ["SK", "ByteBufferView"]
+- ["SK", "Element"]
+- ["SK", "Index"]
+- ["SK", "Indices"]
+- ["SK", "Iterator"]
+- ["SK", "SubSequence"]
+- !private ["SK", "UnsafeRawBufferPointer"]
+- ["SK", ""]
+- ["SK", "_Default_Indices"]
+- ["SK", "_Default_Iterator"]
+- ["SK", "_copyContents"]
+- ["SK", "_copyToContiguousArray"]
+- ["SK", "_customContainsEquatableElement"]
+- ["SK", "_customIndexOfEquatableElement"]
+- ["SK", "_customLastIndexOfEquatableElement"]
+- ["SK", "_failEarlyRangeCheck"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "buffer"]
+- ["SK", "count"]
+- ["SK", "distance"]
+- ["SK", "endIndex"]
+- ["SK", "formIndex"]
+- ["SK", "index"]
+- ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["SK", "isEmpty"]
+- !private ["SK", "lowerBound"]
+- ["SK", "makeIterator"]
+- !private ["SK", "precondition"]
+- !private ["SK", "preconditionFailure"]
+- !private ["SK", "range"]
+- ["SK", "startIndex"]
+- ["SK", "subscript"]
+- ["SK", "underestimatedCount"]
+- !private ["SK", "upperBound"]
+- ["SK", "withContiguousStorageIfAvailable"]
+- ["SK", "withUnsafeBytes"]
+- ["3NIO10ByteBufferV", "ByteBufferView"]
+- ["3NIO10ByteBufferV", "Int"]
+- !private ["3NIO10ByteBufferV", "capacity"]
+- !private ["3NIO10ByteBufferV", "getInteger"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- !private ["3NIO10ByteBufferV", "readerIndex"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+- !private ["3NIO10ByteBufferV", "withVeryUnsafeBytes"]
+- ["3NIO14ByteBufferViewV", "ByteBuffer"]
+- ["3NIO14ByteBufferViewV", "ByteBufferView"]
+- ["3NIO14ByteBufferViewV", "Element"]
+- ["3NIO14ByteBufferViewV", "Index"]
+- ["3NIO14ByteBufferViewV", "Indices"]
+- ["3NIO14ByteBufferViewV", "Int"]
+- ["3NIO14ByteBufferViewV", "Iterator"]
+- ["3NIO14ByteBufferViewV", "Range"]
+- ["3NIO14ByteBufferViewV", "SubSequence"]
+- ["3NIO14ByteBufferViewV", "UInt8"]
+- ["3NIO14ByteBufferViewV", "UnsafeRawBufferPointer"]
+- ["3NIO14ByteBufferViewV", "_Default_Indices"]
+- ["3NIO14ByteBufferViewV", "_Default_Iterator"]
+- ["3NIO14ByteBufferViewV", "_copyContents"]
+- ["3NIO14ByteBufferViewV", "_copyToContiguousArray"]
+- ["3NIO14ByteBufferViewV", "_customContainsEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customIndexOfEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customLastIndexOfEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_failEarlyRangeCheck"]
+- !private ["3NIO14ByteBufferViewV", "buffer"]
+- ["3NIO14ByteBufferViewV", "count"]
+- ["3NIO14ByteBufferViewV", "deinit"]
+- ["3NIO14ByteBufferViewV", "distance"]
+- ["3NIO14ByteBufferViewV", "endIndex"]
+- ["3NIO14ByteBufferViewV", "formIndex"]
+- ["3NIO14ByteBufferViewV", "index"]
+- ["3NIO14ByteBufferViewV", "indices"]
+- ["3NIO14ByteBufferViewV", "init"]
+- ["3NIO14ByteBufferViewV", "isEmpty"]
+- ["3NIO14ByteBufferViewV", "makeIterator"]
+- !private ["3NIO14ByteBufferViewV", "precondition"]
+- !private ["3NIO14ByteBufferViewV", "preconditionFailure"]
+- !private ["3NIO14ByteBufferViewV", "range"]
+- ["3NIO14ByteBufferViewV", "startIndex"]
+- ["3NIO14ByteBufferViewV", "subscript"]
+- ["3NIO14ByteBufferViewV", "underestimatedCount"]
+- ["3NIO14ByteBufferViewV", "withContiguousStorageIfAvailable"]
+- ["3NIO14ByteBufferViewV", "withUnsafeBytes"]
+- !private ["Sl", "ByteBufferView"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- ["Sl", "SubSequence"]
+- !private ["Sl", "UnsafeRawBufferPointer"]
+- ["Sl", ""]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "buffer"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- !private ["Sl", "lowerBound"]
+- ["Sl", "makeIterator"]
+- !private ["Sl", "precondition"]
+- !private ["Sl", "preconditionFailure"]
+- !private ["Sl", "range"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "underestimatedCount"]
+- !private ["Sl", "upperBound"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- ["Sl", "withUnsafeBytes"]
+- !private ["SL", "advanced"]
+- !private ["3NIO20ContiguousCollectionP", "ByteBufferView"]
+- ["3NIO20ContiguousCollectionP", "Element"]
+- ["3NIO20ContiguousCollectionP", "Index"]
+- ["3NIO20ContiguousCollectionP", "Indices"]
+- ["3NIO20ContiguousCollectionP", "Iterator"]
+- ["3NIO20ContiguousCollectionP", "SubSequence"]
+- !private ["3NIO20ContiguousCollectionP", "UnsafeRawBufferPointer"]
+- ["3NIO20ContiguousCollectionP", ""]
+- ["3NIO20ContiguousCollectionP", "_Default_Indices"]
+- ["3NIO20ContiguousCollectionP", "_Default_Iterator"]
+- ["3NIO20ContiguousCollectionP", "_copyContents"]
+- ["3NIO20ContiguousCollectionP", "_copyToContiguousArray"]
+- ["3NIO20ContiguousCollectionP", "_customContainsEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_customIndexOfEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_customLastIndexOfEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_failEarlyRangeCheck"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "buffer"]
+- ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "distance"]
+- ["3NIO20ContiguousCollectionP", "endIndex"]
+- ["3NIO20ContiguousCollectionP", "formIndex"]
+- ["3NIO20ContiguousCollectionP", "index"]
+- ["3NIO20ContiguousCollectionP", "indices"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- ["3NIO20ContiguousCollectionP", "isEmpty"]
+- ["3NIO20ContiguousCollectionP", "makeIterator"]
+- !private ["3NIO20ContiguousCollectionP", "precondition"]
+- !private ["3NIO20ContiguousCollectionP", "preconditionFailure"]
+- !private ["3NIO20ContiguousCollectionP", "range"]
+- ["3NIO20ContiguousCollectionP", "startIndex"]
+- ["3NIO20ContiguousCollectionP", "subscript"]
+- ["3NIO20ContiguousCollectionP", "underestimatedCount"]
+- ["3NIO20ContiguousCollectionP", "withContiguousStorageIfAvailable"]
+- ["3NIO20ContiguousCollectionP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "ByteBufferView"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "getInteger"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "withVeryUnsafeBytes"]
+- !private ["Se", "count"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "upperBound"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "count"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "upperBound"]
+- !private ["SQ", "ByteBufferView"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "capacity"]
+- !private ["SQ", "count"]
+- !private ["SQ", "getInteger"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "readerIndex"]
+- !private ["SQ", "upperBound"]
+- !private ["SQ", "withVeryUnsafeBytes"]
+- !private ["SH", "advanced"]
+- !private ["SH", "count"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "upperBound"]
+- !private ["Sk", "ByteBufferView"]
+- ["Sk", "Element"]
+- ["Sk", "Index"]
+- ["Sk", "Indices"]
+- ["Sk", "Iterator"]
+- ["Sk", "SubSequence"]
+- !private ["Sk", "UnsafeRawBufferPointer"]
+- ["Sk", ""]
+- ["Sk", "_Default_Indices"]
+- ["Sk", "_Default_Iterator"]
+- ["Sk", "_copyContents"]
+- ["Sk", "_copyToContiguousArray"]
+- ["Sk", "_customContainsEquatableElement"]
+- ["Sk", "_customIndexOfEquatableElement"]
+- ["Sk", "_customLastIndexOfEquatableElement"]
+- ["Sk", "_failEarlyRangeCheck"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "buffer"]
+- ["Sk", "count"]
+- ["Sk", "distance"]
+- ["Sk", "endIndex"]
+- ["Sk", "formIndex"]
+- ["Sk", "index"]
+- ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "init"]
+- ["Sk", "isEmpty"]
+- !private ["Sk", "lowerBound"]
+- ["Sk", "makeIterator"]
+- !private ["Sk", "precondition"]
+- !private ["Sk", "preconditionFailure"]
+- !private ["Sk", "range"]
+- ["Sk", "startIndex"]
+- ["Sk", "subscript"]
+- ["Sk", "underestimatedCount"]
+- !private ["Sk", "upperBound"]
+- ["Sk", "withContiguousStorageIfAvailable"]
+- ["Sk", "withUnsafeBytes"]
+- !private ["Sn", "count"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "upperBound"]
+- !private ["SX", "count"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "upperBound"]
+- !private ["ST", "ByteBufferView"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- !private ["ST", "UnsafeRawBufferPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "buffer"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- !private ["ST", "lowerBound"]
+- ["ST", "makeIterator"]
+- !private ["ST", "precondition"]
+- !private ["ST", "preconditionFailure"]
+- !private ["ST", "range"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "upperBound"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- ["ST", "withUnsafeBytes"]
+- !private ["Sx", "advanced"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "init"]
+- !private ["SW", "init"]
+- !private ["SV", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s8_PointerP", "advanced"]
+depends-nominal:
+- "SK"
+- "3NIO10ByteBufferV"
+- "3NIO14ByteBufferViewV"
+- "Sl"
+- !private "SL"
+- "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- "ST"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "SW"
+- !private "SV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/MySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentMySQL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/HTTP.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Async.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Command.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Service.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Console.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Core.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentSQLite.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOPriorityQueue.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Debugging.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Routing.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/SQLBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Random.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/URLEncodedForm.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Authentication.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Validation.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Bits.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/WebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/DatabaseKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/TemplateKit.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/Multipart.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "a487d797ef0c6bb4085d66e90b9ef485"

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "531ac3a47e930aa72a27139df0a98d99"
+build_time: [1587817742, 693874000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Parameter/Parameter.swift": [1587817674, 493785723]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Parameter/ParameterValue.swift": [1587817674, 493945367]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Parameter/Parameters.swift": [1587817674, 494114998]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Register/PathComponent.swift": [1587817674, 494330250]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Register/Route.swift": [1587817674, 494472267]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Register/RouterOption.swift": [1587817674, 494593137]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Routing/RoutableComponent.swift": [1587817674, 494768402]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Routing/RouterNode.swift": [1587817674, 494896069]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Routing/TrieRouter.swift": [1587817674, 495023510]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Utilities/Deprecated.swift": [1587817674, 495245112]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Utilities/Exports.swift": [1587817674, 495360133]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/routing/Sources/Routing/Utilities/RoutingError.swift": [1587817674, 495467644]

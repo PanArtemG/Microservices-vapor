@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "a3121466f44a48be842675a6c303d43a"
+build_time: [1587817678, 908059000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/Heap.swift": [1587817666, 594821640]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppAcronyms/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/PriorityQueue.swift": [1587817666, 595007619]

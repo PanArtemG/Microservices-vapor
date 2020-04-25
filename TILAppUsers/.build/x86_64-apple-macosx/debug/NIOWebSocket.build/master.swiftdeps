@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "30b3bf6fb9c95f196d6e95e2a06a0821"
+build_time: [1587817734, 582418000]
+inputs:
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/Base64.swift": [1587817678, 503504287]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/SHA1.swift": [1587817678, 503748740]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketErrorCodes.swift": [1587817678, 504162334]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrame.swift": [1587817678, 504567557]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameDecoder.swift": [1587817678, 505019241]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameEncoder.swift": [1587817678, 505491580]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketOpcode.swift": [1587817678, 505853097]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketProtocolErrorHandler.swift": [1587817678, 506187936]
+  "/Users/panartem/Developer/Study/Microservices-vapor/TILAppUsers/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketUpgrader.swift": [1587817678, 506493426]
