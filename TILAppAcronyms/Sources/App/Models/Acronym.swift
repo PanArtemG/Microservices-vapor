@@ -43,13 +43,7 @@ final class Acronym: Codable {
   }
 }
 
-
 extension Acronym: Content {}
 extension Acronym: Migration {}
 extension Acronym: Parameter {}
-extension Acronym: Model {
-  typealias Database = MySQLDatabase
-  typealias ID = Int
-  public static var idKey: IDKey = \Acronym.id
-}
-
+extension Acronym: MySQLModel {}
