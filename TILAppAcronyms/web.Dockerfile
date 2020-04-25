@@ -24,4 +24,5 @@ WORKDIR /app
 COPY --from=builder /build/bin/Run .
 COPY --from=builder /build/lib/* /usr/lib/
 
-ENTRYPOINT ./Run serve --env $ENVIRONMENT --hostname 0.0.0.0 --port $PORT
+ENTRYPOINT sleep 10 && \
+  ./Run serve --env $ENVIRONMENT --hostname 0.0.0.0 --port $PORT
